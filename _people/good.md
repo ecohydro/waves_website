@@ -12,7 +12,7 @@ portfolio-item-tag:
   - PhD graduate
   - Princeton
 header:
-   image: "assets/uploads/2010/03/steveWVIA.jpg"
+   image: "assets/images/people/steveWVIA.jpg"
    caption: "PhD 2013, Civil and Environmental Engineering, Princeton University<br /> MS 2008, Environmental Engineering, Michigan Tech.<br /> BS 2004, Mechanical Engineering, Carnegie Mellon"
 ---
 

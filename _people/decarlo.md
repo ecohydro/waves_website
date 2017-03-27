@@ -10,10 +10,11 @@ portfolio-item-tag:
 - graduate students
 - Princeton
 title: Keita DeCarlo, PhD Student
+header:
+   image: "assets/images/people/DeCarlo_header.jpg"
+   caption: "Keita creating a physical copy of a fracture network in a dryland soil using liquid resin."
 ---
 
  
 
 Keita joined the Caylor Lab in Fall 2013 after completing his studies at Boston University.  His prior research involved the digital image processing of desiccation crack networks in clay to understand its physicochemical properties.  In his future work at Princeton, he is interested in analyzing soil phenomena and investigating its consequences to larger-scale hydrological processes in dryland environments.
-
-The picture on the left shows Keita creating a physical copy of a fracture network in a dryland soil using liquid resin.

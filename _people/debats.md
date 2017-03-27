@@ -11,6 +11,9 @@ portfolio-item-tag:
     - graduate students
     - Princeton
 title: Stephanie Debats, PhD Student
+header:
+   image: "assets/images/people/Debats_header.jpg"
+   caption: "Stephanie programming a rain gauge during her first field campaign in Zambia."
 ---
 
 
@@ -20,9 +23,6 @@ title: Stephanie Debats, PhD Student
 <p class="p3">
 <span class="s2">Prior to starting her PhD at Princeton, Stephanie earned her bachelor’s and master’s degrees from UCLA and worked as an environmental engineer in Los Angeles.</span>
 </p>
-<p class="p1">
-<span class="s1">This is a picture of Stephanie programming a rain gauge during her first field campaign in Zambia.</span>
-</p>
-<p class="p1">
-                                                                            <button class="normal" data-href="https://stephaniedebats.princeton.edu/files/2015/03/CV_SDebats.pdf" data-target="self">Stephanie’s CV</button>
+
+<button class="normal" data-href="https://stephaniedebats.princeton.edu/files/2015/03/CV_SDebats.pdf" data-target="self">Stephanie’s CV</button>
 </p>
