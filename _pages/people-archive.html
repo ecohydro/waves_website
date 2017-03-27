@@ -1,0 +1,74 @@
+---
+layout: archive
+title: "Group Members and Collaborators"
+permalink: /people/
+author_profile: false
+member_categories:
+    - faculty
+    - postdocs
+    - graduate students
+    - research interns
+    - research staff
+    - lab visitors
+---
+
+{% comment %}
+=======================
+The following part extracts all the tags from your posts and sort tags, so that you do not need to manually collect your tags to a place.
+=======================
+{% endcomment %}
+{% assign rawtags = "" %}
+{% for person in site.people %}
+    {% assign ttags = person.portfolio-item-tag | join:'|' | append:'|' %}
+    {% assign rawtags = rawtags | append:ttags %}
+{% endfor %}
+{% assign rawtags = rawtags | split:'|' | sort %}
+
+{% comment %}
+=======================
+The following part removes dulpicated tags and invalid tags like blank tag.
+=======================
+{% endcomment %}
+
+{% assign people_tags = "" %}
+{% for tag in rawtags %}
+    {% if tag != "" %}
+        {% if people_tags == "" %}
+            {% assign people_tags = tag | split:'|' %}
+        {% endif %}
+        {% unless people_tags contains tag %}
+            {% assign people_tags = people_tags | join:'|' | append:'|' | append:tag | split:'|' %}
+        {% endunless %}
+    {% endif %}
+{% endfor %}
+
+{% assign categories = "" %}
+
+<div class="grid__wrapper">
+{% for category in page.member_categories %}
+<!-- <h2>{{ category | capitalize }}</h2> -->
+<!-- <div class="grid__wrapper"> -->
+    {% for person in site.people %}
+        {% if person.portfolio-item-tag contains "current members" %}
+            {% if person.portfolio-item-tag contains category %}
+                {% include person-single.html type="grid" %}
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+{% for category in page.member_categories %}
+    {% for person in site.people %}
+        {% if person.portfolio-item-tag contains "former members" %}
+            {% if person.portfolio-item-tag contains category %}
+                {% include person-single.html type="grid" %}
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+</div>
+
+<hr>
+
+
+
+

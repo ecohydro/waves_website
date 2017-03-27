@@ -1,0 +1,32 @@
+---
+layout: splash
+permalink: /wsc/
+title: "Water, Sustainability, and Climate"
+author_profile: false
+header:
+  overlay_color: "#5e616c"
+  overlay_image: /assets/images/cnh.jpg
+excerpt: 'Exploring coupled social and environmental dynamics.<br /><br /><br /><br /><br /><br />'
+tags:
+    - CNH
+    - WSC
+    - Coupled Natural-Human Systems
+    - Water Sustainability and Climate
+    - Social-Ecological Systems
+---
+
+{% include group-by-array collection=site.posts field="tags" %}
+
+[ Some summary text about Water, Sustainability and Climate ]
+
+<hl>
+<h2>News and Updates:</h2>
+
+{% for tag in page.tags %}
+    {% for post in site.posts %}
+        {% if post.tags contains tag %}
+            {% include archive-single.html %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+

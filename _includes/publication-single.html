@@ -1,0 +1,35 @@
+{% if publication.header.teaser %}
+  {% capture teaser %}{{ publication.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% assign title = publication.title %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <h3 class="archive__item-title" itemprop="headline">
+      {% if publication.link %}
+        <a href="{{ publication.link }}">{{ title }}</a> <a href="{{ publication.url | absolute_url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {% else %}
+        <a href="{{ publication.url | absolute_url }}" rel="permalink">{{ title }}</a>
+      {% endif %}
+    </h3>
+
+    {% if publication.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ publication.excerpt | markdownify | strip_html }}</p>{% endif %}
+
+    {% if teaser %}
+      <div class="archive__item-teaser">
+        <a href="{{ publication.url | absolute_url }}" rel="permalink">
+          <img src=
+            {% if teaser contains "://" %}
+              "{{ teaser }}"
+            {% else %}
+              "{{ teaser | absolute_url }}"
+            {% endif %}
+            alt="">
+        </a>
+      </div>
+    {% endif %}
+  </article>
+</div>

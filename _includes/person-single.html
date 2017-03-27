@@ -1,0 +1,28 @@
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if person.avatar %}
+    <div class="person__image">
+    <!-- <div class="archive__item-teaser"> -->
+      {% if person.avatar contains "://" %}
+        <img src="{{ person.avatar }}" alt="{{ person.name }}" itemprop="image" class="fa">
+      {% else %}
+        <img src="{{ person.avatar | absolute_url }}" class="fa" alt="{{ person.name }}" itemprop="image">
+      {% endif %}
+    </div>
+  {% endif %}
+    <h2 class="archive__item-title" itemprop="headline">
+      {% if site.data.authors[person.author] or site.author.name == person.author %}
+        {% if person.link %} 
+          <a href="{{ person.link }}">{{ person.title }}</a> <a href="{{ person.url | absolute_url }}" rel="permalink"><i class="fa" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        {% else %}
+          <!-- {{ person.author }} is not {{ site.author }} -->
+          <a href="{{ person.url | absolute_url }}" rel="permalink">{{ person.title }}</a>
+        {% endif %}
+      {% else %}
+          {{ person.title }}
+      {% endif %}
+    </h2>
+    {% if person.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ person.excerpt | markdownify | strip_html }}</p>{% endif %}
+  </article>
+</div>

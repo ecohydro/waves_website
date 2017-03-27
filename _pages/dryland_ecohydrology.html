@@ -1,0 +1,28 @@
+---
+layout: splash
+permalink: /dryland_ecohydrology/
+title: "Dryland Ecohydrology"
+author_profile: false
+header:
+  overlay_color: "#5e616c"
+  overlay_image: /assets/images/dryland_ecohydrology.jpg
+excerpt: 'Characterizing the structure and function of water-limited landscapes.'
+tags:
+    - Dryland Ecohydrology
+---
+
+{% include group-by-array collection=site.posts field="tags" %}
+
+[ Some summary text about Dryland Ecohydrology ]
+
+<hl>
+<h2>News and Updates:</h2>
+
+{% for tag in page.tags %}
+    {% for post in site.posts %}
+        {% if post.tags contains tag %}
+            {% include archive-single.html %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+

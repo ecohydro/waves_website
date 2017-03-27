@@ -1,0 +1,90 @@
+---
+layout: archive
+title: "Group Publications"
+permalink: /publications/
+author_profile: false
+---
+
+{% comment %}
+=======================
+The following part extracts all the tags from your posts and sort tags, so that you do not need to manually collect your tags to a place.
+=======================
+{% endcomment %}
+{% assign rawtags = "" %}
+{% assign rawyears = "" %}
+{% for publication in site.publications %}
+    {% assign ttags = publication.portfolio-item-tag | join:'|' | append:'|' %}
+    {% assign tyears = publication.year | join:'|' | append:'|' %}
+    {% assign rawtags = rawtags | append:ttags %}
+    {% assign rawyears = rawyears | append:tyears %}
+{% endfor %}
+{% assign rawtags = rawtags | split:'|' | sort %}
+{% assign rawyears = rawyears | split:'|' | sort: 'first' %}
+
+{% comment %}
+=======================
+The following part removes dulpicated tags and invalid tags like blank tag.
+=======================
+{% endcomment %}
+
+{% assign publication_tags = "" %}
+{% for tag in rawtags %}
+    {% if tag != "" %}
+        {% if publication_tags == "" %}
+            {% assign publication_tags = tag | split:'|' %}
+        {% endif %}
+        {% unless publication_tags contains tag %}
+            {% assign publication_tags = publication_tags | join:'|' | append:'|' | append:tag | split:'|' %}
+        {% endunless %}
+    {% endif %}
+{% endfor %}
+
+{% comment %}
+=======================
+The following part removes dulpicated years and invalid years like blank year.
+=======================
+{% endcomment %}
+
+{% assign publication_years = "" %}
+{% for year in rawyears %}
+    {% if year != "" %}
+        {% if publication_years == "" %}
+            {% assign publication_years = yearsr | split:'|' %}
+        {% endif%}
+        {% unless publication_years contains year %}
+            {% assign publication_years = publication_years | join:'|' | append:'|' |
+            append:year | split:'|' %}
+        {% endunless %}
+    {% endif %}
+{% endfor %}
+
+{% comment %}
+=======================
+The purpose of this snippet is to list all the tags for publications.
+=======================
+
+{% for tag in publication_tags %}
+    <a href="#{{ tag | slugify }}"> {{ tag }} </a>
+{% endfor %}
+
+<br /><br />
+{% endcomment %}
+
+
+{% comment %}
+=======================
+The purpose of this snippet is to list all the publications by year.
+=======================
+{% endcomment %}
+
+
+{% assign sorted_years = (publication_years | sort | reverse) %}
+
+{% for year in sorted_years %}
+    {{ year }}
+    {% for publication in site.publications %}
+        {% if publication.year == year %}
+            {% include publication-single.html style="grid" %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}

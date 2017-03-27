@@ -1,0 +1,19 @@
+---
+layout: splash
+permalink: /recent/
+title: "Latest News"
+author_profile: false
+header:
+  overlay_color: "#5e616c"
+  overlay_image: /assets/images/news.jpg
+excerpt: 'What we have been up to lately.<br /><br /><br /><br /><br /><br />'
+
+---
+
+{% for post in site.posts limit:10 %}
+        {% include archive-single.html %}
+{% endfor %}
+
+
+
+

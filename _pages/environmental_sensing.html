@@ -1,0 +1,30 @@
+---
+layout: splash
+permalink: /environmental_sensing/
+title: "Environmental Sensing"
+author_profile: false
+header:
+  overlay_color: "#5e616c"
+  overlay_image: /assets/images/environmental_sensing.jpg
+excerpt: 'Improved understanding comes from detailed observation.<br /><br /><br /><br /><br /><br />'
+tags:
+    - Environmental Sensing
+    - Arable
+---
+
+{% include group-by-array collection=site.posts field="tags" %}
+
+
+[ Some summary text about Environmental Sensing ]
+
+<hl>
+<h2>News and Updates:</h2>
+
+{% for tag in page.tags %}
+    {% for post in site.posts %}
+        {% if post.tags contains tag %}
+            {% include archive-single.html %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+
