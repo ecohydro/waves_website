@@ -20,5 +20,5 @@ Professor Caylor is Director of the Earth Research Institute and a Full Professo
 
 Kelly conducts research at a number of spatial and temporal scales; from small-scale experiments during individual rainfall events all the way up to continental-scale analyses of climate trends. A major focus of his current research efforts is the dynamics of coupled natural-human smallholder agricultural systems and deployment of low-cost cellular-based environmental sensors for improved monitoring of agriculture and ecosystem function in the developing world.
 
-Kelly is a recipient of an Early Career Award from the NSF, and he was the inaugural recipient of Early Career Award in Hydrological Sciences given by the American Geophysical Union (AGU).
+Kelly is a recipient of an Early Career Award from the NSF, and he was the inaugural recipient of Early Career Award in Hydrological Sciences given by the American Geophysical Union (AGU). He is co-founder of [Arable Labs, Inc](http://www.arable.com). 
 

@@ -44,6 +44,17 @@
           </a>
         </li>
       {% endif %}
+
+      {% if author.cv %}
+        <li>
+          <a href="{{ author.cv }}">
+            <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+            <meta itemprop="cv" content="{{ author.cv }}" />
+            {{ site.data.ui-text[site.locale].cv_label | default: "CV" }}
+          </a>
+        </li>
+      {% endif %}
+
       
       {% if author.email %}
         <li>

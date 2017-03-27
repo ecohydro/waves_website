@@ -1,6 +1,6 @@
 ---
 id: 1110
-title: Ekomwa Akuwam, Field Assistant, Mpala Research Center
+title: Ekomwa Akuwam, Field Assistant, Mpala Research Center (2010-2016)
 date: 2009-03-21T14:05:01+00:00
 author: "Ekomwa Akuwam"
 excerpt: "Ekomwa is our former field research assistant at the Mpala Research Center"

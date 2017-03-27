@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Water, Plants, & People"
+title                    : "Water, Vegetation, & Society"
 title_separator          : "-"
 name                     : "Kelly Caylor"
 description              : "Understanding the coupled dynamics of water, vegetation and ecosystem services in drylands."
@@ -82,6 +82,7 @@ author:
   bio              : "Professor at the Bren School of Environmental Science & Department of Geography. Director of the Earth Research Institute at UCSB"
   location         : "Santa Barbara, CA"
   email            : "caylor@ucsb.edu"
+  cv               : "/assets/files/KCaylor_CV.pdf"
   uri              :
   bitbucket        :
   codepen          :

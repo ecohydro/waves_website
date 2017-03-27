@@ -15,8 +15,6 @@ portfolio-item-tag:
 header:
    image: assets/images/people/cynthia_header.jpg
    caption: "BS 2009, Earth and Planetary Sc., Uni. of Strasbourg<br> MS 2011, Environmental Eng., Uni. of Strasbourg, France <br> MEng 2012, Geophysics applied to Civil Eng. and Environmental Studies, Engineering School of Geophysics of Strasbourg (EOST), France"
-   cta_label: "<i class='fa fa-newspaper-o'></i> Cynthia's CV"
-   cta_url: "/assets/files/Gerlein-Safdi_CV.pdf"
 ---
 
 Cynthia first joined the Caylor Lab in Spring 2011 and spent six months applying geophysical methods (ground penetrating radar and electromagnetic induction) to solve environmental questions. After a few months spent in Chile, she came back to the Caylor Lab and started her PhD in September, 2012.
