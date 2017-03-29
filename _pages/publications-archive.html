@@ -80,11 +80,12 @@ The purpose of this snippet is to list all the publications by year.
 
 {% assign sorted_years = (publication_years | sort | reverse) %}
 
+<div class="grid__wrapper">
 {% for year in sorted_years %}
-    {{ year }}
     {% for publication in site.publications %}
         {% if publication.year == year %}
-            {% include publication-single.html style="grid" %}
+            {% include publication-single.html type="grid" %}
         {% endif %}
     {% endfor %}
 {% endfor %}
+</div>
