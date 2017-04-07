@@ -1,9 +1,9 @@
 ---
 author: Abinash Bhattachan
 date: 2012-03-28 17:34:00
-excerpt: 'Bhattachan A, Tatlhego M, Dintwe K, O''Donnell F, Caylor KK, et al. (2012)
-  Evaluating Ecohydrological Theories of Woody Root Distribution in the Kalahari.
-  PLoS ONE 7(3): e33996. doi:10.1371/journal.pone.0033996'
+excerpt: 'Bhattachan A, Tatlhego M, Dintwe K, O''Donnell F, Caylor KK, et al. (2012) Evaluating Ecohydrological Theories of Woody Root Distribution in the Kalahari. PLoS ONE 7(3): e33996. doi:10.1371/ journal.pone.0033996'
+header:
+  teaser: assets/images/publications/Bhattachan2012_2719.png
 id: 2719
 portfolio-item-category:
 - publications

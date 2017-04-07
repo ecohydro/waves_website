@@ -1,11 +1,9 @@
 ---
 author: Keir Soderberg
 date: 2013-03-11 19:22:16
-excerpt: 'Soderberg, Keir, Stephen P. Good, Molly O''Connor, Lixin Wang, Kathleen
-  Ryan, and Kelly K. Caylor (2013). Using atmospheric trajectories to model the isotopic
-  composition of rainfall in central Kenya. Ecosphere 4:art33. doi:10.1890/ES12-00160.1
-
-'
+excerpt: 'Soderberg, Keir, Stephen P. Good, Molly OConnor, Lixin Wang, Kathleen Ryan, and Kelly K. Caylor (2013). \u201CUsing atmospheric trajectories to model the isotopic composition of rainfall in central Kenya.\u201D Ecosphere 4:art33. doi:10.1890/ ES12-00160.1'
+header:
+  teaser: assets/images/publications/Soderberg2013_2828.png
 id: 2828
 portfolio-item-category:
 - publications
@@ -23,7 +21,7 @@ author-tags:
     - Stephen Good
 ---
 
-![first page]( {{"assets/images/publications/Soderberg2013_2828.jpg" | absolute_url}} ){:class="img-responsive" width="50%" .align-right}
+![first page]( {{"assets/images/publications/Soderberg2013_2828.png" | absolute_url}} ){:class="img-responsive" width="50%" .align-right}
 
 > \*Soderberg, Keir, \*Stephen P. Good, \*Molly O’Connor, \*Lixin Wang, *Kathleen Ryan, and **Kelly K. Caylor**. 2013. Using atmospheric trajectories to model the isotopic composition of rainfall in central Kenya. Ecosphere 4:art33. doi:10.1890/ES12-00160.1
 

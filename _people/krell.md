@@ -2,8 +2,7 @@
 author: Natasha Krell
 avatar: assets/images/people/Krell.jpg
 date: 2015-12-01 20:06:46
-excerpt: Natasha is interested in dryland food security and climate variability impacts
-  on smallholder agricultural systems.
+excerpt: Natasha is interested in dryland food security and climate variability impacts on smallholder agricultural systems.
 portfolio-item-category:
 - people
 portfolio-item-tag:
