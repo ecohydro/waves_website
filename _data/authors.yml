@@ -137,12 +137,19 @@ Lyndon Estes:
     avatar      : "assets/images/people/Estes.jpg"
     bio         : "Research Associate"
 
+
 Stephanie Debats:
     name        : "Stephanie Debats"
     uri         : "http://stephaniedebats.princeton.edu/"
     location    : "San Francisco, CA"
     avatar      : "assets/images/people/Debats.jpg"
     bio         : "PhD Candidate"
+
+Marcus Spiegel:
+    name        : "Marcus Spiegel"
+    location    : "Princeton, NJ"
+    avatar      : "assets/images/people/Spiegel.jpg"
+    bio         : "Undergraduate Thesis Student"
 
 Hilary Wayland:
     name        : "Hilary Wayland"

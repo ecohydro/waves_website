@@ -15,10 +15,13 @@ categories:
   - Environmental Sensing  
 excerpt: "We recently published a paper in _Environmental Research Letters_ that examines changes in the water available for growing maize in sub-Saharan Africa between 1979 and 2010."
 ---
-[<img class="alignleft wp-image-4062 size-full" src="http://caylor.eri.ucsb.edu/wp-content/uploads/2014/08/erl_cover_big-e1407375629268.jpg" alt="" width="100" height="142" />](http://caylor.eri.ucsb.edu/wp-content/uploads/2014/08/erl_cover_big-e1407375629268.jpg)
+[alt text]({{ "/assets/images/erl_cover_big-e1407375629268.jpg" | absolute_url }})
 
 We recently published a [paper](http://iopscience.iop.org/1748-9326/9/7/075005/article#) in _Environmental Research Letters_ that examines changes in the water available for growing maize in sub-Saharan Africa between 1979 and 2010. <!--more-->We identified trends in rainfall, potential evapotranspiration (PET, which is the atmospheric demand for water), and the ratio of the two (also known as the aridity index), and also quantified the factors responsible for changing PET. You can follow the links below to several stories that provide a fuller overview of the findings.
 
-<p style="text-align: center;">
-  [button url=&#8221;http://www.fondriest.com/news/maize-growing-regions-africa-recent-climate-change-increased-water-availability.htm&#8221;]EM[/button] [button url=&#8221;https://blogs.princeton.edu/research/2014/07/21/water-water-not-everywhere-mapping-water-trends-for-african-maize-environmental-research-letters/&#8221;]PUJW[/button] [button url=&#8221;http://environmentalresearchweb.org/cws/article/news/57996&#8243;]ERW[/button]
-</p>
+[Fondriest Article](http://www.fondriest.com/news/maize-growing-regions-africa-recent-climate-change-increased-water-availability.htm){: .btn .btn--success}
+
+[Princeton Research Blog](https://blogs.princeton.edu/research/2014/07/21/water-water-not-everywhere-mapping-water-trends-for-african-maize-environmental-research-letters/){: .btn .btn--success}
+
+[ERL Article](http://environmentalresearchweb.org/cws/article/news/57996){: .btn .btn--success}
+

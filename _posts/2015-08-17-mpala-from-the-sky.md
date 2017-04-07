@@ -3,8 +3,6 @@ id: 4451
 title: Mpala from the sky
 date: 2015-08-17T14:14:31+00:00
 author: Cynthia Gerlein-Safdi
-guid: http://caylor.princeton.edu/?p=4451
-permalink: /2015/08/17/mpala-from-the-sky/
 categories:
   - Field work
   - Media

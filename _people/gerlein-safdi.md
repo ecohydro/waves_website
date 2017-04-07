@@ -1,5 +1,5 @@
 ---
-title: "Cynthia Gerlein-Safdi"
+title: "Cynthia Gerlein-Safdi, PhD Student"
 excerpt: "PhD Student at Princeton University in the Department of Civil and Environmental Engineering"
 role: "PhD Student"
 author: "Cynthia Gerlein-Safdi"

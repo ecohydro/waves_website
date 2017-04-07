@@ -17,9 +17,9 @@ tags:
   - Dryland Ecohydrology
 excerpt: "Lixin Wang, former member of the EcoHydrology Lab, was recently interview to discuss his work on the effects of drought on global production of legumes."
 ---
-[<img class=" size-full wp-image-4381 alignleft" src="http://caylor.eri.ucsb.edu/wp-content/uploads/2015/06/shapeimage_7.png" alt="shapeimage_7" width="260" height="195" />](http://caylor.eri.ucsb.edu/wp-content/uploads/2015/06/shapeimage_7.png)
+[alt text]({{ "/assets/images/shapeimage_7.png" | absolute_url }})
 
-<a href="http://caylor.eri.ucsb.edu/portfolio-item/lixin-wang-postdoctoral-research-associate-2009-2011/" target="_blank">Lixin Wang</a>, former member of the EcoHydrology Lab, was recently interview to discuss his work on the effects of drought on global production of legumes. <!--more-->According to Lixin: &#8220;Our results could facilitate the development and selection of existing legume species, as well as better management for drought-prone regions by testing whether these species become more or less sensitive to climate variations, particularly drought.&#8221;
+[Lixin Wang]({{ site.baseurl }}{% link _people/wang_l.md %}), former member of the EcoHydrology Lab, was recently interview to discuss his work on the effects of drought on global production of legumes. <!--more-->According to Lixin: &#8220;Our results could facilitate the development and selection of existing legume species, as well as better management for drought-prone regions by testing whether these species become more or less sensitive to climate variations, particularly drought.&#8221;
 
 &nbsp;
 

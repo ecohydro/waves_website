@@ -14,24 +14,18 @@ categories:
 tags:
   - Textit
   - Zambia
-  - Water, Sustainability, and Climate
+  - "Water, Sustainability, and Climate"
   - Smallholder Agriculture
+  - NSF
 excerpt: "Researchers from the Caylor Lab and the University of Indiana&#8217;s Ostrom Workshop worked with Textit, a company that builds SMS and voice applications, to design a crop failure early warning system for use among African smallholders."
 header:
-   image: assets/uploads/2015/08/medium_blog_new-agreement-will-support-tanzania-farmers-through-mobile-technology.jpg
+   image: assets/images/medium_blog_new-agreement-will-support-tanzania-farmers-through-mobile-technology.jpg
 
 ---
-<p class="p1">
+  Researchers from the Caylor Lab and the University of Indiana&#8217;s <a href="http://ostromworkshop.indiana.edu/">Ostrom Workshop</a> worked with <a href="https://textit.in/">Textit</a>, a company that builds SMS and voice applications, to design a crop failure early warning system for use among African smallholders. <!--more-->
 
-  Researchers from the Caylor Lab and the University of Indiana&#8217;s <a href="http://ostromworkshop.indiana.edu/"><span class="s2">Ostrom Workshop</span></a> worked with <a href="https://textit.in/"><span class="s2">Textit</span></a>, a company that builds SMS and voice applications, to design a crop failure early warning system for use among African smallholders. <!--more-->The system uses a series of short survey questions texted to farmers throughout the growing season to collect information on perceived climate dynamics, crop yields and agricultural decisions. The researchers are hoping to use this information, along with environmental data collected through a field-based sensor network, to better understand how smallholders respond to climate shocks and to predict when crop failures may be imminent.</span>
-</p>
+  The system uses a series of short survey questions texted to farmers throughout the growing season to collect information on perceived climate dynamics, crop yields and agricultural decisions. The researchers are hoping to use this information, along with environmental data collected through a field-based sensor network, to better understand how smallholders respond to climate shocks and to predict when crop failures may be imminent.
 
-<p class="p1">
-  <span class="s1">Textit profiled the system and a pilot project conducted in Zambia in a recent blog post. Click below to see the article!</span>
-</p>
+Textit profiled the system and a pilot project conducted in Zambia in a recent blog post. Click below to see the article!
 
-<p class="p1" style="text-align: center;">
-  [button url=&#8221;http://blog.textit.in/crop-failure-early-warning-systems-powered-by-textit-a-case-study&#8221;]Go to the article[/button]
-</p>
-
-<p class="p2">
+[Go to the Article](http://blog.textit.in/crop-failure-early-warning-systems-powered-by-textit-a-case-study){: .btn .btn--success}

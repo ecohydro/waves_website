@@ -25,4 +25,3 @@ header:
 </p>
 
 <button class="normal" data-href="https://stephaniedebats.princeton.edu/files/2015/03/CV_SDebats.pdf" data-target="self">Stephanie’s CV</button>
-</p>

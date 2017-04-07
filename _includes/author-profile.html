@@ -6,19 +6,26 @@
   {% assign author = site.data.authors['none'] %}
 {% endif %}
 
+{% assign this_person = "" %}
+{% for person in site.people %}
+  {% if person.author == author.name %}
+    {% assign this_person = person %}
+  {% endif %}
+{% endfor %}
+
 <div itemscope itemtype="http://schema.org/Person">
   {% if author.avatar %}
     <div class="author__avatar">
       {% if author.avatar contains "://" %}
-        <img src="{{ author.avatar }}" alt="{{ author.name }}" itemprop="image">
+        <a href="{{ this_person.url | absolute_url }}"><img src="{{ author.avatar }}" alt="{{ author.name }}" itemprop="image"></a>
       {% else %}
-        <img src="{{ author.avatar | absolute_url }}" class="author__avatar" alt="{{ author.name }}" itemprop="image">
+        <a href="{{ this_person.url | absolute_url }}"><img src="{{ author.avatar | absolute_url }}" class="author__avatar" alt="{{ author.name }}" itemprop="image"></a>
       {% endif %}
     </div>
   {% endif %}
 
   <div class="author__content">
-    <h3 class="author__name" itemprop="name">{{ author.name }}</h3>
+    <a href="{{ this_person.url | absolute_url }}"><h3 class="author__name" itemprop="name">{{ author.name }}</h3></a>
     {% if author.bio %}
       <p class="author__bio" itemprop="description">
         {{ author.bio }}

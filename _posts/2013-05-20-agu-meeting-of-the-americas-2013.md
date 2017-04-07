@@ -3,10 +3,6 @@ id: 3059
 title: AGU Meeting of the Americas 2013
 date: 2013-05-20T15:25:36+00:00
 author: Cynthia Gerlein-Safdi
-guid: http://caylor.princeton.edu/?p=3059
-permalink: /2013/05/20/agu-meeting-of-the-americas-2013/
-bitly_url:
-  - http://bit.ly/12GRWoZ
 categories:
   - Conferences
   - News
@@ -20,7 +16,7 @@ tags:
   - MOA
 excerpt: "Frances and Cynthia attended the AGU Meeting of the Americas, held in Cancun, Mexico from May 14th to May 17th 2013."
 ---
-[Frances]({{ "/people/odonnell" | absolute_url }}) and [Cynthia]({{ "/people/gerlein-safdi" | absolute_url }}) attended the AGU Meeting of the Americas, held in Cancun, Mexico from May 14th to May 17th 2013.
+[Frances]({{ site.baseurl }}{% link _people/fodonnell.md %}) and [Cynthia]({{ site.baseurl }}{% link _people/gerlein-safdi.md %}) attended the AGU Meeting of the Americas, held in Cancun, Mexico from May 14th to May 17th 2013.
 
 <!--more-->
 
@@ -37,9 +33,7 @@ Frances closed the session with a presentation of her work on &#8220;Species-lev
 Cynthia presented a poster on how ground penetrating radar measurements show a spatial relationship between coarse root biomass and soil carbon abundance.
 
 
-[Frances' presentation]({{ "/assets/uploads/2013/05/odonnell_slides.pdf" | absolute_url }}){: .btn}
+[Frances' presentation]({{ "/assets/files/odonnell_slides.pdf" | absolute_url }}){: .btn}
 
-[Cynthia's poster]({{ "/assets/uploads/2013/05/agufm12poster_MOA.pdf" | absolute_url }}){: .btn}
+[Cynthia's poster]({{ "/assets/files/agufm12poster_MOA.pdf" | absolute_url }}){: .btn}
 
-
-[Photos from the meeting]({% post_url 2013-05-23-agu-meeting-of-the-americas-2013-2 %}){: .btn}

@@ -3,10 +3,6 @@ id: 4057
 title: Stephanie Debats receives Mary and Randall Hack ‘69 Graduate Award
 date: 2014-08-03T20:04:31+00:00
 author: Cynthia Gerlein-Safdi
-guid: http://caylor.princeton.edu/?p=4057
-permalink: /2014/08/03/stephanie-debats-receives-mary-and-randall-hack-69-graduate-award/
-bitly_url:
-  - http://bit.ly/UMxe7S
 categories:
   - Funding
   - News
@@ -19,10 +15,8 @@ tags:
   - Coupled Natural-Human Systems
 excerpt: "Stephanie Debats just got awarded the Mary and Randall Hack ‘69 Graduate Award by the Princeton Environmental Institute."
 ---
-[<img class="alignleft size-full wp-image-2981" src="http://caylor.eri.ucsb.edu/wp-content/uploads/2013/04/pei_stacked_logo-1.jpg" alt="pei_stacked_logo (1)" width="150" height="161" />](http://caylor.eri.ucsb.edu/wp-content/uploads/2013/04/pei_stacked_logo-1.jpg)
+[alt text]({{ "/assets/images/pei_stacked_logo-1.jpg" | absolute_url }})
 
-<a href="http://caylor.eri.ucsb.edu/portfolio-item/stephanie-debats-phd-student/" target="_blank">Stephanie Debats</a> just got awarded the Mary and Randall Hack ‘69 Graduate Award by the <a href="https://www.princeton.edu/pei/grads/" target="_blank">Princeton Environmental Institute</a>.<!--more--> The <a href="http://www.princeton.edu/pei/grads/fellowships-awards/hack-graduate-award/" target="_blank">Mary and Randall Hack &#8217;69 Award</a> provides research funding to support Princeton University graduate students pursuing innovative research on water and water-related topics with implications for the environment. Stephanie is planning on using the award for workshops and conferences critical for strengthening her skills in remote sensing, statistical machine learning, and computer vision. It will also support her Zambian farmer text messaging pilot project and collection of validation data sets for her statistical model.
+[Stephanie Debats]({{ site.baseurl }}{% link _people/debats.md %}) just got awarded the Mary and Randall Hack ‘69 Graduate Award by the <a href="https://www.princeton.edu/pei/grads/" target="_blank">Princeton Environmental Institute</a>.<!--more--> The <a href="http://www.princeton.edu/pei/grads/fellowships-awards/hack-graduate-award/" target="_blank">Mary and Randall Hack &#8217;69 Award</a> provides research funding to support Princeton University graduate students pursuing innovative research on water and water-related topics with implications for the environment. Stephanie is planning on using the award for workshops and conferences critical for strengthening her skills in remote sensing, statistical machine learning, and computer vision. It will also support her Zambian farmer text messaging pilot project and collection of validation data sets for her statistical model.
 
 See the PEI announcement <a href="http://www.princeton.edu/pei/news/archive/?id=13232" target="_blank">HERE</a>.
-
-&nbsp;

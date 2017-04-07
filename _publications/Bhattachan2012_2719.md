@@ -12,6 +12,10 @@ portfolio-item-tag:
 - PLOS-One
 title: Evaluating ecohydrological theories of woody root distribution in the Kalahari
 year: '2012'
+author-tags:
+    - Abinash Bhattachan
+    - Kelly Caylor
+    - Frances O'Donnell
 ---
 
 ![first page]( {{"assets/images/publications/Bhattachan2012_2719.png" | absolute_url}} ){:class="img-responsive" width="50%" .align-right}

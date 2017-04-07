@@ -15,6 +15,12 @@ portfolio-item-tag:
 title: Using atmospheric trajectories to model the isotopic composition of rainfall
   in central Kenya
 year: '2013'
+author-tags:
+    - Lixin Wang
+    - Keir Soderberg
+    - Kelly Caylor
+    - Molly O'Connor
+    - Stephen Good
 ---
 
 ![first page]( {{"assets/images/publications/Soderberg2013_2828.jpg" | absolute_url}} ){:class="img-responsive" width="50%" .align-right}

@@ -20,10 +20,6 @@ tags:
   - Coupled Natural-Human Systems
 excerpt: "Stephanie was just awarded a PEI-STEP fellowship!"
 ---
-![PEI Logo]({{ "/assets/uploads/2013/04/pei_stacked_logo-279x300.jpg" | absolute_url }}){: .align-left} [Stephanie]({{ "/people/debats" | absolute_url }}) has been awarded a <a href="https://www.princeton.edu/pei/grads/step/fellows/" target="_blank">PEI-STEP</a> fellowship! She will be working in collaboration with <a href="http://www.princeton.edu/step/people/faculty/michael-oppenheimer/" target="_blank">Prof. Oppenheimer </a>on reducing crop yield losses through improved food security forecasts and agricultural land use policies. She will be building on her current work involving crop model development and agricultural field mapping to investigate these policy issues. 
+![PEI Logo]({{ "/assets/images/pei_stacked_logo-279x300.jpg" | absolute_url }}){: .align-left} [Stephanie]({{ site.baseurl }}{% link _people/debats.md %}) has been awarded a <a href="https://www.princeton.edu/pei/grads/step/fellows/" target="_blank">PEI-STEP</a> fellowship! She will be working in collaboration with <a href="http://www.princeton.edu/step/people/faculty/michael-oppenheimer/" target="_blank">Prof. Oppenheimer </a>on reducing crop yield losses through improved food security forecasts and agricultural land use policies. She will be building on her current work involving crop model development and agricultural field mapping to investigate these policy issues. 
 
 Congratulations Stephanie!
-
-&nbsp;
-
-&nbsp;
