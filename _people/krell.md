@@ -13,8 +13,6 @@ portfolio-item-tag:
 title: Natasha Krell, PhD Student
 ---
 
- 
-
 Natasha joined the Caylor Lab in Summer 2015 as an intern at the [Mpala Research Center](http://mpala.org) in Kenya where she studied vegetation pattern and fracture formation in soils.
 
 She is currently pursuing a PhD in Geography at U.C. Santa Barbara and is working on deploying [environmental sensors](http://www.arable.com) over crop fields in Kenya and Zambia. Natasha is interested in rainfall variability impacts on dryland agriculture, specifically in Sub-Saharan Africa, and is motivated by questions of food security in water-limited environments.
