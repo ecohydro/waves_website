@@ -186,6 +186,8 @@ Julia Signell:
 Natasha Krell:
     name        : "Natasha Krell"
     bio         : "PhD Student"
+    email       : "nkrell@ucsb.edu"
+    github      : "ntkrell"    
     location    : "Santa Barbara, CA"
     avatar      : "assets/images/people/Krell.jpg"
 
