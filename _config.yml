@@ -198,6 +198,7 @@ gems:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-cloudinary
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -206,6 +207,19 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-cloudinary
+
+cloudinary:
+  cloud_name: waves-website
+  verbose: true
+  presets:
+    default:
+      min_width: 320
+      max_width: 1600
+      fallback_max_width: 800
+      steps: 5
+      sizes: "(min-width: 50rem) 50rem, 90vw"
+
 
 # Archives
 #  Type
