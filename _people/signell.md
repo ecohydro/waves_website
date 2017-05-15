@@ -16,4 +16,4 @@ title: Julia Signell, Mpala Research Intern (2014)
 
  
 
-Julia spent a year at Mpala Research Centre maintaining the flux tower, developing rating curves for new stream gauge stations, and helping with the deployment of pulse pods. She joined the Caylor Lab after completing her BS in Environmental Engineering at Smith College in 2014. She is interested in developing techniques of monitoring water resources and exploring water availability as it relates to farmer resilience. This interest stems from her study abroad experience in Tanzania and Kenya conducting research on the impact of small-scale agriculture on riparian health.
+Julia spent a year at Mpala Research Centre maintaining the flux tower, developing rating curves for new stream gauge stations, and helping with the deployment of pulse pods. She joined the Caylor Lab after completing her BS in Environmental Engineering at Smith College in 2014. After a year working as a data technician for Princeton in the Department of Civil and Environmental Engineering, Julia has taken her talent for programming and love of python to our good friends at [Continuum Analytics](https://www.continuum.io).

@@ -17,8 +17,7 @@ tags:
 New ideas and insight often require new data and observations. Sometimes those observations require the development of entirely new measurements. In other cases, the breakthrough comes from data that are collected more often, or in more places. We're taking advantage of the dramatically low costs of embedded computing and ubiquity of cellular data to extend the footprint of environmental observation. A few years ago, part of this effort was spun out of the University by [Adam Wolf]({{ site.baseurl }}{% link _people/wolf.md %}) and [Ben Siegfried]({{ site.baseurl }}{% link _people/siegfried.md %}) and now operates as [Arable Labs, Inc.](www.arable.com). 
 
 
-<hl>
-<h2>News and Updates:</h2>
+## News and Updates:
 
 {% for tag in page.tags %}
     {% for post in site.posts %}

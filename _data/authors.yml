@@ -74,7 +74,7 @@ John Gitonga:
 Kaiyu Guan:
   name      : "Kaiyu Guan"
   bio       : "Assistant Professor"
-  uri       : "http://www.princeton.edu/~kguan/"
+  uri       : "http://nres.illinois.edu/directory/kaiyug"
   avatar    : "assets/images/people/Guan.jpg"
   location  : "Urbana-Champaign, Illinois"
 
@@ -179,9 +179,11 @@ Elliot Chang:
 
 Julia Signell:
     name        : "Julia Signell"
-    bio         : "Research Assistant"
-    location    : "Princeton, NJ"
+    bio         : "Junior Developer, Continuum Analytics"
+    location    : "Philadelphia, PA"
     avatar      : "assets/images/people/Signell.jpg"
+    uri         : "https://www.continuum.io"
+    linkedin    : "julia-signell-8a948a88"
 
 Natasha Krell:
     name        : "Natasha Krell"
@@ -190,6 +192,7 @@ Natasha Krell:
     github      : "ntkrell"    
     location    : "Santa Barbara, CA"
     avatar      : "assets/images/people/Krell.jpg"
+    linkedin    : "natashakrell"
 
 Cascade Tuholske:
     name        : "Cascade Tuholske"
