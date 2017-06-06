@@ -24,7 +24,7 @@ tags:
   - Abinash Bhattachan
 excerpt: "It&#8217;s that time of year again where we all convene in San Francisco for the AGU Fall Meeting!"
 header:
-    teaser: "http://fallmeeting.agu.org/2016/files/2016/01/FM16-logo-final-2.jpg"
+    image: "http://fallmeeting.agu.org/2016/files/2016/01/FM16-logo-final-2.jpg"
 ---
 
 <img class="size-medium aligncenter" src="http://fallmeeting.agu.org/2016/files/2016/01/FM16-logo-final-2.jpg" alt="" width="483" height="110" />
