@@ -10,6 +10,9 @@ portfolio-item-tag:
 - graduate students
 - UCSB
 title: Natasha Krell, PhD Student
+header:
+   image: "assets/images/people/Krell_header.jpg"
+   caption: "BA, Human Ecology, College of the Atlantic"
 ---
 
 Natasha joined the Caylor Lab in Summer 2015 as an intern at the [Mpala Research Center](http://mpala.org) in Kenya where she studied vegetation pattern and fracture formation in soils.

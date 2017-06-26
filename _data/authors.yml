@@ -190,9 +190,11 @@ Natasha Krell:
     bio         : "PhD Student"
     email       : "nkrell@ucsb.edu"
     github      : "ntkrell"    
+    twitter     : "natashakre"
     location    : "Santa Barbara, CA"
     avatar      : "assets/images/people/Krell.jpg"
     linkedin    : "natashakrell"
+    cv          : "/assets/files/Krell_CV_04272017.pdf"
 
 Cascade Tuholske:
     name        : "Cascade Tuholske"
