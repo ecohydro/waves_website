@@ -18,6 +18,7 @@ Drew Gower:
   github      : "dbg6y"
   skype       : "drew.gower"
   location    : "Ithaca, NY"
+  cv          : "/assets/files/CV_Gower.pdf"
 
 Cynthia Gerlein-Safdi:
   name        : "Cynthia Gerlein-Safdi"
@@ -163,6 +164,7 @@ Keita DeCarlo:
     avatar      : "assets/images/people/DeCarlo.jpg"
     bio         : "PhD Student"
     location    : "Princeton, NJ"
+    cv          : "/assets/files/DeCarlo_CV.pdf"
 
 Ben Siegfried:
     name        : "Ben Siegfried"
@@ -201,6 +203,7 @@ Cascade Tuholske:
     bio         : "PhD Student"
     avatar      : "assets/images/people/Tuholske.jpg"
     location    : "Santa Barbara, CA"
+    cv          : "/assets/files/Tuholske_CV_F17.pdf"
 
 Marc Mayes:
     name        : "Marc Mayes"
