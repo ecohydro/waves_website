@@ -1,6 +1,16 @@
+{% capture person_tags %}{% for tag in person.portfolio-item-tag %}{{ tag | slugify | downcase }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+{% assign tags = (person_tags | split: ',' | sort:0) %}
+
+
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if tags %}
+          <span itemprop="keywords">
+            {% capture tag_word %}{{ tags[1] | strip_newlines }}-{{ tags[0] | strip_newlines }}{% endcapture %}
+            <span class="page__taxonomy-item" rel="tag">{{ tag_word }}</span>
+          </span>
+    {% endif %}
     {% if person.avatar %}
     <div class="person__image">
     <!-- <div class="archive__item-teaser"> -->
