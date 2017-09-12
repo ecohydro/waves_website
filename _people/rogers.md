@@ -7,9 +7,9 @@ excerpt: 'Rodrigo was an intern working with us in 2010 on our root excavation p
 portfolio-item-category:
 - people
 portfolio-item-tag:
-- former members
+- former member
 - Princeton
-- research interns
-- undergraduate students
+- research intern
+- undergraduate student
 title: Rodrigo Munoz Rogers, PEI Grand Challenges Intern (2010)
 ---

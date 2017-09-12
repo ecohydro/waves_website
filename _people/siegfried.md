@@ -11,7 +11,7 @@ portfolio-item-category:
 - people
 portfolio-item-tag:
 - Arable Labs
-- former members
+- former member
 - Princeton
 - research staff
 title: Ben Siegfried, Lab/Field Technician (2012-2014)

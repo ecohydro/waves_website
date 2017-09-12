@@ -8,10 +8,10 @@ excerpt: 'Alice was a research intern in our lab during the summer of 2011 and a
 portfolio-item-category:
 - people
 portfolio-item-tag:
-- former members
+- former member
 - Princeton
-- research interns
-- thesis advisees
-- undergraduate students
+- research intern
+- thesis advisee
+- undergraduate student
 title: Alice Suh, BSE Thesis (2012)
 ---

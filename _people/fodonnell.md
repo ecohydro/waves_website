@@ -6,8 +6,8 @@ excerpt: Frances is currently an Assistant Professor in the Department of Civil 
 portfolio-item-category:
 - people
 portfolio-item-tag:
-- former members
-- graduate students
+- former member
+- graduate student
 - PhD graduate
 - Princeton
 title: Frances O'Donnell, PhD (2013)

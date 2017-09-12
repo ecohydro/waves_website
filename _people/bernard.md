@@ -6,11 +6,11 @@ excerpt: Miranda wrote her senior thesis on plant water source changes in Kenya.
 portfolio-item-category:
 - people
 portfolio-item-tag:
-    - former members
+    - former member
     - Princeton
-    - research interns
-    - thesis advisees
-    - undergraduate students
+    - research intern
+    - thesis advisee
+    - undergraduate student
 title: Miranda Bernard, Thesis Student (2015)
 ---
 

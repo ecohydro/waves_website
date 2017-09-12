@@ -9,8 +9,8 @@ avatar: "assets/images/people/Lindner.jpg"
 portfolio-item-category:
   - people
 portfolio-item-tag:
-  - former members
-  - graduate students
+  - former member
+  - graduate student
   - Indiana
 
 ---

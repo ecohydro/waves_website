@@ -10,7 +10,7 @@ portfolio-item-category:
 portfolio-item-tag:
     - UCSB
     - faculty
-    - current members
+    - current member
 header:
    image: "assets/images/people/caylor_header.jpg"
    caption: "BA, Environmental Sciences, UVA<br />PhD, Environemntal Sciences, UVA."

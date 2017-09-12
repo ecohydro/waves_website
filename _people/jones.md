@@ -6,10 +6,10 @@ excerpt: null
 portfolio-item-category:
 - people
 portfolio-item-tag:
-- former members
-- high school students
+- former member
+- high school student
 - Princeton
-- research interns
+- research intern
 title: Jackie Jones, Laboratory Learning Intern &#038; Hutchins Scholar (2013)
 ---
 

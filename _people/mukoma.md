@@ -8,9 +8,8 @@ avatar: "/assets/images/people/Mukoma.jpg"
 portfolio-item-category:
   - people
 portfolio-item-tag:
-  - current members
+  - current member
   - Mpala
-  - Princeton
   - research staff
   - UCSB
 

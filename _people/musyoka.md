@@ -7,9 +7,8 @@ excerpt: Moses is a lab assistant in the Ecohydrology Lab facility at the Mpala 
 portfolio-item-category:
 - people
 portfolio-item-tag:
-- current members
+- current member
 - Mpala
-- Princeton
 - research staff
 - UCSB
 title: Moses Kioko Musyoka, Lab Assistant, Mpala Research Center

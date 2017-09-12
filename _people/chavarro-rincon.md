@@ -8,8 +8,8 @@ excerpt: Diana studied the role that roots play in determining seasonal patterns
 portfolio-item-category:
 - people
 portfolio-item-tag:
-- former members
-- postdocs
+- former member
+- postdoc
 - Princeton
 title: Diana Chavarro-Rincon, Postdoctoral Research Associate (2010-2012)
 ---

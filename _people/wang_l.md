@@ -6,8 +6,8 @@ excerpt: Lixin was a postdoc in our lab from 2009-2011. He is currently an Assis
 portfolio-item-category:
 - people
 portfolio-item-tag:
-    - former members
-    - postdocs
+    - former member
+    - postdoc
     - Princeton
 title: Lixin Wang, Postdoc (2009-2011)
 header:

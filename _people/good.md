@@ -7,8 +7,8 @@ avatar: /assets/images/people/Good.jpg
 portfolio-item-category:
   - people
 portfolio-item-tag:
-  - former members
-  - graduate students
+  - former member
+  - graduate student
   - PhD graduate
   - Princeton
 header:

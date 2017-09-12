@@ -5,11 +5,8 @@ date: 2016-11-20 17:36:58
 excerpt: Marc's work involves remote sensing of landscape changes, climate variability woodland biogeochemistry.
 portfolio-item-category: null
 portfolio-item-tag:
-    - Biogeosciences
-    - current members
-    - Ecohydrology
-    - environmental sensing
-    - postdocs
+    - current member
+    - postdoc
     - Princeton
     - UCSB
 title: Marc Mayes, Nature Conservancy NatureNet Fellow

@@ -5,11 +5,11 @@ permalink: /people/
 author_profile: false
 member_categories:
     - faculty
-    - postdocs
-    - graduate students
-    - research interns
+    - postdoc
+    - graduate student
+    - research intern
     - research staff
-    - lab visitors
+    - lab visitor
 ---
 
 {% comment %}
@@ -49,7 +49,7 @@ The following part removes dulpicated tags and invalid tags like blank tag.
 <!-- <h2>{{ category | capitalize }}</h2> -->
 <!-- <div class="grid__wrapper"> -->
     {% for person in site.people %}
-        {% if person.portfolio-item-tag contains "current members" %}
+        {% if person.portfolio-item-tag contains "current member" %}
             {% if person.portfolio-item-tag contains category %}
                 {% include person-single.html type="grid" %}
             {% endif %}
@@ -58,7 +58,7 @@ The following part removes dulpicated tags and invalid tags like blank tag.
 {% endfor %}
 {% for category in page.member_categories %}
     {% for person in site.people %}
-        {% if person.portfolio-item-tag contains "former members" %}
+        {% if person.portfolio-item-tag contains "former member" %}
             {% if person.portfolio-item-tag contains category %}
                 {% include person-single.html type="grid" %}
             {% endif %}

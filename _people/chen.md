@@ -8,10 +8,10 @@ avatar: "/assets/images/people/Chen.png"
 portfolio-item-category:
   - people
 portfolio-item-tag:
-  - former members
+  - former member
   - Princeton
-  - research interns
-  - undergraduate students
+  - research intern
+  - undergraduate student
 ---
 
 BSE, 2011 Civil & Environmental Engineering, Princeton University.

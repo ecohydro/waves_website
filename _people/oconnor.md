@@ -7,10 +7,10 @@ excerpt: Molly is currently living and working in sunny southern California, whe
 portfolio-item-category:
 - people
 portfolio-item-tag:
-- former members
+- former member
 - Princeton
 - research staff
-- thesis advisees
+- thesis advisee
 title: Molly O'Connor, Lab/Field Technician (2011-2013)
 ---
 

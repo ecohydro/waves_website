@@ -7,10 +7,10 @@ excerpt: Eric was a research intern working with Lyndon Estes on ecological appl
 portfolio-item-category:
 - people
 portfolio-item-tag:
-- former members
+- former member
 - Princeton
-- research interns
-- undergraduate students
+- research intern
+- undergraduate student
 title: Eric Principato, Research Intern (2014)
 ---
 

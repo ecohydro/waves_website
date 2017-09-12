@@ -8,10 +8,10 @@ excerpt: Ida wrote her thesis on the use of catalytic convertors for removing or
 portfolio-item-category:
 - people
 portfolio-item-tag:
-- former members
+- former member
 - Princeton
-- thesis advisees
-- undergraduate students
+- thesis advisee
+- undergraduate student
 title: Ida Posner, BSE Thesis (2012)
 ---
 

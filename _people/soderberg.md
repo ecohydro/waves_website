@@ -7,8 +7,8 @@ excerpt: 'Keir remains involved in our group while also working at the Environme
 portfolio-item-category:
 - people
 portfolio-item-tag:
-- former members
-- postdocs
+- former member
+- postdoc
 - Princeton
 title: Keir Soderberg, Postdoctoral Research Associate (2011-2013)
 ---

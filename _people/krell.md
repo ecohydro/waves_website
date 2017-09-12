@@ -6,8 +6,8 @@ excerpt: Natasha is interested in dryland food security and climate variability 
 portfolio-item-category:
 - people
 portfolio-item-tag:
-- current members
-- graduate students
+- current member
+- graduate student
 - UCSB
 title: Natasha Krell, PhD Student
 header:

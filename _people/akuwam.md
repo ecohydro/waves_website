@@ -8,7 +8,7 @@ avatar: "/assets/images/people/Akuwam.jpg"
 portfolio-item-category:
   - people
 portfolio-item-tag:
-  - former members
+  - former member
   - Mpala
   - Princeton
   - research staff

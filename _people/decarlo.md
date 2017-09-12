@@ -6,8 +6,8 @@ excerpt: Keita is interested in the influence of soil phenomena on hydrological 
 portfolio-item-category:
 - people
 portfolio-item-tag:
-- current members
-- graduate students
+- current member
+- graduate student
 - Princeton
 title: Keita DeCarlo, PhD Student
 header:

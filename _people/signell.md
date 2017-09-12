@@ -7,10 +7,10 @@ excerpt: Julia Signell was our 2014-2015 Intern at the Mpala Research Centre, wh
 portfolio-item-category:
 - people
 portfolio-item-tag:
-- former members
+- former member
 - Princeton
-- research interns
-- undergraduate students
+- research intern
+- undergraduate student
 title: Julia Signell, Mpala Research Intern (2014)
 ---
 

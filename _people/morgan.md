@@ -6,10 +6,10 @@ excerpt: null
 portfolio-item-category:
 - people
 portfolio-item-tag:
-- former members
+- former member
 - Princeton
-- research interns
-- undergraduate students
+- research intern
+- undergraduate student
 title: Taylor Morgan, PEI Grand Challenges Intern (2014)
 ---
 

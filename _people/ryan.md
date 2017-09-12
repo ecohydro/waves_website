@@ -5,9 +5,9 @@ date: 2011-03-21 11:57:52
 excerpt: null
 portfolio-item-category: null
 portfolio-item-tag:
-- former members
+- former member
 - Princeton
-- research interns
-- undergraduate students
+- research intern
+- undergraduate student
 title: Kathleen Ryan, PEI Grand Challenges Intern (2011)
 ---

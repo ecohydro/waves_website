@@ -7,8 +7,8 @@ excerpt: Drew is studying the effects of hydrologic variability on food security
 portfolio-item-category:
 - people
 portfolio-item-tag:
-- current members
-- graduate students
+- current member
+- graduate student
 - Princeton
 title: Drew Gower, PhD Student
 header:

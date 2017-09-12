@@ -6,8 +6,9 @@ excerpt: 'Cascade Tuholske is researching urban food security in Sub-Saharan Afr
 portfolio-item-category:
 - people
 portfolio-item-tag:
-- current members
-- graduate students
+- current member
+- graduate student
+- UCSB
 
 title: Cascade Tuholske, PhD Student
 ---

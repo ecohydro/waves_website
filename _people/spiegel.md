@@ -7,10 +7,10 @@ excerpt: Marcus studied the consequences of agricultural expansion in Zambia,
 portfolio-item-category:
 - people
 portfolio-item-tag:
-- former members
+- former member
 - Princeton
-- research interns
-- undergraduate students
+- research intern
+- undergraduate student
 title: Marcus Spiegel, Undergraduate Student, Agricultural Modeling (2014-2016)
 ---
 

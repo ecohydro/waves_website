@@ -8,8 +8,8 @@ excerpt: 'Kaiyu received his PhD in 2013 and is now an Assistant Professor in th
 portfolio-item-category:
 - people
 portfolio-item-tag:
-- former members
-- graduate students
+- former member
+- graduate student
 - PhD graduate
 - Princeton
 title: Kaiyu Guan, PhD. (2013)

@@ -6,8 +6,8 @@ excerpt: Daozhi was a visiting researcher from the Institute of Environment and 
 portfolio-item-category:
 - people
 portfolio-item-tag:
-    - former members
-    - lab visitors
+    - former member
+    - lab visitor
     - Princeton
 title: Daozhi Gong, Visiting Researcher (2014)
 ---

@@ -12,8 +12,8 @@ portfolio-item-category:
 - people
 portfolio-item-tag:
 - Arable Labs
-- former members
-- postdocs
+- former member
+- postdoc
 - research staff
 title: Adam Wolf, Associate Research Scholar (2011-2014)
 ---

@@ -9,8 +9,8 @@ role: "MS Graduate"
 portfolio-item-category:
   - people
 portfolio-item-tag:
-  - former members
-  - graduate students
+  - former member
+  - graduate student
   - Indiana
 header:
    image: "assets/images/people/abi.jpg"

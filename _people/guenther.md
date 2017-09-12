@@ -6,9 +6,9 @@ excerpt: null
 portfolio-item-category:
 - people
 portfolio-item-tag:
-- former members
+- former member
 - Princeton
-- undergraduate students
+- undergraduate student
 title: Sara Guenther, Undergraduate Student, Enclosure Design
 ---
 
