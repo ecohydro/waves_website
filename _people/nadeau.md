@@ -8,7 +8,8 @@ excerpt: Patrick is applying his interests in soil science, environmental chemis
 portfolio-item-category:
 - people
 portfolio-item-tag:
-- graduate students
+- graduate student
+- former member
 - Princeton
 title: Patrick Nadeau, MSE Student
 ---

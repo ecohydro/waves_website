@@ -7,10 +7,10 @@ excerpt: Matteo was a PEI Grand Challenge Intern in 2014 working on different as
 portfolio-item-category:
 - people
 portfolio-item-tag:
-- former members
+- former member
 - Princeton
-- research interns
-- undergraduate students
+- research intern
+- undergraduate student
 title: Matteo Kruijssen, PEI Grand Challenges Intern (2014)
 ---
 

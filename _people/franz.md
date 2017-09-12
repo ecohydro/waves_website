@@ -8,8 +8,8 @@ excerpt: Trenton received his PhD in 2011. In the fall of 2013, he started as an
 portfolio-item-category:
 - people
 portfolio-item-tag:
-- former members
-- graduate students
+- former member
+- graduate student
 - PhD graduate
 - Princeton
 title: Trenton Franz, PhD (2011)

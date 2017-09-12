@@ -7,11 +7,10 @@ avatar: "assets/images/people/Gerlein-Safdi.png"
 portfolio-item-category:
     - people
 portfolio-item-tag:
-   - current members
+   - former member
    - Princeton
-   - PhD Student
-   - graduate students
-   - Department of Civil and Environmental Engineering
+   - PhD graduate
+   - graduate student
 header:
    image: assets/images/people/cynthia_header.jpg
    caption: "BS 2009, Earth and Planetary Sc., Uni. of Strasbourg<br> MS 2011, Environmental Eng., Uni. of Strasbourg, France <br> MEng 2012, Geophysics applied to Civil Eng. and Environmental Studies, Engineering School of Geophysics of Strasbourg (EOST), France"

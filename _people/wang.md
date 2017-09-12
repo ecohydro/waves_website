@@ -7,8 +7,8 @@ excerpt: Feng was a visiting researcher from the Institute of Desertification St
 portfolio-item-category:
 - people
 portfolio-item-tag:
-- former members
-- lab visitors
+- former member
+- lab visitor
 - Princeton
 title: Feng Wang, Visiting Researcher (2015)
 ---

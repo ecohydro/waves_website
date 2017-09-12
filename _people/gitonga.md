@@ -10,9 +10,8 @@ header:
 portfolio-item-category:
 - people
 portfolio-item-tag:
-    - current members
+    - current member
     - Mpala
-    - Princeton
     - research staff
     - UCSB
 title: John Gitonga, Lab Manager, Mpala Research Center

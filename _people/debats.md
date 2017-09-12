@@ -7,8 +7,9 @@ excerpt: Stephanie is working on a PhD focused on the hydrological determinants 
 portfolio-item-category:
 - people
 portfolio-item-tag:
-    - current members
-    - graduate students
+    - former member
+    - graduate student
+    - PhD graduate
     - Princeton
 title: Stephanie Debats, PhD Student
 header:

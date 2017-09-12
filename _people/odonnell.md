@@ -7,10 +7,10 @@ excerpt: Jimmy joined our lab through the Hutchins Scholars program at the Lawre
 portfolio-item-category:
 - people
 portfolio-item-tag:
-- former members
-- high school students
+- former member
+- high school student
 - Princeton
-- research interns
+- research intern
 title: James O'Donnell, Laboratory Learning Intern &#038; Hutchins Scholar (2014)
 ---
 

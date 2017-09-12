@@ -7,8 +7,8 @@ excerpt: Lizzie King is now an Assistant Professor in the Odum School of Ecology
 portfolio-item-category:
 - people
 portfolio-item-tag:
-- former members
-- postdocs
+- former member
+- postdoc
 - Princeton
 title: Lizzie King, Postdoctoral Research Associate (2009-2012)
 ---

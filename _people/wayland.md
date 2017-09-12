@@ -6,8 +6,8 @@ excerpt: Hilary received her MSE in 2015 and is now working at Ramboll-Environ.
 portfolio-item-category:
 - people
 portfolio-item-tag:
-- former members
-- graduate students
+- former member
+- graduate student
 - Princeton
 title: Hilary Wayland, MSE (2015)
 ---

@@ -7,10 +7,10 @@ excerpt: Craig worked on the influence of dew droplets on the energy balance of 
 portfolio-item-category:
 - people
 portfolio-item-tag:
-- former members
+- former member
 - Princeton
-- research interns
-- undergraduate students
+- research intern
+- undergraduate student
 title: Craig Sinkler, Summer Research Intern (2014)
 ---
 

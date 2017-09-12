@@ -8,8 +8,8 @@ excerpt: "Guiomar was a visiting PhD student from the Universitat Polit\xE8cnica
 portfolio-item-category:
 - people
 portfolio-item-tag:
-- former members
-- lab visitors
+- former member
+- lab visitor
 - Princeton
 title: "Guiomar Ruiz P\xE9rez, Visiting PhD Student (2015)"
 ---

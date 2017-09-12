@@ -6,10 +6,10 @@ excerpt: Elliot graduated in 2016 and is now a PhD student at UC Berkeley.
 portfolio-item-category:
 - people
 portfolio-item-tag:
-- former members
+- former member
 - Princeton
-- research interns
-- undergraduate students
+- research intern
+- undergraduate student
 title: Elliot Chang, Undergraduate Student, Isotope Hydrology (2013-2016)
 ---
 

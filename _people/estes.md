@@ -7,7 +7,7 @@ excerpt: 'Lyndon is working on issues related to climate variability, and food s
 portfolio-item-category:
 - people
 portfolio-item-tag:
-    - current members
+    - former member
     - research faculty
     - Princeton
 title: Lyndon Estes, Associate Research Scholar
