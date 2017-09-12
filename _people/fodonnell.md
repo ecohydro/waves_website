@@ -7,7 +7,6 @@ portfolio-item-category:
 - people
 portfolio-item-tag:
 - former member
-- graduate student
 - PhD graduate
 - Princeton
 title: Frances O'Donnell, PhD (2013)

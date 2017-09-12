@@ -5,6 +5,7 @@ permalink: /people/
 author_profile: false
 member_categories:
     - faculty
+    - PhD graduate
     - postdoc
     - graduate student
     - research intern
@@ -43,10 +44,10 @@ The following part removes dulpicated tags and invalid tags like blank tag.
 {% endfor %}
 
 {% assign categories = "" %}
-
-<div class="grid__wrapper">
+<div>
+<h3>Current and Past Members</h3>
 {% for category in page.member_categories %}
-<!-- <h2>{{ category | capitalize }}</h2> -->
+<div class="grid__wrapper">
 <!-- <div class="grid__wrapper"> -->
     {% for person in site.people %}
         {% if person.portfolio-item-tag contains "current member" %}
@@ -55,8 +56,13 @@ The following part removes dulpicated tags and invalid tags like blank tag.
             {% endif %}
         {% endif %}
     {% endfor %}
+</div>
 {% endfor %}
+</div>
+
+<div>
 {% for category in page.member_categories %}
+<div class="grid__wrapper">
     {% for person in site.people %}
         {% if person.portfolio-item-tag contains "former member" %}
             {% if person.portfolio-item-tag contains category %}
@@ -64,10 +70,10 @@ The following part removes dulpicated tags and invalid tags like blank tag.
             {% endif %}
         {% endif %}
     {% endfor %}
+</div>
 {% endfor %}
 </div>
 
-<hr>
 
 
 
