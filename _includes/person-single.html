@@ -41,8 +41,8 @@
     {% for hash in tag_hashes %}
       {% assign keyValue = hash | split: '#' %}
       {% capture tag_word %}{{ keyValue[1] | strip_newlines }}{% endcapture %}
-      {% if tag_word != "current member" %}
-        {% if tag_word == "UCSB" %}
+      {% if tag_word != "current member" and tag_word != "former member" %}
+        {% if tag_word == "UCSB" or tag_word == "PhD graduate" %}
           <span class="page__taxonomy-item" rel="tag">{{ tag_word }}</span>{% unless forloop.last %}<span class="sep"></span>{% endunless %}
         {% else %}
           <span class="page__taxonomy-item" rel="tag">{{ tag_word | capitalize }}</span>{% unless forloop.last %}<span class="sep"></span>{% endunless %}

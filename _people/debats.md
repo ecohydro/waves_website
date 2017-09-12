@@ -2,19 +2,17 @@
 author: Stephanie Debats
 avatar: assets/images/people/Debats.jpg
 date: 2013-03-21 14:09:11
-excerpt: Stephanie is working on a PhD focused on the hydrological determinants of
-  small-holder agricultural resilience in Zambia.
+excerpt: Stephanie is a Computer Vision Research Scientist at Descartes Labs
 portfolio-item-category:
 - people
 portfolio-item-tag:
     - former member
-    - graduate student
     - PhD graduate
     - Princeton
-title: Stephanie Debats, PhD Student
+title: Stephanie Debats, PhD (2017)
 header:
    image: "assets/images/people/Debats_header.jpg"
-   caption: "Stephanie programming a rain gauge during her first field campaign in Zambia."
+   caption: "Stephanie programming a rain gauge during her first (and last) field campaign in Zambia."
 ---
 
 

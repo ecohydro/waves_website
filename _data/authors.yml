@@ -23,13 +23,13 @@ Drew Gower:
 Cynthia Gerlein-Safdi:
   name        : "Cynthia Gerlein-Safdi"
   email       : "cgerlein@princeton.edu"
-  bio         : "PhD Candidate."
+  bio         : "Michigan Society of Fellows Postdoctoral Scholar"
   avatar      : "/assets/images/people/Gerlein-Safdi.png"
   twitter     : "CGerleinSafdi"
   linkedin    : "cynthia-gerlein-safdi-a13b6a9a"
   github      : "cgerlein"
   skype       : "cynthia.gerlein"
-  location    : "Cambridge, MA"
+  location    : "Ann Arbor, MI"
   uri         : "http://blogs.princeton.edu/cynthiagerlein/"
 
 Abinash Bhattachan:
@@ -144,7 +144,7 @@ Stephanie Debats:
     uri         : "http://stephaniedebats.princeton.edu/"
     location    : "San Francisco, CA"
     avatar      : "assets/images/people/Debats.jpg"
-    bio         : "PhD Candidate"
+    bio         : "Computer Vision Research Scientist at Descartes Labs"
 
 Marcus Spiegel:
     name        : "Marcus Spiegel"

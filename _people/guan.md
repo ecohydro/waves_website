@@ -9,7 +9,6 @@ portfolio-item-category:
 - people
 portfolio-item-tag:
 - former member
-- graduate student
 - PhD graduate
 - Princeton
 title: Kaiyu Guan, PhD. (2013)
