@@ -1,7 +1,7 @@
 ---
 author: Kaiyu Guan
 avatar: assets/images/people/Guan.jpg
-date: 2013-03-21 14:59:04
+date: 2013-05-21 14:59:04
 excerpt: 'Kaiyu received his PhD in 2013 and is now an Assistant Professor in the
   Department of Natural Resources and Environmental Sciences at the University of
   Illinois at Urbana-Champaign. '
