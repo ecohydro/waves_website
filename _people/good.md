@@ -1,6 +1,6 @@
 ---
 title: Stephen Good, PhD. (2013)
-date: 2010-03-20T19:34:41+00:00
+date: 2013-03-20T19:34:41+00:00
 author: Stephen Good
 excerpt: Stephen received his PhD in 2013. He is currently an Assistant Professor in the Department of Biological and Ecological Engineering at Oregon State University.
 avatar: /assets/images/people/Good.jpg

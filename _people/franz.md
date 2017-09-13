@@ -1,7 +1,7 @@
 ---
 author: Trenton Franz
 avatar: assets/images/people/Franz.jpg
-date: 2012-01-21 13:38:56
+date: 2011-01-21 13:38:56
 excerpt: Trenton received his PhD in 2011. In the fall of 2013, he started as an Assistant
   Professor of Hydrogeophyiscs in the School of Natural Resources at the University
   of Nebraska.

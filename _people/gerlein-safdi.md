@@ -1,6 +1,7 @@
 ---
 title: "Cynthia Gerlein-Safdi, PhD (2017)"
 excerpt: "Michigan Society of Fellows postdoctoral researcher in the Department of Climate and Space Sciences and Engineering, College of Engineering, University of Michigan"
+date: 2017-8-21 13:38:56
 role: "PhD Student"
 author: "Cynthia Gerlein-Safdi"
 avatar: "assets/images/people/Gerlein-Safdi.png"
