@@ -1,7 +1,7 @@
 ---
 author: Stephanie Debats
 avatar: assets/images/people/Debats.jpg
-date: 2013-03-21 14:09:11
+date: 2017-03-21 14:09:11
 excerpt: Stephanie is a Computer Vision Research Scientist at Descartes Labs
 portfolio-item-category:
 - people
