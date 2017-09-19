@@ -28,7 +28,10 @@
         <a href="{{ publication.url | absolute_url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h3>
-
+    {% if publication.doi %}
+        {% altmetric publication.doi %}
+    {% endif %}
     {% if publication.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ publication.excerpt | markdownify | strip_html }}</p>{% endif %}
+    
   </article>
 </div>

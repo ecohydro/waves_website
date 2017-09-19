@@ -5,6 +5,7 @@ excerpt: 'Bhattachan A, Tatlhego M, Dintwe K, O''Donnell F, Caylor KK, et al. (2
 header:
   teaser: assets/images/publications/Bhattachan2012_2719.png
 id: 2719
+doi: 10.1371/journal.pone.0033996
 portfolio-item-category:
 - publications
 portfolio-item-tag:

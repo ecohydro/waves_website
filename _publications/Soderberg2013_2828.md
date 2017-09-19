@@ -5,6 +5,7 @@ excerpt: 'Soderberg, Keir, Stephen P. Good, Molly OConnor, Lixin Wang, Kathleen 
 header:
   teaser: assets/images/publications/Soderberg2013_2828.png
 id: 2828
+doi: 10.1890/ES12-00160.1
 portfolio-item-category:
 - publications
 portfolio-item-tag:

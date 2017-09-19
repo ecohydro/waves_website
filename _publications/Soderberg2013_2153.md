@@ -5,6 +5,7 @@ title: "Stable isotopes of water vapor in the vadose zone: A review of measureme
 excerpt: 'Soderberg, K., Good, S.P., Wang, L., Caylor, K.K. (2012) "Stable isotopes of water vapor in the vadose zone: A review of measurement and modeling techniques", Vadose Zone Journal, doi:10.2136/ vzj2011.0165.'
 author: "Keir Soderberg"
 id: 2153
+doi: 10.2136/vzj2011.0165
 year: '2012'
 journal: "Vadose Zone Journal"
 doi: "doi:10.2136/vzj2011.0165"

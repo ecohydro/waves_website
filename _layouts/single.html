@@ -33,7 +33,9 @@ layout: default
 
       <section class="page__content" itemprop="text">
         {{ content }}
-      
+        {% if page.doi %}
+          {% altmetric page.doi %}
+        {% endif %}
         {% if page.external_link %}<div><a href="{{ page.external_link }}" class="btn"><i class="fa fa-external-link"></i> {{ site.data.ui-text[site.locale].article_link_label | default: "Go to Article" }}</a></div>
         {% endif %}
 

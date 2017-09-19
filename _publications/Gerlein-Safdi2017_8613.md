@@ -2,6 +2,7 @@
 author: Cynthia Gerlein-Safdi
 date: 2017-09-12 16:43:21
 id: 8613
+doi: 10.1111/pce.13002
 year: '2017'
 title: Leaf water 18O and 2H maps show directional enrichment discrepancy in Colocasia esculenta
 doi: 10.1111/pce.13002
