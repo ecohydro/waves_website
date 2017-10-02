@@ -8,20 +8,24 @@ permalink: /2017/09/27/Zambia-arable-marks-2017
 categories:
   - News
   - Research
-  - Fieldwork
+  - Field work
+  - Photos
 tags:
   - "2017"
   - Zambia
   - WSC
   - Natasha Krell
   - Food Security
+  - Water Sustainability Climate
+  - ZARI
 excerpt: Water Society Climate work wraps up with close to 60 Arable Marks deployed around Zambia's Southern province.
 ---
 
 ![image]({{ "/assets/images/allan-arable-summer17.png" | absolute_url }}){: .align-right}
+# subtitle: Installing an Arable Mark in some village. 
 
 
-WAVES lab members teamed up with Arable Labs and Zambia's Agricultural Research Institute to install close to 60 <a href="https://www.nsf.gov/news/mmg/mmg_disp.jsp?med_id=82037&from=
-" target="_blank">  Internet of Things devices </a> in the southern province of Zambia. understand agricultural management in Zambia’s Southern province.
+WAVES lab members Kelly and Natasha teamed up with Arable Labs and Zambia's Agricultural Research Institute to install close to 60 <a href="https://www.nsf.gov/news/mmg/mmg_disp.jsp?med_id=82037&from=
+" target="_blank">  Internet of Things devices </a> in the southern province of Zambia. Supported by a National Science Foundation Water Sustainanility and Climate grant, this research seeks to understand climate variability impacts on smallholder agriculture in Zambia and Kenya. By coupling social information collected via SMS and environmental monitoring and measuring via low-cost solar-powere environmental sensors, we can better understand intra-seasonal farmer decision-making. 
 
-Arable Labs highlighted our recent work, and you can read more about it <a href="https://medium.com/@ArableLabs/how-4m-in-nsf-funded-work-fills-data-gap-to-improve-farmers-climate-adaptation-9553efc37859" target="_blank"> here. </a> 
+Arable Labs recently highlighted our recent work on their <a href="https://medium.com/@ArableLabs/how-4m-in-nsf-funded-work-fills-data-gap-to-improve-farmers-climate-adaptation-9553efc37859" target="_blank"> blog. </a> 
