@@ -22,7 +22,6 @@ excerpt: Water Society Climate work wraps up with close to 60 Arable Marks deplo
 ---
 
 ![image]({{ "/assets/images/allan-arable-summer17.png" | absolute_url }}){: .align-right}
-# subtitle: Installing an Arable Mark in some village. 
 
 
 WAVES lab members Kelly and Natasha teamed up with Arable Labs and Zambia's Agricultural Research Institute to install close to 60 <a href="https://www.nsf.gov/news/mmg/mmg_disp.jsp?med_id=82037&from=
