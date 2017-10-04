@@ -4,7 +4,7 @@ title: Arable Mark deployments in Zambia’s Southern Province
 date: 2017-09-27T00:00:00+00:00
 author: Natasha Krell
 guid: https://caylor.eri.ucsb.edu/?p=4885
-permalink: /2017/09/27/Zambia-arable-marks-2017
+permalink: /2017/09/27/Zambia-arable-marks-2017/
 categories:
   - News
   - Research
