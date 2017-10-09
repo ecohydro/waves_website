@@ -209,3 +209,13 @@ Marc Mayes:
     name        : "Marc Mayes"
     location    : "Santa Barbara, CA & <br> Princeton, NJ"
     avatar      : "assets/images/people/Mayes.jpg"
+
+Ryan Avery:
+    name        : "Ryan Avery"
+    bio         : "PhD Student"
+    email       : "ravery@ucsb.edu"
+    github      : "rbavery"
+    location    : "Santa Barbara, CA"
+    avatar      : "assets/images/people/Avery.jpg"
+    linkedin    : "ryan-avery-75b165a8"
+    cv          : "/assets/files/Avery_CV_1082017.pdf"
