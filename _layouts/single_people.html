@@ -77,23 +77,24 @@ The following part removes dulpicated years and invalid years like blank year.
           </div>
         {% endif %}
         {% assign numPubs = site.publications.author-tags[authorTag] | size %}
-        <h2 class="text-center">WAVES Lab Publications by {{page.author}}</h2>
-        <div class="grid__wrapper">
-          {% for year in sorted_years %}
-            {% for publication in site.publications %}
-              {% if publication.year == year %}
-                {% if publication.author-tags contains authorTag %}
-                  {% include publication-single.html type="grid" %}
+        {% if numPubs > 0 %}
+          <h2 class="text-center">WAVES Lab Publications by {{page.author}}</h2>
+          <div class="grid__wrapper">
+            {% for year in sorted_years %}
+              {% for publication in site.publications %}
+                {% if publication.year == year %}
+                  {% if publication.author-tags contains authorTag %}
+                    {% include publication-single.html type="grid" %}
+                  {% endif %}
                 {% endif %}
-              {% endif %}
+              {% endfor %}
             {% endfor %}
-          {% endfor %}
-        </div>
-        {% if page.external_link %}<div><a href="{{ page.external_link }}" class="btn"><i class="fa fa-external-link"></i> {{ site.data.ui-text[site.locale].article_link_label | default: "Go to Article" }}</a></div>
+          </div>
+          {% if page.external_link %}<div><a href="{{ page.external_link }}" class="btn"><i class="fa fa-external-link"></i> {{ site.data.ui-text[site.locale].article_link_label | default: "Go to Article" }}</a></div>
+          {% endif %}
+
+          {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
         {% endif %}
-
-        {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
-
       </section>
 
       <footer class="page__meta">
