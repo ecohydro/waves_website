@@ -201,9 +201,13 @@ Natasha Krell:
 Cascade Tuholske:
     name        : "Cascade Tuholske"
     bio         : "PhD Student"
+    email       : "cascade@umail.ucsb.edu"
+    twitter     : "tuholske"
+    linkedin    : "cascade-tuholske"
     avatar      : "assets/images/people/Tuholske.jpg"
     location    : "Santa Barbara, CA"
     cv          : "/assets/files/Tuholske_CV_F17.pdf"
+    uri         : "https://www.tuholske.com"
 
 Marc Mayes:
     name        : "Marc Mayes"
