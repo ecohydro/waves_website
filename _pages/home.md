@@ -30,7 +30,7 @@ feature_row:
 github:
   - excerpt: '{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
 intro:
-  - excerpt: 'Follow our research &nbsp; [<i class="fa fa-twitter"></i> @kcaylor](https://twitter.com/kcaylor){: .btn .btn--twitter}'
+  - excerpt: 'Follow our research &nbsp; [<i class="fa fa-twitter"></i> @WAVESatUCSB](https://twitter.com/WAVESatUCSB){: .btn .btn--twitter}'
 ---
 
 {% include feature_row id="intro" type="center" %}
