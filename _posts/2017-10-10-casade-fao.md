@@ -14,7 +14,7 @@ tags:
   - FAO
   - Cascade Tuholske
   - Food Security
-excerpt: "Cascade was named a Borlaug Fellow in Global Food Security to examine urban food security in Accra, Ghana and Lusaka, Zambia."
+excerpt: "Cascade Tuholske contributed to urbanization and urban food security sections in FAO's 2017 State of Food and Agriculture Report."
 ---
 
 ![Fullbright Badge]({{ "/assets/images/FAO_HQ_Rome.png" | absolute_url }}){: .align-center}
