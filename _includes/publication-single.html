@@ -6,9 +6,22 @@
 
 {% assign title = publication.title %}
 
+{% capture publication_tags %}{% for tag in publication.portfolio-item-tag %}{{ tag | downcase }}#{{ tag }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+{% assign tag_hashes = (publication_tags | split: ',' | sort:0) %}
+
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-  {% if teaser %}
+    <h3 class="archive__item-title" itemprop="headline">
+      {% if publication.link %}
+        <a href="{{ publication.link }}">{{ title }}</a> <a href="{{ publication.url | absolute_url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {% else %}
+        <a href="{{ publication.url | absolute_url }}" rel="permalink">{{ title }}</a>
+      {% endif %}
+    </h3>
+    {% if publication.doi %}
+        {% altmetric publication.doi %}
+    {% endif %}
+    {% if teaser %}
       <div class="publication__item-teaser">
         <a href="{{ publication.url | absolute_url }}" rel="permalink">
           <img src=
@@ -21,17 +34,21 @@
         </a>
       </div>
     {% endif %}
-    <h3 class="archive__item-title" itemprop="headline">
-      {% if publication.link %}
-        <a href="{{ publication.link }}">{{ title }}</a> <a href="{{ publication.url | absolute_url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
-        <a href="{{ publication.url | absolute_url }}" rel="permalink">{{ title }}</a>
-      {% endif %}
-    </h3>
-    {% if publication.doi %}
-        {% altmetric publication.doi %}
+    {% if publication.excerpt %}
+      <p class="archive__item-excerpt" itemprop="description">{{ publication.excerpt | markdownify | strip_html }}</p>
     {% endif %}
-    {% if publication.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ publication.excerpt | markdownify | strip_html }}</p>{% endif %}
-    
+    <span itemprop="keywords">
+   <!--  {% for hash in tag_hashes %}
+      {% assign keyValue = hash | split: '#' %}
+      {% capture tag_word %}{{ keyValue[1] | strip_newlines }}{% endcapture %}
+      {% if tag_word != "current member" and tag_word != "former member" %}
+        {% if tag_word == "UCSB" or tag_word == "PhD graduate" %}
+          <span class="page__taxonomy-item" rel="tag">{{ tag_word }}</span>{% unless forloop.last %}<span class="sep"></span>{% endunless %}
+        {% else %}
+          <span class="page__taxonomy-item" rel="tag">{{ tag_word | capitalize }}</span>{% unless forloop.last %}<span class="sep"></span>{% endunless %}
+        {% endif %}
+      {% endif %}
+    {% endfor %} -->
+    </span>
   </article>
 </div>
