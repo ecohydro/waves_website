@@ -15,9 +15,9 @@ header:
    caption: "BS, Environmental Sciences, UC Berkeley"
 ---
 
-Ryan joined the WAVES Lab in Fall 2017. Prior to his graduate studies, Ryan graduated from UC Berkeley in 2016 and then served as a Geoinformatics Fellow with the NASA DEVELOP program. He advised multiple applied remote sensing projects and helped develop a time series of [forest disturbance maps](https://develop.larc.nasa.gov/2017/spring/GlacierNationalParkClimateII.html) for Glacier National Park and a [python program](https://develop.larc.nasa.gov/2017/summer/WyomingCrossII.html) to compute landscape-level light pollution for the Natural Sounds and Night Skies division of the National Park Service. 
+Ryan joined the WAVES Lab in Fall 2017. Prior to UCSB, Ryan graduated from UC Berkeley in 2016 and then served as a Geoinformatics Fellow with the NASA DEVELOP program. He advised applied remote sensing projects and helped develop a time series of [forest disturbance maps](https://develop.larc.nasa.gov/2017/spring/GlacierNationalParkClimateII.html) for Glacier National Park and a [python program](https://develop.larc.nasa.gov/2017/summer/WyomingCrossII.html) to model regional light pollution for the Natural Sounds and Night Skies division of the National Park Service. 
 
-He is currently pursuing a PhD in Geography at U.C. Santa Barbara and is working on improving and validating inputs to SEIR models of Dengue fever in Puerto Rico with high resolution maps of surface water. Ryan is interested in mitigating the risks posed by climate variability as well as evaluating and improving products derived from remotely sensed data.
+His research interests include modeling of hydrologic processes, remote sensing of land cover/land use change, and the applications of machine learning in the geographic sciences. Ryan is currently applying these methodologies to model plant water-use using stable isotopes and micromet data, and to detect and classify smallholder agriculture in Ghana. When not researching, you can find him rock climbing, biking, trail running, or getting a sunburn.
 
-Among his other interests, he also serves as an instructor for the [Software Carpentry organization](https://software-carpentry.org/) and enjoys teaching others how coding can impove their research efficiency.
+He also serves as an instructor for [Software Carpentry](https://software-carpentry.org/).
 
