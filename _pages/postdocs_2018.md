@@ -1,0 +1,39 @@
+---
+layout: splash
+title: "WAVES Lab Postdoctoral Positions Available"
+author: Kelly Caylor 
+permalink: /postdocs_2018/
+author_profile: false
+header:
+  overlay_color: "#5e616c"
+  overlay_image: /assets/images/UCSB_panorama.jpg
+categories:
+  - News
+  - Research
+tags:
+  - "2018"
+  - Postdoctoral Researchers
+  - Water Sustainability and Climate
+  - NSF
+  - Riparian Ecohydorology
+  - SERDP
+excerpt: "The WAVES Lab has two postdoctoral research associate positions available starting in the fall of 2018."
+---
+
+Two research (Associate Specialist) positions are available within the Water, Vegetation, and Society Lab (WAVES) at the Earth Research Institute at the University of California, Santa Barbara.
+
+## Riparian Ecohydrological Dynamics
+
+The first position is in the area of riparian ecohydrological dynamics. The WAVES lab ([caylor.eri.ucsb.edu](http://caylor.eri.ucsb.edu)) is participating in two multi-institutional projects that seek to develop novel insight into the the sustainability and resilience of riparian forest ecosystems and tools for quantitative support of land/water conservation management plans in arid and semi-arid landscapes across the southwestern US and southern France. Our project goals are to detect and assess the responses of sensitive riparian forests to drought stress over recent decades, and to generalize these responses through modeling of a warming/drying climate punctuated by variable rainfall. 
+
+A successful candidate's duties would include, under supervision and within a multi-institution team environment: (1) developing and implementing landscape-scale models of riparian ecohydrology that incorporate stochastic dynamics of rainfall, surface/subsurface dynamics, plant water use and vegetation stress; (2) integrating and verifying model dynamics against multi-year meteorological data and isotopic records of riparian vegetation water sources; (3) leveraging high-resolution imagery of vegetation function and structure derived from unmanned autonomous vehicles for improved characterization of riparian ecohydrological dynamics.
+
+Additional detail regarding this research effort can be found [here](http://caylor.eri.ucsb.edu/2018/01/28/riparian-ecohydrology-awards/). Interested individuals can appy [here](https://recruit.ap.ucsb.edu/apply/JPF01253).
+
+## Coupled Natural-Human System Modeling
+
+The second position is in the area of coupled natural-human system modeling. The WAVES lab (caylor.eri.ucsb.edu) is conducting research that seeks to reveal the dynamics of production and consumption of food, energy, and water resources in sub-Saharan Africa, and use these revelations to develop solutions that can better sustain coupled food, energy, and water systems through improved multi-scale, multi-resource governance. 
+
+A successful candidate's duties would include, under supervision and within a multi-institution team environment: (1) developing and implementing models of coupled natural-human systems within smallholder agricultural settings; (2) integrating and verifying model dynamics against novel data sets of high-frequency, co-located in-situ observations of agricultural decision making and crop/climate dynamics; (3) leading the authorship of research manuscripts for publication based on model development and applications.
+
+Additional detail regarding this research effort can be found at [www.smallholder.ag](http://www.smallholder.ag). Interested individuals can apply [here](https://recruit.ap.ucsb.edu/apply/JPF01252).

@@ -8,6 +8,16 @@ header:
   cta_url: "/recent/"
   caption:
 excerpt: '<br /><br /> Understanding the couplings between surface hydrology, vegetation dynamics, and ecosystem services in drylands.<br /> <small><a href="http://bren.ucsb.edu/">Bren School</a> | <a href="http://geog.ucsb.edu">Dept. of Geography</a> | <a href="http://eri.ucsb.edu">Earth Research Institute</a> | <a href="http://www.ucsb.edu">UCSB</a></small><br /><br />'
+
+hiring_now:
+  - image_path: /assets/images/waves_logo_high_res.png
+    alt: "positions available"
+    title: "Join the WAVES Lab!"
+    url: "/postdocs_2018/"
+    excerpt: "We've looking for multiple postdocs to start working with us in the fall of 2018."
+    btn_color: "#00cc00"
+    btn_label: "Apply Now"
+
 feature_row:
   - image_path: /assets/images/ecohydrology-home.png
     alt: "science"
@@ -32,6 +42,8 @@ github:
 intro:
   - excerpt: 'Follow our research &nbsp; [<i class="fa fa-twitter"></i> @WAVESatUCSB](https://twitter.com/WAVESatUCSB){: .btn .btn--twitter}'
 ---
+
+{% include feature_row id="hiring_now" type="center" %}
 
 {% include feature_row id="intro" type="center" %}
 
