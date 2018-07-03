@@ -4,6 +4,8 @@ main:
     url: /recent/
   - title: "Our Team"
     url: /people/
+  - title: "Opportunities"
+    url: /opportunities/
   - title: "Publications"
     url: /publications/
   - title: "CV <i class='fa fa-external-link' aria-hidden='true'></i>"
