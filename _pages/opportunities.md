@@ -31,9 +31,7 @@ Prospective and current students are strongly encouraged to apply for national f
 
 ## Postdoctoral Researchers
 
-We currently have [two open searches]({{ "/postdocs_2018/" | absolute_url }}) for postdoctoral researchers in our lab. 
-
-In addition, we are always happy to help you apply for competitive national felllowships, including but not limited to:
+While there are no funded postdoctoral opportunties in the lab right now, if you are interested in joining our group, please reach out.  We are always happy to help you apply for competitive national felllowships, including but not limited to:
 
 - [NSF Earth Science Postdoctoral Fellowships](https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503144), due annually in October.
 - [NOAA Climate and Global Change Fellowships](https://cpaess.ucar.edu/cgc/how-postdoctorates-apply), due annually in April.
@@ -45,7 +43,11 @@ If you think our group and your background would be a good fit, please email a C
 
 ## Visitors
 
-While we generally don't have funding for visitors. However, if you are a self-funded graduate student, or researcher interested in visiting our group, send me an [e-mail](mailto:caylor@ucsb.edu) and include a statement of research. In addition, if you are a high school student or undergraduate student at another University interested in summer research opportunities in our lab, please [e-mail](mailto:caylor@ucsb.edu).
+We generally don't have funding for visitors. However, if you are a self-funded graduate student, or funded researcher interested in visiting our group for a short (or long!) stay, send me an [e-mail](mailto:caylor@ucsb.edu). Please include a statement of research and information about your visit's objectives and potential/confirmed means of support during your stay. 
+
+Finally, if you are a high school student, a K-12 educator, or an undergraduate student at another University interested in summer research opportunities in our lab, please [e-mail](mailto:caylor@ucsb.edu). With sufficient lead time, we may be able to secure funding to allow you to get involved in our research.
+
+
 
 
 
