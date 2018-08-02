@@ -19,7 +19,7 @@ author-tags:
 
 ---
 
-![first page]( {{"assets/images/publications/Gerlein-Safdi2018_2412.png" | absolute_url}} ){:class="img-responsive" width="50%" .align-right}
+![first page]( {{"assets/images/publications/Gerlein-Safdi2018_2412_figure.png" | absolute_url}} ){:class="img-responsive" width="50%" .align-right}
 
 
 > Gerlein-Safdi, R., et al. (2018) “Dew deposition suppresses transpiration and carbon uptake in leaves”, Agricultural and Forest Meteorology, doi:10.1016/j.agrformet.2018.05.015.
