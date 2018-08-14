@@ -78,7 +78,7 @@ The purpose of this snippet is to list all the publications by year.
 {% endcomment %}
 
 
-{% assign sorted_years = (publication_years | sort | reverse) %}
+{% assign sorted_years = publication_years | sort | reverse %}
 
 <div class="grid__wrapper">
 {% for year in sorted_years %}
