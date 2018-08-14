@@ -18,16 +18,16 @@
     <div class="person__image">
     <!-- <div class="archive__item-teaser"> -->
       {% if person.avatar contains "://" %}
-        <img src="{{ person.avatar }}" alt="{{ person.name }}" itemprop="image" class="fa">
+        <img src="{{ person.avatar }}" alt="{{ person.name }}" itemprop="image">
       {% else %}
-        <img src="{{ person.avatar | absolute_url }}" class="fa" alt="{{ person.name }}" itemprop="image">
+        <img src="{{ person.avatar | absolute_url }}" alt="{{ person.name }}" itemprop="image">
       {% endif %}
     </div>
   {% endif %}
     <h2 class="archive__item-title" itemprop="headline">
       {% if site.data.authors[person.author] or site.author.name == person.author %}
         {% if person.link %} 
-          <a href="{{ person.link }}">{{ person.title }}</a> <a href="{{ person.url | absolute_url }}" rel="permalink"><i class="fa" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+          <a href="{{ person.link }}">{{ person.title }}</a> <a href="{{ person.url | absolute_url }}" rel="permalink"><i class="fas" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
         {% else %}
           <!-- {{ person.author }} is not {{ site.author }} -->
           <a href="{{ person.url | absolute_url }}" rel="permalink">{{ person.title }}</a>

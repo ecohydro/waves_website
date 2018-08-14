@@ -12,7 +12,6 @@ excerpt: Kelly is a co-convenor for two sessions at the 2005 Annual Meeting of t
 
 ---
 
-![AGU logo]e_1-132.png" | absolute_url }})({{ "/assets/uploads/2013/04/shapeimag{: .align-left}
 
 Kelly is a co-convenor for two sessions at the 2005 Annual Meeting of the American Geophysical Union in San Francisco, CA.
 

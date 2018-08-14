@@ -39,7 +39,7 @@ The following part removes dulpicated years and invalid years like blank year.
         {% endunless %}
     {% endif %}
 {% endfor %}
-{% assign sorted_years = (publication_years | sort | reverse) %}
+{% assign sorted_years = publication_years | sort | reverse %}
 
 <div id="main" role="main">
   {% include sidebar.html %}
