@@ -38,7 +38,7 @@
     <ul class="author__urls social-icons">
       {% if author.location %}
         <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
-          <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> 
+          <i class="fas fa-fw fa-map-marker" aria-hidden="true"></i> 
           <span itemprop="name"> {{ author.location }} </span>
         </li>
       {% endif %}
@@ -46,7 +46,7 @@
       {% if author.uri %}
         <li>
           <a href="{{ author.uri }}" itemprop="url">
-            <i class="fa fa-fw fa-chain" aria-hidden="true"></i> 
+            <i class="fas fa-fw fa-chain" aria-hidden="true"></i> 
               {{ site.data.ui-text[site.locale].website_label | default: "Website" }}
           </a>
         </li>
@@ -55,7 +55,7 @@
       {% if author.cv %}
         <li>
           <a href="{{ author.cv }}">
-            <i class="fa fa-fw fa-file" aria-hidden="true"></i>
+            <i class="fas fa-fw fa-file" aria-hidden="true"></i>
             <meta itemprop="cv" content="{{ author.cv }}" />
             {{ site.data.ui-text[site.locale].cv_label | default: "CV" }}
           </a>
@@ -66,7 +66,7 @@
       {% if author.email %}
         <li>
           <a href="mailto:{{ author.email }}">
-            <i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i>
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i>
             <meta itemprop="email" content="{{ author.email }}" />
             {{ site.data.ui-text[site.locale].email_label | default: "Email" }}
           </a>
