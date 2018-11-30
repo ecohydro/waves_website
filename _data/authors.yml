@@ -223,3 +223,13 @@ Ryan Avery:
     avatar      : "assets/images/people/Avery.jpg"
     linkedin    : "ryan-avery-75b165a8"
     cv          : "/assets/files/AveryCV052018.pdf"
+
+Rachel Green:
+    name        : "Rachel Green"
+    bio         : "PhD Student"
+    email       : "rgreen@ucsb.edu"
+    github      : "4rachelgreen"
+    location    : "Santa Barbara, CA"
+    avatar      : "assets/images/people/Green.jpg"
+    linkedin    : "rachel-green-b79412129/"
+
