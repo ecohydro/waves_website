@@ -1,5 +1,5 @@
 ---
-author: Noah SPahn
+author: Noah Spahn
 avatar: assets/images/people/Spahn.jpg
 date: 2019-02-06 15:09:07
 excerpt: Noah develops coupled social-physical models of farmer decision making and crop growth
