@@ -1,11 +1,11 @@
 ---
 author: Noah Spahn
-avatar: assets/images/people/Spahn.jpg
+avatar: assets/images/people/spahn.jpg
 date: 2019-02-06 15:09:07
 excerpt: Noah develops coupled social-physical models of farmer decision making and crop growth
 header:
   caption: MSE, California State University Fullerton [Software Engineering], 2016
-  image: assets/images/people/Gitonga_header.jpg
+  image: assets/images/people/spahn_header.jpg
 portfolio-item-category:
 - people
 portfolio-item-tag:
