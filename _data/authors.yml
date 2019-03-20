@@ -233,3 +233,7 @@ Rachel Green:
     avatar      : "assets/images/people/Green.jpg"
     linkedin    : "rachel-green-b79412129/"
 
+Noah Spahn:
+    name        : "Noah Spahn"
+    location    : "Santa Barbara, CA"
+    avatar      : "assets/images/people/spahn.png"
