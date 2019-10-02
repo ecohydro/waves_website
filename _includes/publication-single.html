@@ -18,9 +18,6 @@
         <a href="{{ publication.url | absolute_url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h3>
-    {% if publication.doi %}
-        {% altmetric publication.doi %}
-    {% endif %}
     {% if teaser %}
       <div class="publication__item-teaser">
         <a href="{{ publication.url | absolute_url }}" rel="permalink">
@@ -33,6 +30,16 @@
             alt="">
         </a>
       </div>
+    {% endif %}
+    {% if publication.doi %}
+    <div itemprop="badges">
+      <div style="display: inline-block;">
+        {% altmetric publication.doi %}
+      </div>
+      <div style="display: inline-block;">
+        {% dimensions publication.doi %}
+      </div>
+    </div>
     {% endif %}
     {% if publication.excerpt %}
       <p class="archive__item-excerpt" itemprop="description">{{ publication.excerpt | markdownify | strip_html }}</p>
