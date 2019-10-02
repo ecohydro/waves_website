@@ -7,7 +7,7 @@ module Jekyll
     end
 
     def render(context)
-      "<span class='altmetric-embed' data-badge-type='donut' data-doi='#{context[@doi.strip]}' data-hide-less-than='5' data-badge-popover='right'></span>"
+      "<span class='altmetric-embed' data-badge-type='donut' data-doi='#{context[@doi.strip]}' data-hide-less-than='5' data-badge-popover='left'></span>"
     end
   end
 end
