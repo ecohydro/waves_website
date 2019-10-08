@@ -237,3 +237,11 @@ Noah Spahn:
     name        : "Noah Spahn"
     location    : "Santa Barbara, CA"
     avatar      : "assets/images/people/spahn.png"
+
+Bryn Morgan:
+    name        : "Bryn Morgan"
+    bio         : "PhD Student"
+    email       : "brynmorgan@ucsb.edu"
+    github      : "brynemorgan"
+    location    : "Santa Barbara, CA"
+    avatar      : "assets/images/people/BMorgan.jpg"
