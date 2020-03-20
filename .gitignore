@@ -5,4 +5,5 @@ _site/
 *.icloud
 __pycache__/*
 .*.icloud
-
+.old.Gemfile.lock
+.jekyll-cache
