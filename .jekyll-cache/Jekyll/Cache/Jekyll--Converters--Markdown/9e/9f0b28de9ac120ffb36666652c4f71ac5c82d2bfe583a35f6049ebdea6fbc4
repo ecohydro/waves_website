@@ -1,8 +1,0 @@
-I"�<p>A chapter of <a href="/people/good/">Stephen Good</a>‘s dissertation – Analytical expressions of variability in ecosystem structure and function obtained from three-dimensional stochastic vegetation modelling – has just been published in the Proceedings of the Royal Society, Series A. We’re really excited about this work, as it focuses on deriving analytical expressions of the distribution of LAI within vegetation communities that vary in both density and spatial aggregation. <!--more--></p>
-
-<p><img src="http://localhost:4000/assets/images/Screenshot_5_8_13_11_37_AM.png" alt="Figure" class="align-left" /></p>
-
-<p>The derivation allows for direct estimation of how the spatial aggregation of vegetation alters landscape-scale fluxes such as evapotranspiration. This is a particularly detailed investigation of the Jensen inequality, which simply states that the average of a function is not equal to the function of the average when the function is non-linear. When applied to vegetation patterns, the Jensen inequality implies that models which use a single estimate of vegetation structure (i.e. “big leaf” or “green slime” models) will generate inaccurate fluxes if they are averaging over underlying structural heterogeneity. While that general finding has been well-documented across many ecosystems, Steve’s work is the first to analytically assess how the clumping of vegetation impacts the magnitude of inaccuracies due to spatial averaging. It’s really cool work, and the model provides a framework into a wide range of new problems related to spatial organization of vegetation and ecological/hydrological processes.</p>
-
-<p><a href="/publications/Good2013_3046/" class="btn btn--success">Go to Article</a></p>
-:ET
