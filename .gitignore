@@ -2,3 +2,7 @@
 _site/
 .sass-cache
 .jekyll-metadata
+*.icloud
+__pycache__/*
+.*.icloud
+
