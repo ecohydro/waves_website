@@ -4,6 +4,8 @@ main:
     url: /recent/
   - title: "Our Team"
     url: /people/
+  - title: "Teaching"
+    url: /teaching/g136-spring-2020/
   - title: "Opportunities"
     url: /opportunities/
   - title: "Publications"

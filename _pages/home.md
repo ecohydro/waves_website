@@ -15,7 +15,7 @@ feature_row:
     title: "Dryland Ecohydrology"
     excerpt: "Understanding patterns and process in dryland landscapes."
     url: "/dryland_ecohydrology/"
-    btn_label: "Learn More"
+    btn_label: "Dryland Ecohydrology"
   - image_path: /assets/images/sensing-home.png
     alt: "sensors"
     title: "Environmental Sensing"
