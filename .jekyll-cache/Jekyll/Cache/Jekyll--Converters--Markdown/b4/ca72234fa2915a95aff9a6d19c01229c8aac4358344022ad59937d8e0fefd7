@@ -1,0 +1,10 @@
+I" <p><img class="alignleft" alt="" src="http://www.vision.caltech.edu/fuchs/images/tom/ThomasFuchs.png" width="400" height="184" /></p>
+
+<p>We had the pleasure of hosting <a href="http://www.vision.caltech.edu/fuchs/" target="_blank">Dr. Thomas Fuchs from the Jet Propulsion Lab</a> on October 2nd and 3rd. <!--more--> Dr. Fuchs is a machine learning expert who develops classification algorithms (using approximate bayesian computation, random forests, and other techniques) that are used to detect cancerous cells, to classify astronomical features, and to help guide JPL’s Mars Rovers (among other applications).</p>
+
+<!--more-->
+
+<p><a href="http://www.princeton.edu/cee/events/viewevent/?id=471" target="_blank">His talk</a> was well attended and drew an audience from CEE, the Department of Computer Science, Ecology and Evolutionary Biology, and elsewhere.</p>
+
+<p><a href="/people/debats/">Stephanie</a> has been working with Dr. Fuchs since last summer, when she undertook a JPL summer internship with him to develop methods for improving crop field maps. The purpose of Dr. Fuchs’ visit was to explore how he and Stephanie’s project can be further developed by incorporating additional remote sensing data, leveraging Princeton’s high performance computing resources, and by ultimately integrating these classification techniques with the human pattern recognition capabilities provided by the <a href="http://mappingafrica.princeton.edu" target="_blank">Mapping Africa</a> project, thereby creating a framework for <a href="http://en.wikipedia.org/wiki/Active_learning_%28machine_learning%29" target="_blank">active learning</a>.  We are enthusiastic about pursuing this project with Dr. Fuchs, which is one of three exciting opportunities (see <a href="/collaboration/funding/news/research/two-jpl-surp-grants-received/">this announcement</a> for the others) that have arisen out of our collaboration with JPL this past year, thanks to the support and facilitation of Dr. Neil Murphy, the <a href="http://surp.jpl.nasa.gov/">JPL SURP</a> program manager.</p>
+:ET

@@ -1,0 +1,10 @@
+I"N<p><img src="http://localhost:4000/assets/images/publications/Franz2012_1681.png" alt="first page" class="img-responsive align-right" width="50%" /></p>
+
+<blockquote>
+  <p>*Franz, T.E., <strong>Caylor, K.K.</strong>, *King, E.G., Nordbotten, J., Celia, M.A., Rodriguez-Iturbe, I, (2012) “An ecohydrological approach to predicting hillslope-scale vegetation patterns in dryland ecosystems”, Water Resources Research, doi:10.1029/2011WR010524.</p>
+</blockquote>
+
+<p>Drylands are an important ecosystem, as they cover over 40% of the Earth’s land surface and are believed to be sensitive to climate change. Where dryland vegetation supports pastoralist livestock production, catastrophic ecological shifts present a grave concern because of the direct coupling between the quality of available forage and human livelihoods. In this research we investigate the organization of vegetation on hillslopes by developing a relatively simple spatially explicit daily stochastic ecohydrological model. Using a 2 year observational study in central Kenya, we present an empirical patch water balance of three representative patch types, bare soil, grass, and tree. Given the recent expansion of bare areas, the system is dominated by Hortonian runoff and overland flow. By incorporating concepts of simple local interactions from complex systems we are able to simulate a range of surface flowpath convergence states across the hillslope during a rain event. The model also allows the root to canopy radius of the tree patches to vary affecting the length scale of water competition. By changing the length scales of facilitation and competition, the model demonstrates a range of most efficient hillslope water-use patterns from random to highly organized static vegetation patterns. The findings of this work support the mechanism of symmetry-breaking instabilities for pattern formation in drylands.</p>
+
+<p><a href="http://dx.doi.org/10.1029/2011WR010524" class="btn btn--success">Go to the Article</a> <a href="http://localhost:4000/assets/pdfs/publications/franz2012-WRR.pdf" class="btn btn--success">Read the Article</a></p>
+:ET

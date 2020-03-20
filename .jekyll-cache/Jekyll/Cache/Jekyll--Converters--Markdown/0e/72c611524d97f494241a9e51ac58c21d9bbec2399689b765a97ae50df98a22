@@ -1,0 +1,99 @@
+I"�'<p><a href="/people/caylor/">Kelly Caylor</a> recently got interviewed by <a href="http://www.kerryklein.com/" target="_blank">Kerry Klein</a> for Scientific American.<!--more--> The complete conversion can be found on the <a href="http://scicom.ucsc.edu/publications/QandA/2015/caylor.html" target="_blank">USCS Science Communication Program’s website</a>. An abbreviated version of this conversation <a href="http://blogs.scientificamerican.com/guest-blog/2015/04/10/cell-phones-monitor-water-soil-on-african-farms-qa/" target="_blank">appeared online at Scientific American</a>.</p>
+
+<p>Together, Kelly and Kerry discussed ecohydrology, farmers in sub-saharian Africa and the role of PulsePod in all that. Click below to see the interview!</p>
+
+<hr />
+
+<p>When he was in middle school in Tallahassee, Florida, <a href="/people/caylor/">Kelly Caylor</a> built a weather balloon for the science fair. Decades later, he’s distributing high-tech environmental sensors, or “pods,” throughout sub-Saharan Africa. Unlike the tabletop contraption he built as a student, these pods are smart, customizable, and sturdy enough to survive run-ins with tractors.</p>
+
+<p>As an ecohydrologist at Princeton University, Caylor wants to understand how climate affects the ways farmers use their land, particularly in arid regions vulnerable to water shortages. His fieldwork involves communities in Kenya and Zambia that rely on subsistence farming for food and sustenance—and where environmental and weather data are in short supply.</p>
+
+<p>In 2014, Caylor and his colleagues designed <a href="http://www.pulsepod.io/" target="_blank">Pulsepod</a>, a network of pods with mix-and-match environmental sensors that transmit data back to Princeton by cell phone. Once the team finishes its pilot testing, Caylor hopes Pulsepod will give researchers a better grasp of the complex relationships among water, soil, and plants in dryland ecosystems. Ultimately, the system should help growers better plan and manage their fields.</p>
+
+<p>Caylor discussed this <a href="https://aaas.confex.com/aaas/2015/webprogram/Paper14694.html" target="_blank">environmental monitoring system</a> at the <a href="http://caylor.eri.ucsb.edu/2015/02/aaas-session-on-new-earth-observing-methods/" target="_blank">February 2015 meeting of the American Association for the Advancement of Science in San Jose</a>. Afterward, SciCom’s <a href="http://kerryklein.com/" target="_blank">Kerry Klein</a> caught up with him to talk about pods, text messaging and digging up trees in Africa.</p>
+
+<p><strong>You are an ecohydrologist. What does that mean?</strong></p>
+
+<p>I’m interested in how water moves around landscapes and how it interacts with vegetation. That’s borne out of my long-term interest in drylands, which are heavily influenced by the variability in water: how much it rains, how much water gets in the soil, and how much of that water plants can use to grow.</p>
+
+<figure class="">
+  <img src="http://localhost:4000/assets/images/Pulsepod.png" alt="alt text" />
+  
+    <figcaption>PulsePod, a cellular-enabled system for low-cost environmental sensing. (Photo: Adam Wolf)
+</figcaption>
+  
+</figure>
+
+<p><strong>You first traveled to Africa during your Ph.D. What’s an early experience that left an impression?</strong></p>
+
+<p>I spent a lot of time in Botswana. We had a project trying to map the root systems of trees. You have to go up to a community and say, “Hey, we’re going to spend the next three months digging up trees, are any of you guys interested in that?” To actually have people who wanted to get involved was pretty remarkable. When I think about trying to convince my fellow Princeton residents to dig up some trees with me, it’s a very hard sell.</p>
+
+<p><strong>What is Pulsepod?</strong></p>
+
+<p>Pulsepod is a low-cost system for taking environmental observations and communicating them over a cell phone system. You can monitor the environment and make decisions based on the data it collects.</p>
+
+<p><strong>What kinds of data do the pods collect?</strong></p>
+
+<p>Mostly information about weather and plants and soil. We’re looking at understanding rainfall, which varies a lot spatially. We’re looking at soil moisture, estimating how much water plants are using. And then for the crops themselves, we’re measuring aspects of their growth: How much light are the plants absorbing? How warm are their leaves? Do they have sufficient nutrients? Almost all of those come from measuring the light that’s coming from the canopy.</p>
+
+<p><strong>What does an individual pod look like?</strong></p>
+
+<p>It’s about the size of a smoke alarm. It can hold seven or eight different types of sensors. It’s sitting above the canopy on a pole, and it’s looking down at the canopy and [measuring] how it’s changing through time.</p>
+
+<p><strong>Where does the data go?</strong></p>
+
+<p>Right now the system is sending the data via SMS [Short Message Service, or text message]. Then we take that message and post it into our database.</p>
+
+<figure class="">
+  <img src="http://localhost:4000/assets/images/Pulsepod-installation.png" alt="alt text" />
+  
+    <figcaption>A Pulsepod installation at the top of the Princeton Ecohydrological Observatory within the Mpala Research Centre in Laikipia, Kenya. (Photo: Adam Wolf)
+</figcaption>
+  
+</figure>
+
+<p><strong>How many people in the communities you study tend to have cell phones?</strong></p>
+
+<p>In Kenya, something like 80 percent of all households. Most of those are not smartphones—maybe a flip phone, an old Motorola or something—but they can all receive texts. In fact, most of the Kenyans in the areas where I work do their banking on their cell phones. When I’m buying something with my credit card, I’m the guy holding up the line.</p>
+
+<p><strong>How often do pods send text messages?</strong></p>
+
+<p>They’re pretty chatty. When we’re testing them, we put them in a thing we call “teenager mode” where they send a text message like every minute. But in reality they text more at the rate of a faculty member, maybe just a few times per day.</p>
+
+<p><strong>So this data is going to you. Is it also going to the farmers?</strong></p>
+
+<p>We would like it to, eventually. But it’s especially important, when we talk about Kenya and Zambia, that the information the farmers are receiving comes from the sources they already trust and work with. That tends to be the government. So we’re working with government organizations to figure out the ways of getting the data to the farmers so it’ll be more relevant to their needs.</p>
+
+<p><strong>You’re saying the raw stream of data is not useful to farmers?</strong></p>
+
+<p>Raw data is barely useful for researchers. You almost always have to do something with the data to figure out what it means. There’s some data that the farmer may want right away; rainfall may not need much interpretation. But other things are more subtle. Think about a parent who has a sick child. You know your kid’s sick because she’s lethargic, she’s acting cranky. You take her temperature, but the temperature itself doesn’t tell you anything unless you have guidelines. If the temperature is 103 degrees, maybe we should go to the hospital. If it’s 100 degrees, let’s take some Tylenol.</p>
+
+<p><strong>In your talk, you emphasized that the environment is only one focal point of your research; the other is decision-making by farmers. What kinds of decisions do you monitor?</strong></p>
+
+<p>A lot of the emphasis has been on where farmers plant, when they plant and what they plant. Those are decisions farmers make at the beginning of a season. We don’t really think much about what happens after that; the climate does its thing and at the end we get some crops, right? In reality, the farmer is making a lot of decisions about whether or not to weed, how to allocate labor across multiple fields, when to harvest, and all those intra-seasonal decisions. And so, if you’re monitoring the environment through that season, you also need to monitor the decision-making that’s happening through that season.</p>
+
+<figure class="">
+  <img src="http://localhost:4000/assets/images/Pulsepod-Kenya.png" alt="alt text" />
+  
+    <figcaption>A pod sits above a wired meteorological system at the Mpala Research Centre Headquarters in Laikipia, Kenya. On the ground: Boniface Mukoma, Princeton Ecohydrology Lab Research Technician (left), and Kelly Caylor (right). (Photo: Adam Wolf)
+</figcaption>
+  
+</figure>
+<p>”</p>
+
+<p><strong>How do you do that?</strong></p>
+
+<p>When we put a pod in a field, we also enroll a farmer in a program where the farmer answers a weekly survey through SMS.</p>
+
+<p><strong>You’ve said that as climate changes, rainfall will become more variable in the dryland regions you study. What’s your dream for how Pulsepod will help these agricultural regions keep up?</strong></p>
+
+<p>The phrase that’s used a lot is “<a href="http://www.fao.org/climate-smart-agriculture/en/">climate-smart agriculture</a>.” It’s agriculture that’s taking into account and embracing that variability so we can mitigate the impacts. There’ll have to be lots and lots of work, but certainly one of the most important things you need is data. And Pulsepod can provide data. It’s not going to necessarily give you all the answers, and no data ever does, but it might help you understand what works, what doesn’t work and how you can improve.</p>
+
+<p><strong>So you’re optimistic.</strong></p>
+
+<p>You have to be optimistic, right? These problems are hard. They’re almost impossible to solve as an individual, but they certainly can’t be solved if you’re not optimistic.</p>
+
+<p> </p>
+
+<p><em><strong>About the Author:</strong> Kerry Klein is a graduate student in the <a href="http://scicom.ucsc.edu/" target="_blank">science communication program</a> at the University of California, Santa Cruz. She’s written for Science, Eos and the San Jose Mercury News. Follow on Twitter <a href="http://twitter.com/einekleinekerry">@einekleinekerry</a>.</em></p>
+:ET

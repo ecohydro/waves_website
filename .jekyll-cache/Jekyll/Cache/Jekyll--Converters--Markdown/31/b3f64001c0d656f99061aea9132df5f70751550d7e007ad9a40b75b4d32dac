@@ -1,0 +1,14 @@
+I"�<p><img src="http://localhost:4000/assets/images/publications/Caylor2007_1517.png" alt="first page" class="img-responsive align-right" width="50%" /></p>
+
+<blockquote>
+  <p>Scanlon, TM, <strong>K.K. Caylor</strong>, I. Rodriguez-Iturbe, S. Levin (2007) “Positive feedbacks promote power-law clustering of Kalahari vegetation,” Nature, 449:209-212, doi:10.1038/nature06060</p>
+</blockquote>
+
+<p>The concept of local-scale interactions driving large-scale pattern formation has been supported by numerical simulations, which have demonstrated that simple rules of interaction are capable of reproducing patterns observed in nature (1,2). These models of self-organization suggest that characteristic patterns should exist across a broad range of environmental conditions provided that local interactions do indeed dominate the development of community structure. Readily available observations that could be used to support these theoretical expectations, however, have lacked sufficient spatial extent or the necessary diversity of environmental conditions to confirm the model predictions.</p>
+
+<p>We use high-resolution satellite imagery to document the prevalence of self-organized vegetation patterns across a regional rainfall gradient in southern Africa, where percent tree cover ranges from 65% to 4%. Through the application of a cellular automata model, we find that the observed power-law distributions of tree canopy cluster sizes can arise from the interacting effects of global-scale resource constraints (that is, water availability) and local-scale facilitation. Positive local feedbacks result in power-law distributions without entailing threshold behaviour commonly associated with criticality.</p>
+
+<p>Our observations provide a framework for integrating a diverse suite of previous studies that have addressed either mean wet season rainfall or landscape-scale soil moisture variability as controls on the structural dynamics of arid and semi-arid ecosystems.</p>
+
+<p><a href="http://dx.doi.org/10.1038/nature06060" class="btn btn--success">Go to the Article</a> <a href="http://localhost:4000/assets/pdfs/publications/Nature-2007-Scanlon-11.pdf" class="btn btn--success">Read the Article</a></p>
+:ET

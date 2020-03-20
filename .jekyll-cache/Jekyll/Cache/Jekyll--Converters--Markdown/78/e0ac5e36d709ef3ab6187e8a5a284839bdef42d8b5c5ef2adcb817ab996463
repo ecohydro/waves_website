@@ -1,0 +1,15 @@
+I"�<p><img src="http://localhost:4000/assets/images/publications/Caylor2002_1378.png" alt="first page" class="img-responsive align-right" width="50%" /></p>
+
+<blockquote>
+  <p>Scanlon, T.M., J.D. Albertson, <strong>K.K. Caylor</strong> and C. Williams (2002). “Determining land surface fractional cover from NDVI and rainfall time series for a savanna ecosystem.” Remote Sensing of Environment, 82(2- 3):376-388.</p>
+</blockquote>
+
+<p>Savanna ecosystems are water limited and responsive to rainfall on short time scales, characteristics that can be exploited to estimate fractional cover of trees, grass, and bare soil over large-scale areas from synthesis of remote sensing and rainfall measurements. A method is presented to estimate fractional cover based upon the differing ways in which grasses and trees respond to rainfall, and implementation of this method is demonstrated along the Kalahari Transect (KT), an aridity gradient in southern Africa. Seasonally averaged normalized difference vegetation index (NDVI) and the sensitivity of the NDVI to interannual variations in wet season rainfall are used as state-space variables in a linear unmixing model. End members for this analysis were determined on the basis of best fit to the observed data.</p>
+
+<p>The realized end members were consistent with the qualitative characteristics of trees (high NDVI, low sensitivity of NDVI to interannual variations in rainfall), bare soil (low NDVI, low sensitivity), and the transient grass/bare soil area (moderate NDVI, high sensitivity). Observed sensitivity of NDVI to rainfall was measured as the relationship between wet season NDVI and normalized rainfall over a 16-year period (1983-1998). The unmixing model yields a north-to-south decrease in tree fractional cover that corresponds to the decrease in mean wet season precipitation from 1600 to 300 mm along the KT (R-2 =. 87). The fractional tree cover results compare favorably with available ground-based observations.</p>
+
+<p>The potential extent of grass cover is limited by the dominance of trees on the northern end of the transect, peaks at the location with approximately 450 mm of mean wet season rainfall, and is limited by rainfall in the and southern portion of the transect. With mean NDVI for grass inferred from the data, yearly estimates of tree, grass, and bare soil fractional cover can be derived. These annual estimates, which are difficult to obtain from traditional unmixing procedures, are important parameters in fuel load and land-atmosphere exchange models. No calibration or training sets were required for this analysis, and this method has the additional capability to predict fractional-cover components for future rainfall scenarios.</p>
+
+<p><a href="http://dx.doi.org/10.1016/S0034-4257(02)00054-8" class="btn btn--success">Go to the Article</a>
+<a href="http://localhost:4000/assets/pdfs/publications/Remote-Sens-Environ-2002-Scanlon1.pdf" class="btn btn--success">Read the Article</a></p>
+:ET

@@ -1,0 +1,10 @@
+I"\<p><img src="http://localhost:4000/assets/images/publications/Caylor2018_4284_figure.png" alt="first page" class="img-responsive align-right" width="50%" /></p>
+
+<blockquote>
+  <p>Researcher, R., et al. (2018) “Comparing empirical and survey-based yield forecasts in a dryland agro-ecosystem”, Agricultural and Forest Meteorology, doi:10.1016/j.agrformet.2018.06.024.</p>
+</blockquote>
+
+<p><strong>Abstract</strong>:Accurate crop yield forecasts before harvest are crucial for providing early warning of agricultural losses, so that policy-makers can take steps to minimize hunger risk. Within-season surveys of farmers’ end-of-season harvest expectations are one important method governments use to develop yield forecasts. Survey-based methods have two potential limitations whose effects are poorly understood. First, survey-based forecasts may be subject to errors and biases in the response data. For example, the weather variables that most impact yields may not be the same as those that farmers consider when shaping their yield expectations, thereby undermining forecast accuracy. Secondly, surveys are typically conducted late in the growing season, giving the government less advance notices of potential crop failures or low yields, and are costly to implement. Here we investigate these limitations within the context of Zambia’s annual Crop Forecast Survey (CFS). Concerning the first limitation, we analyzed the differences between CFS-predicted yields and reported yields collected by Post Harvest Surveys, and found that excess rainfall during the planting stage was more important to the actual yield than to farmers’ yield forecasts. For the second limitation, we evaluated whether a simple empirical yield forecast model could produce earlier and more accurate yield forecasts than the CFS. A random forest model using weather variables, soil texture, and soil pH as predictors were able to produce yield forecasts at the same or higher accuracy since the planting season.</p>
+
+<p><a href="https://www.sciencedirect.com/science/article/pii/S0168192318302156" class="btn btn--success">Go to the Article</a></p>
+:ET
