@@ -1,6 +1,6 @@
 ---
 id: 6001
-title: Finding support in a time of physical distancing
+title: Cascade Tuholske Defends Disseration via Zoom
 date: 2020-05-10T00:00:00+00:00
 author: Natasha Krell
 guid: https://caylor.eri.ucsb.edu/?p=6001
