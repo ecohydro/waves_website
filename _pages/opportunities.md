@@ -26,8 +26,11 @@ Prospective and current students are strongly encouraged to apply for national f
 - [Smithsonian Research Fellowships](https://serc.si.edu/interns-fellows/fellowships), due annually on Dec 1, or Jan 15.
 - [NASA Earth System Science Fellowships](https://science.nasa.gov/learners/learner-opportunities), due annually in February.
 - [Switzer Fellowships](https://www.switzernetwork.org/become-fellow), Annual call released in October. 
-- [Fulbright Fellowships](https://us.fulbrightonline.org/#&panel1-1), due annually in early October
+- [Fulbright Fellowships](https://us.fulbrightonline.org/#&panel1-1), due annually in early October.
 - [NSF Doctoral Dissertation Research Improvement Awards](https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503621), no deadline; applications accepted anytime.
+- [Ford Foundation Fellowship Program](https://sites.nationalacademies.org/PGA/FordFellowships/index.htm), due annually in mid-December. 
+
+A more extensive list of fellowship and scholarship opportunities geared for BIPOC can be found in the crowd-sourced [Resources for POCs in STEAM](https://docs.google.com//d/1V_pvhqWliwqLhAVcXikxAEuJPD4mwwgl9LEgOnzN-zM/edit#gid=1417047090) google sheet.
 
 ## Postdoctoral Researchers
 
@@ -37,7 +40,7 @@ While there are no funded postdoctoral opportunties in the lab right now, if you
 - [NOAA Climate and Global Change Fellowships](https://cpaess.ucar.edu/cgc/how-postdoctorates-apply), due annually in April.
 - [L'Oreal USA for Women in Science Fellowship](https://lorealfwis.aaas.org/login/indexA.cfm), due annually in February.
 - [University of California President's Postdoctoral Fellowship Program](https://ppfp.ucop.edu/info/index.html), due annually on November 1.
-- Coming Soon: UC Santa Barbara Chancellor's Postdoctoral Fellowship Program
+- Coming Soon: UC Santa Barbara Chancellor's Postdoctoral Fellowship Program.
 
 If you think our group and your background would be a good fit, please email a CV and description of your research interests to [caylor@ucsb.edu](mailto:caylor@ucsb.edu). 
 
