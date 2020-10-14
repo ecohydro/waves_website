@@ -2,14 +2,13 @@
 author: Cascade Tuholske
 avatar: assets/images/people/Tuholske.jpg
 date: 2016-11-19 17:23:48
-excerpt: 'Cascade Tuholske graduated with his PhD in 2020 and now is a Postdoctoral Research Scientist at Columbia's Earth Institute.'
+excerpt: "Cascade Tuholske graduated with his PhD in 2020 and now is a Postdoctoral Research Scientist at Columbia's Earth Institute."
 portfolio-item-category:
 - people
 portfolio-item-tag:
 - former member
 - PhD graduate
 - UCSB
-
 title: Cascade Tuholske, PhD (2020) 
 ---
 
