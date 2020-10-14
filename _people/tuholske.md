@@ -7,10 +7,10 @@ portfolio-item-category:
 - people
 portfolio-item-tag:
 - former member
-- graduate student
+- PhD graduate
 - UCSB
 
-title: Cascade Tuholske, PhD  
+title: Cascade Tuholske, PhD (2020) 
 ---
 
 Cascade Tuholske finished his PhD in Geography  from the University of California, Santa Barbara in 2020. He is now a [Earth Institute Postdoctoral Research Scientist at Columbia University](https://www.earth.columbia.edu/articles/view/55). His current research explores the intersection of urban population growth and extrem heat events across the planet. 

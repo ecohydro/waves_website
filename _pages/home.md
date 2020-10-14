@@ -19,7 +19,7 @@ feature_row:
   - image_path: /assets/images/sensing-home.png
     alt: "sensors"
     title: "Environmental Sensing"
-    excerpt: "Developing novel approaches and platforms for envrionmental observations."
+    excerpt: "Developing novel approaches and platforms for environmental observations."
     url: "/environmental_sensing/"
     btn_label: "Learn More"
   - image_path: /assets/images/wsc-home.png
