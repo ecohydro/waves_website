@@ -6,10 +6,10 @@ excerpt: Keita is interested in the influence of soil phenomena on hydrological 
 portfolio-item-category:
 - people
 portfolio-item-tag:
-- current member
-- graduate student
+- former member
+- PhD graduate
 - Princeton
-title: Keita DeCarlo, PhD Student
+title: Keita DeCarlo, PhD (2019)
 header:
    image: "assets/images/people/DeCarlo_header.jpg"
    caption: "Keita creating a physical copy of a fracture network in a dryland soil using liquid resin."
@@ -17,4 +17,4 @@ header:
 
  
 
-Keita joined the Caylor Lab in Fall 2013 after completing his studies at Boston University.  His prior research involved the digital image processing of desiccation crack networks in clay to understand its physicochemical properties.  In his future work at Princeton, he is interested in analyzing soil phenomena and investigating its consequences to larger-scale hydrological processes in dryland environments.
+Keita joined the Caylor Lab in Fall 2013 after completing his studies at Boston University.  His prior research involved the digital image processing of desiccation crack networks in clay to understand its physicochemical properties.  In his  work at Princeton, he  analyzed soil phenomena and investigated their consequences on larger-scale hydrological processes in dryland environments.

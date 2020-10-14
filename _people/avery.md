@@ -6,13 +6,13 @@ excerpt: Ryan studies how vegetation remote sensing, machine learning, and ecohy
 portfolio-item-category:
 - people
 portfolio-item-tag:
-- current member
+- former member
 - graduate student
 - UCSB
-title: Ryan Avery, PhD Student
+title: Ryan Avery, MS (2020), Data Scientist
 header:
    image: "assets/images/people/Avery_header.jpg"
-   caption: "BS, Environmental Sciences, UC Berkeley"
+   caption: "BS, Environmental Sciences, UC Berkeley <br/> MS, Geography, UC Santa Barbara"
 ---
 
 Ryan joined the WAVES Lab in Fall 2017. Prior to UCSB, Ryan graduated from UC Berkeley in 2016 and then served as a Geoinformatics Fellow with the NASA DEVELOP program. He advised applied remote sensing projects and helped develop a time series of [forest disturbance maps](https://develop.larc.nasa.gov/2017/spring/GlacierNationalParkClimateII.html) for Glacier National Park and a [python program](https://develop.larc.nasa.gov/2017/summer/WyomingCrossII.html) to model regional light pollution for the Natural Sounds and Night Skies division of the National Park Service. 

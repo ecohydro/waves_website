@@ -3,7 +3,7 @@ id: 1062
 title: Abinash Bhattachan, MS (2008)
 date: 2008-03-21T13:34:51+00:00
 author: Abinash Bhattachan
-excerpt: Abi received his MS degree from the School of Public and Environmental Affairs at Indiana University, and his PhD from the University of Virginia. He is currently doing a postdoc at NC State University.
+excerpt: Abi received his MS degree from the School of Public and Environmental Affairs at Indiana University, and his PhD from the University of Virginia. He is currently a postdoc at UCLA.
 avatar: "assets/images/people/Bhattachan.jpg"
 role: "MS Graduate"
 portfolio-item-category:
