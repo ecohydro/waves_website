@@ -11,7 +11,7 @@ Paul Gauthier:
 Drew Gower:
   name        : "Drew Gower"
   email       : "gower@princeton.edu"
-  bio         : "PhD Candidate."
+  bio         : "PhD Graduate, Princeton Univeristy"
   avatar      : "/assets/images/people/Gower.png"
   twitter     : "DBGower"
   linkedin    : "drew-gower-5b8237a9"
@@ -87,7 +87,7 @@ Moses Kioko Musyoka:
 
 Trenton Franz:
     name        : "Trenton Franz"
-    bio         : "Assistant Professor"
+    bio         : "Associate Professor"
     avatar      : "assets/images/people/Franz.jpg"
     location    : "Lincoln, Nebraska"
     uri         : "http://tfranz2.wix.com/trenton-franz"
@@ -95,7 +95,7 @@ Trenton Franz:
 Lixin Wang:
     name        : "Lixin Wang"
     location    : "Indianapolis, Indiana"
-    bio         : "Assistant Professor"
+    bio         : "Associate Professor"
     uri         : "http://earthsciences.iupui.edu/~lxwang/Lixin_Wang/Home.html"
     avatar      : "assets/images/people/Wang_L.jpg"
 
@@ -122,7 +122,7 @@ Adam Wolf:
     location    : "Princeton, NJ"
     avatar      : "assets/images/people/Wolf.jpg"
     uri         : "http://www.arable.com/"
-    bio         : "CEO, Arable Labs"
+    bio         : "Chief Scientist, Arable Labs"
     linkedin    : "adamatarable"
 
 Keir Soderberg:
@@ -144,7 +144,7 @@ Stephanie Debats:
     uri         : "http://stephaniedebats.princeton.edu/"
     location    : "San Francisco, CA"
     avatar      : "assets/images/people/Debats.jpg"
-    bio         : "Computer Vision Research Scientist at Descartes Labs"
+    bio         : "Senior Autonomy Engineer, Uber Advanced Technology Group"
 
 Marcus Spiegel:
     name        : "Marcus Spiegel"
@@ -200,23 +200,24 @@ Natasha Krell:
 
 Cascade Tuholske:
     name        : "Cascade Tuholske"
-    bio         : "PhD Student"
+    bio         : "Postdoctoral Scholar"
     email       : "cascade@umail.ucsb.edu"
     twitter     : "tuholske"
     linkedin    : "cascade-tuholske"
     avatar      : "assets/images/people/Tuholske.jpg"
-    location    : "Santa Barbara, CA"
+    location    : "Columbia University"
     cv          : "/assets/files/Tuholske_CV_F17.pdf"
     uri         : "https://www.tuholske.com"
 
 Marc Mayes:
     name        : "Marc Mayes"
+    bio         : "Researcher"
     location    : "Santa Barbara, CA & <br> Princeton, NJ"
     avatar      : "assets/images/people/Mayes.jpg"
 
 Ryan Avery:
     name        : "Ryan Avery"
-    bio         : "PhD Student"
+    bio         : "Data Scientist"
     email       : "ravery@ucsb.edu"
     github      : "rbavery"
     location    : "Santa Barbara, CA"

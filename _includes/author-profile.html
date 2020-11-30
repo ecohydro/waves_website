@@ -55,7 +55,7 @@
       {% if author.cv %}
         <li>
           <a href="{{ author.cv }}">
-            <i class="fas fa-fw fa-file" aria-hidden="true"></i>
+            <i class="ai ai-fw ai-cv" aria-hidden="true"></i>
             <meta itemprop="cv" content="{{ author.cv }}" />
             {{ site.data.ui-text[site.locale].cv_label | default: "CV" }}
           </a>
@@ -72,7 +72,42 @@
           </a>
         </li>
       {% endif %}
-      
+      {% if author.google_scholar %}
+        <li><a href="https://scholar.google.com/citations?user={{ author.google_scholar}}" itemprop="sameAs">
+        <i class="ai ai-fw ai-google-scholar" aria-hidden="true"></i>
+        Google Scholar
+        </a></li>
+      {% endif %}
+      {% if author.researchgate %}
+        <li><a href="https://www.researchgate.net/profile/{{ author.researchgate}}" itemprop="sameAs">
+        <i class="ai ai-fw ai-researchgate" aria-hidden="true"></i>
+        Research Gate
+        </a></li>
+      {% endif %}
+      {% if author.orcid %}
+        <li>
+          <a href="https://orcid.org/{{ author.orcid }}" itemprop="url">
+            <i class="ai ai-fw ai-orcid" aria-hidden="true"></i> 
+              Orcid
+          </a>
+        </li>
+      {% endif %}
+      {% if author.semanticscholar %}
+        <li>
+          <a href="https://www.semanticscholar.org/author/{{ author.semanticscholar }}" itemprop="url">
+            <i class="ai ai-fw ai-semantic-scholar" aria-hidden="true"></i> 
+              Semantic Scholar
+          </a>
+        </li>
+      {% endif %}
+      {% if author.publons %}
+        <li>
+          <a href="https://publons.com/researcher/{{ author.publons }}" itemprop="url">
+            <i class="ai ai-fw ai-publons" aria-hidden="true"></i> 
+              Publons
+          </a>
+        </li>
+      {% endif %}
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }} " itemprop="sameAs">
           <i class="fas fa-fw fa-key" aria-hidden="true"></i> 
@@ -91,18 +126,7 @@
           Facebook
         </a></li>
       {% endif %}
-      {% if author.google_scholar %}
-        <li><a href="https://scholar.google.com/citations?user={{ author.google_scholar}}" itemprop="sameAs">
-        <i class="fas fa-fw fa-book" aria-hidden="true"></i>
-        Google Scholar
-        </a></li>
-      {% endif %}
-      {% if author.researchgate %}
-        <li><a href="https://www.researchgate.net/profile/{{ author.researchgate}}" itemprop="sameAs">
-        <i class="fas fa-fw fa-flask" aria-hidden="true"></i>
-        Research Gate
-        </a></li>
-      {% endif %}
+      
       {% if author.google_plus %}
         <li><a href="https://plus.google.com/+{{ author.google_plus }}" itemprop="sameAs">
           <i class="fab fa-fw fa-google-plus-square" aria-hidden="true"></i> 
