@@ -7,7 +7,7 @@ portfolio-item-category:
 - people
 portfolio-item-tag:
 - former member
-- PhD Graduate
+- PhD graduate
 - UCSB
 title: Natasha Krell, PhD (2021)
 header:
