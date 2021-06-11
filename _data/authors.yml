@@ -246,3 +246,12 @@ Bryn Morgan:
     github      : "brynemorgan"
     location    : "Santa Barbara, CA"
     avatar      : "assets/images/people/BMorgan.jpg"
+
+Anna Boser:
+    name        : "Anna Boser"
+    bio         : "PhD Student"
+    email       : "annaboser@ucsb.edu"
+    github      : "anna-boser"
+    uri         : "https://anna-boser.github.io/#home"
+    location    : "Santa Barbara, CA"
+    avatar      : "assets/images/people/Boser_Anna_PhD.jpg"
