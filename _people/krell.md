@@ -6,17 +6,15 @@ excerpt: Natasha is interested in dryland food security and climate variability 
 portfolio-item-category:
 - people
 portfolio-item-tag:
-- current member
-- graduate student
+- former member
+- PhD Graduate
 - UCSB
-title: Natasha Krell, PhD Student
+title: Natasha Krell, PhD (2021)
 header:
    image: "assets/images/people/Krell_header.jpg"
    caption: "BA, Human Ecology, College of the Atlantic"
 ---
 
-Natasha joined the Caylor Lab in Summer 2015 as an intern at the [Mpala Research Center](http://mpala.org) in Kenya where she studied vegetation pattern and fracture formation in soils.
+Natasha joined the Caylor Lab in Summer 2015 as an intern at the [Mpala Research Center](http://mpala.org) in Kenya where she studied vegetation pattern and fracture formation in soils. Natasha graduated from [College of the Atlantic](http://coa.edu) in 2016. 
 
-She is currently pursuing a PhD in Geography at U.C. Santa Barbara and is working on deploying [environmental sensors](http://www.arable.com) over crop fields in Kenya and Zambia. Natasha is interested in rainfall variability impacts on dryland agriculture, specifically in Sub-Saharan Africa, and is motivated by questions of food security in water-limited environments.
-
-Natasha graduated from [College of the Atlantic](http://coa.edu) in 2016 and was awarded a Fulbright Research Fellowship to Kenya in 2018. 
+Natasha's research explored the intersection between information technologies, climate variability, and food security in smallholder systems. She was awarded a Fulbright Research Fellowship to Kenya in 2018, was appointed as a Schmidt Environmental Fellow, and her dissertation was supported by Science, Mathematics, and Research for Transformation (SMART) Scholarship.

@@ -9,7 +9,7 @@ header:
 portfolio-item-category:
 - people
 portfolio-item-tag:
-    - current member
+    - former member
     - Santa Barbara
     - research staff
     - UCSB

@@ -10,7 +10,7 @@ portfolio-item-tag:
     - former member
     - research faculty
     - Princeton
-title: Lyndon Estes, Associate Research Scholar
+title: Lyndon Estes, Associate Professor
 ---
 
  

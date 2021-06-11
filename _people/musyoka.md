@@ -7,7 +7,7 @@ excerpt: Moses is a lab assistant in the Ecohydrology Lab facility at the Mpala 
 portfolio-item-category:
 - people
 portfolio-item-tag:
-- current member
+- former member
 - Mpala
 - research staff
 - UCSB

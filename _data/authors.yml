@@ -57,7 +57,7 @@ Boniface Mukoma:
 Stephen Good:
   name      : "Stephen Good"
   avatar    : "/assets/images/people/Good.jpg"
-  bio       : "PhD Graduate, Princeton University"
+  bio       : "Assistant Professor"
   location  : "Corvallis, OR"
 
 Alex Lester:
@@ -102,7 +102,7 @@ Lixin Wang:
 Lizzie King:
     name        : "Lizzie King"
     location    : "Athens, Georgia"
-    bio         : "Assistant Professor"
+    bio         : "Associate Professor"
     uri         : "http://kinglab.uga.edu/"
     avatar      : "assets/images/people/King.jpg"
 
@@ -122,7 +122,7 @@ Adam Wolf:
     location    : "Princeton, NJ"
     avatar      : "assets/images/people/Wolf.jpg"
     uri         : "http://www.arable.com/"
-    bio         : "Chief Scientist, Arable Labs"
+    bio         : "Co-Founder, Arable Labs"
     linkedin    : "adamatarable"
 
 Keir Soderberg:
@@ -136,7 +136,7 @@ Lyndon Estes:
     name        : "Lyndon Estes"
     location    : "Worchester, MA"
     avatar      : "assets/images/people/Estes.jpg"
-    bio         : "Assistant Professor"
+    bio         : "Associate Professor"
 
 
 Stephanie Debats:
@@ -162,14 +162,13 @@ Hilary Wayland:
 Keita DeCarlo:
     name        : "Keita DeCarlo"
     avatar      : "assets/images/people/DeCarlo.jpg"
-    bio         : "PhD Student"
     location    : "Princeton, NJ"
     cv          : "/assets/files/DeCarlo_CV.pdf"
 
 Ben Siegfried:
     name        : "Ben Siegfried"
     avatar      : "assets/images/people/Siegfried.jpg"
-    bio         : "CTO, Arable Labs"
+    bio         : "Founding CTO, Arable Labs"
     linkedin    : "ben-siegfried-222564124"
     location    : "Oakland, CA"
 
@@ -189,7 +188,6 @@ Julia Signell:
 
 Natasha Krell:
     name        : "Natasha Krell"
-    bio         : "PhD Student"
     email       : "nkrell@ucsb.edu"
     github      : "ntkrell"    
     twitter     : "natashakre"
@@ -220,7 +218,7 @@ Ryan Avery:
     bio         : "Data Scientist"
     email       : "ravery@ucsb.edu"
     github      : "rbavery"
-    location    : "Santa Barbara, CA"
+    location    : "Sacramento, CA"
     avatar      : "assets/images/people/Avery.jpg"
     linkedin    : "ryan-avery-75b165a8"
     cv          : "/assets/files/RAvery_CV.pdf"
@@ -246,3 +244,27 @@ Bryn Morgan:
     github      : "brynemorgan"
     location    : "Santa Barbara, CA"
     avatar      : "assets/images/people/BMorgan.jpg"
+
+Anna Boser:
+    name        : "Anna Boser"
+    bio         : "PhD Student"
+    email       : "annaboser@ucsb.edu"
+    github      : "anna-boser"
+    uri         : "https://anna-boser.github.io/#home"
+    location    : "Santa Barbara, CA"
+    avatar      : "assets/images/people/Boser_Anna_PhD.jpg"
+
+Kristina Fauss:
+    name        : "Kristina Fauss"
+    bio         : "PhD Student"
+    email       : "kfauss@ucsb.edu"
+    uri         : "https://kfauss.com"
+    location    : "Santa Barbara, CA"
+    avatar      : "assets/images/people/Kristina_Fauss.jpg"
+
+Farai Kaseke:
+    name        : "Kudzai Farai Kaseke"
+    bio         : "Associate Specialist"
+    email       : "kfkaseke@ucsb.edu"
+    location    : "Santa Barbara, CA"
+    avatar      : "assets/images/people/Farai_Kaseke.jpg"

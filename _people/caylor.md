@@ -13,7 +13,7 @@ portfolio-item-tag:
     - current member
 header:
    image: "assets/images/people/caylor_header.jpg"
-   caption: "BA, Environmental Sciences, UVA<br />PhD, Environemntal Sciences, UVA."
+   caption: "BA, Environmental Sciences, UVA<br />PhD, Environmental Sciences, UVA."
 ---
 
 Professor Caylor is Director of the Earth Research Institute and a Full Professor with appointments in the Bren School of Environmental Science & Management and the Department of Geography at UCSB. He received his PhD in Environmental Sciences from the University of Virginia, in 2003. His research seeks to develop improved insight into the way that land use and climate change are interacting to affect the dynamics and resilience of global drylands. His primary research sites are in sub-Saharan Africa, where he is focused on understanding the vulnerability of pastoral and subsistence agricultural communities to current and future changes in hydrological dynamics.
