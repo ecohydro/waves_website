@@ -6,10 +6,10 @@ excerpt: Natasha is interested in dryland food security and climate variability 
 portfolio-item-category:
 - people
 portfolio-item-tag:
-- current member
-- graduate student
+- former member
+- PhD Graduate
 - UCSB
-title: Natasha Krell, PhD Student
+title: Natasha Krell, PhD (2021)
 header:
    image: "assets/images/people/Krell_header.jpg"
    caption: "BA, Human Ecology, College of the Atlantic"
