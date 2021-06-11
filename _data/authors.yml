@@ -255,3 +255,11 @@ Anna Boser:
     uri         : "https://anna-boser.github.io/#home"
     location    : "Santa Barbara, CA"
     avatar      : "assets/images/people/Boser_Anna_PhD.jpg"
+
+Kristina Fauss:
+    name        : "Kristina Fauss"
+    bio         : "PhD Student"
+    email       : "kfauss@ucsb.edu"
+    uri         : "https://kfauss.com"
+    location    : "Santa Barbara, CA"
+    avatar      : "assets/images/people/Kristina_Fauss.jpg"
