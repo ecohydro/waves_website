@@ -8,7 +8,7 @@ avatar: "/assets/images/people/Mukoma.jpg"
 portfolio-item-category:
   - people
 portfolio-item-tag:
-  - current member
+  - former member
   - Mpala
   - research staff
   - UCSB
