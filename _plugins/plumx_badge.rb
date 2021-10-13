@@ -13,5 +13,3 @@ module Jekyll
 end
 
 Liquid::Template.register_tag('altmetric', Jekyll::RenderAltmetric)
-
-    
