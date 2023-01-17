@@ -9,6 +9,9 @@ collections_config:
         type: textarea
         comment: "Short description of affiliation and activity"
       portfolio_item_category:
+        type: choice
+        options:
+          values: "people"
         instance_value: "people"
       portfolio_item_tag:
         label: "Status and Affiliation"
