@@ -5,6 +5,23 @@ collections_config:
     _inputs:
       portfolio_item_category:
         instance_value: "people"
+      portfolio_item_tag:
+        label: "Status and Affiliation"
+        options:
+          values:
+            - former member
+            - current member
+            - Mpala
+            - Princeton
+            - USCB
+            - graduate student
+            - undergraduate student
+            - research intern
+            - thesis advisee
+            - high school student
+            - postdoc
+            - lab visitor
+            - research staff
   publications:
     _inputs:
       portfolio_item_category:
@@ -18,4 +35,15 @@ _inputs:
       values: data.authors
   portfolio_item_category:
     hidden: true
+  date:
+    instance_value: NOW
+  id: 
+    instance_value: UUID
+    hidden: true
+  portfolio_item_tag:
+    type: multichoice
+    allow_empty: false
+    
+    
+  
 
