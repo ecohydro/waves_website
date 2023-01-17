@@ -1,8 +1,21 @@
 
 
+collections_config:
+  people:
+    _inputs:
+      portfolio_item_category:
+        instance_value: "people"
+  publications:
+    _inputs:
+      portfolio_item_category:
+        instance_value: "publications"
+
+
 _inputs:
   author:
     type: select
     options:
       values: data.authors
-    
+  portfolio_item_category:
+    hidden: true
+
