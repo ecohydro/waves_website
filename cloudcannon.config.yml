@@ -8,11 +8,11 @@ collections_config:
       excerpt:
         type: textarea
         comment: Short description of affiliation and activity
-      portfolio_item_category:
+      portfolio-item-category:
         options:
           values:
             - people
-      portfolio_item_tag:
+      portfolio-item-tag:
         label: Status and Affiliation
         options:
           values:
@@ -31,7 +31,7 @@ collections_config:
             - research staff
   publications:
     _inputs:
-      portfolio_item_category:
+      portfolio-item-category:
         options:
           values:
             - publications
@@ -42,7 +42,7 @@ _inputs:
     type: select
     options:
       values: data.authors
-  portfolio_item_category:
+  portfolio-item-category:
     hidden: true
     allow_empty: false
     type: select
@@ -52,7 +52,7 @@ _inputs:
   id: 
     instance_value: UUID
     hidden: true
-  portfolio_item_tag:
+  portfolio-item-tag:
     type: multiselect
     allow_empty: false
     
