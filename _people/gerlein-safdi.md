@@ -4,7 +4,7 @@ excerpt: >-
    Michigan Society of Fellows postdoctoral researcher in the Department of
    Climate and Space Sciences and Engineering, College of Engineering,
    University of Michigan
-date: 
+date: 2010-03-21 14:00:07
 role: PhD Student
 author: Cynthia Gerlein-Safdi
 avatar: assets/images/people/Gerlein-Safdi.png
