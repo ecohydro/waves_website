@@ -7,14 +7,14 @@ collections_config:
         type: image
       excerpt:
         type: textarea
-        comment: "Short description of affiliation and activity"
+        comment: Short description of affiliation and activity
       portfolio_item_category:
         type: choice
         options:
-          values: "people"
-        instance_value: "people"
+          values: people
+        instance_value: people
       portfolio_item_tag:
-        label: "Status and Affiliation"
+        label: Status and Affiliation
         options:
           values:
             - former member
@@ -33,7 +33,7 @@ collections_config:
   publications:
     _inputs:
       portfolio_item_category:
-        instance_value: "publications"
+        instance_value: publications
 
 
 _inputs:
@@ -43,6 +43,7 @@ _inputs:
       values: data.authors
   portfolio_item_category:
     hidden: true
+    type: choice
   date:
     type: date
     instance_value: NOW
