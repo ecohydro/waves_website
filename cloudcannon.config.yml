@@ -2,6 +2,8 @@
 
 collections_config:
   people:
+    icon: people
+    
     _inputs:
       avatar:
         type: image
