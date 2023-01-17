@@ -44,6 +44,7 @@ _inputs:
   portfolio_item_category:
     hidden: true
   date:
+    type: date
     instance_value: NOW
   id: 
     instance_value: UUID
