@@ -9,10 +9,9 @@ collections_config:
         type: textarea
         comment: Short description of affiliation and activity
       portfolio_item_category:
-        type: array
         options:
-          values: people
-        instance_value: people
+          values:
+            - people
       portfolio_item_tag:
         label: Status and Affiliation
         options:
@@ -33,7 +32,9 @@ collections_config:
   publications:
     _inputs:
       portfolio_item_category:
-        instance_value: publications
+        options:
+          values:
+            - publications
 
 
 _inputs:
@@ -43,7 +44,8 @@ _inputs:
       values: data.authors
   portfolio_item_category:
     hidden: true
-    type: choice
+    allow_empty: false
+    type: select
   date:
     type: date
     instance_value: NOW
@@ -51,7 +53,7 @@ _inputs:
     instance_value: UUID
     hidden: true
   portfolio_item_tag:
-    type: multichoice
+    type: multiselect
     allow_empty: false
     
     
