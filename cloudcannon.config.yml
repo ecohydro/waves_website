@@ -81,9 +81,9 @@ collections_config:
           type: image
           uploads: assets/[collection]/{author|slugify}_{id}
           comment: First page of the publication.
-        options:
-          width: 480
-          resize_style: cover
+          options:
+            width: 480
+            resize_style: cover
       portfolio-item-category:
         options:
           values:
