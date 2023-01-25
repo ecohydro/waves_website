@@ -23,13 +23,13 @@ Drew Gower:
 Cynthia Gerlein-Safdi:
   name        : "Cynthia Gerlein-Safdi"
   email       : "cgerlein@princeton.edu"
-  bio         : "Michigan Society of Fellows Postdoctoral Scholar"
+  bio         : "Assistant Professor"
   avatar      : "/assets/images/people/Gerlein-Safdi.png"
   twitter     : "CGerleinSafdi"
   linkedin    : "cynthia-gerlein-safdi-a13b6a9a"
   github      : "cgerlein"
   skype       : "cynthia.gerlein"
-  location    : "Ann Arbor, MI"
+  location    : "Berkeley, CA"
   uri         : "https://cgerleinsafdi.engin.umich.edu/"
 
 Abinash Bhattachan:
@@ -121,8 +121,8 @@ Adam Wolf:
     name        : "Adam Wolf"
     location    : "Princeton, NJ"
     avatar      : "assets/images/people/Wolf.jpg"
-    uri         : "http://www.arable.com/"
-    bio         : "Co-Founder, Arable Labs"
+    uri         : "https://eioncarbon.com"
+    bio         : "Co-founder, Eion Carbon"
     linkedin    : "adamatarable"
 
 Keir Soderberg:
@@ -163,7 +163,6 @@ Keita DeCarlo:
     name        : "Keita DeCarlo"
     avatar      : "assets/images/people/DeCarlo.jpg"
     location    : "Princeton, NJ"
-    cv          : "/assets/files/DeCarlo_CV.pdf"
 
 Ben Siegfried:
     name        : "Ben Siegfried"
@@ -175,15 +174,16 @@ Ben Siegfried:
 Elliot Chang:
     name        : "Elliot Chang"
     avatar      : "assets/images/people/Chang.jpg"
-    bio         : "PhD Student @ UC Berkeley"
+    bio         : "Co-founder, Eion Carbon"
+    uri         : "https://eioncarbon.com"
     location    : "Berkeley, CA"
 
 Julia Signell:
     name        : "Julia Signell"
-    bio         : "Junior Developer, Continuum Analytics"
+    bio         : "Software Developer, Azavea"
     location    : "Philadelphia, PA"
     avatar      : "assets/images/people/Signell.jpg"
-    uri         : "https://www.continuum.io"
+    uri         : "https://www.azavea.com"
     linkedin    : "julia-signell-8a948a88"
 
 Natasha Krell:
