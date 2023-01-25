@@ -29,7 +29,7 @@ collections_config:
             width: 2400
             resize_style: cover
           caption:
-            label: Degrees
+            label: Degrees Earned
             type: textarea
             comment: List degrees (e.g. BA, Environmental Science, University of Virginia), one per line
       portfolio-item-tag:
