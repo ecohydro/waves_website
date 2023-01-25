@@ -8,6 +8,10 @@ collections_config:
       avatar:
         type: image
         uploads: assets/[collection]/{title|slugify}
+        options:
+          width: 226
+          height: 225
+          resize_style: cover
       excerpt:
         type: textarea
         comment: Short description of affiliation and activity
