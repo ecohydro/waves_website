@@ -60,6 +60,7 @@ collections_config:
             - publications
       author-tags:
         type: multichoice
+        comment: Select all group authors. If one is missing, let Kelly know.
         options:
           values: data.authors
           
