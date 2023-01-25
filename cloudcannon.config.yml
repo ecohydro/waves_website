@@ -43,7 +43,7 @@ collections_config:
             - current member
             - Mpala
             - Princeton
-            
+            - UCSB
             - graduate student
             - undergraduate student
             - research intern
@@ -54,6 +54,34 @@ collections_config:
             - research staff
   publications:
     _inputs:
+      title: 
+        type: text
+        comment: Manuscript title
+      year:
+        type: choice
+        options:
+          values:
+            - '2022'
+            - '2023'
+            - '2024'
+            - '2025'
+            - '2026'
+      author:
+        type: choice
+        comment: Lead group author
+        options:
+          values: data.authors
+      excerpt:
+        type: textarea
+        comment: Full citation to article, including all authors.
+      header:
+        teaser:
+          type: image
+          uploads: assets/[collection]/{author|slugify}_{id}
+          comment: First page of the publication.
+        options:
+          width: 480
+          resize_style: cover
       portfolio-item-category:
         options:
           values:
@@ -63,7 +91,6 @@ collections_config:
         comment: Select all group authors. If one is missing, let Kelly know.
         options:
           values: data.authors
-          
 
 _inputs:
   author:
