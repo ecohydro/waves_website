@@ -1,4 +1,6 @@
 
+data_config: 
+  authors: true
 
 collections_config:
   people:
