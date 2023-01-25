@@ -57,6 +57,8 @@ collections_config:
       title: 
         type: text
         comment: Manuscript title
+      date:
+        comment: Publication Date (approximate is fine)
       year:
         type: choice
         options:
