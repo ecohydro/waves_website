@@ -59,7 +59,7 @@ collections_config:
           values:
             - publications
       author-tags:
-        type: multiselect
+        type: multichoice
         options:
           values: data.authors
           
