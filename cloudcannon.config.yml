@@ -8,9 +8,17 @@ collections_config:
       avatar:
         type: image
         uploads: assets/[collection]/{title|slugify}
+        comment: Person headshot that appears in author sidebars and on lab members page
         options:
           width: 226
           height: 225
+          resize_style: cover
+      banner:
+        type: image
+        uploads: assets/[collection]/{title|slugify}_header
+        comment: Person large landscape hero shot (field work, etc...) appears on main person page
+        options:
+          width: 2400
           resize_style: cover
       excerpt:
         type: textarea
@@ -21,6 +29,7 @@ collections_config:
             - people
       portfolio-item-tag:
         label: Status and Affiliation
+        comment: Only use existing tags (e.g. "current member", "UCSB", "graduate student")
         options:
           values:
             - former member
