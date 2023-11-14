@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A Pelican Blog - Lyndon Estes</title><link href="/" rel="alternate"></link><link href="/feeds/lyndon-estes.atom.xml" rel="self"></link><id>/</id><updated>2018-03-08T17:50:44+00:00</updated><entry><title>The spatial and temporal domains of modern ecology</title><link href="/the-spatial-and-temporal-domains-of-modern-ecology.html" rel="alternate"></link><published>2018-03-08T17:50:44+00:00</published><updated>2018-03-08T17:50:44+00:00</updated><author><name>Lyndon Estes</name></author><id>tag:None,2018-03-08:/the-spatial-and-temporal-domains-of-modern-ecology.html</id><summary type="html">&lt;p&gt;&lt;img alt="first page" class="img-responsive align-right" src="{{&amp;quot;assets/images/publications/Estes2018_2325_figure.png&amp;quot; | absolute_url}}" width="50%"&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Estes, R., et al. (2018) “The spatial and temporal domains of modern ecology”, Nature Ecology &amp;amp; Evolution, doi:10.1038/s41559-018-0524-4.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;:To understand ecological phenomena, it is necessary to observe their behaviour across multiple spatial and temporal scales. Since this need was first highlighted in the 1980s, technology has opened …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="first page" class="img-responsive align-right" src="{{&amp;quot;assets/images/publications/Estes2018_2325_figure.png&amp;quot; | absolute_url}}" width="50%"&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Estes, R., et al. (2018) “The spatial and temporal domains of modern ecology”, Nature Ecology &amp;amp; Evolution, doi:10.1038/s41559-018-0524-4.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;:To understand ecological phenomena, it is necessary to observe their behaviour across multiple spatial and temporal scales. Since this need was first highlighted in the 1980s, technology has opened previously inaccessible scales to observation. To help to determine whether there have been corresponding changes in the scales observed by modern ecologists, we analysed the resolution, extent, interval and duration of observations (excluding experiments) in 348 studies that have been published between 2004 and 2014. We found that observational scales were generally narrow, because ecologists still primarily use conventional field techniques. In the spatial domain, most observations had resolutions ≤1 m2 and extents ≤10,000 ha. In the temporal domain, most observations were either unreplicated or infrequently repeated (&amp;gt;1 month interval) and ≤1 year in duration. Compared with studies conducted before 2004, observational durations and resolutions appear largely unchanged, but intervals have become finer and extents larger. We also found a large gulf between the scales at which phenomena are actually observed and the scales those observations ostensibly represent, raising concerns about observational comprehensiveness. Furthermore, most studies did not clearly report scale, suggesting that it remains a minor concern. Ecologists can better understand the scales represented by observations by incorporating autocorrelation measures, while journals can promote attentiveness to scale by implementing scale-reporting standards.&lt;/p&gt;
+&lt;p&gt;&lt;a class="btn btn--success" href="https://doi.org/10.1038/s41559-018-0524-4"&gt;Go to the Article&lt;/a&gt;&lt;/p&gt;</content><category term="_publications"></category></entry><entry><title>A Large-Area, Spatially Continuous Assessment of Land Cover Map Error and Its Impact on Downstream Analyses</title><link href="/a-large-area-spatially-continuous-assessment-of-land-cover-map-error-and-its-impact-on-downstream-analyses.html" rel="alternate"></link><published>2017-09-20T11:41:09+00:00</published><updated>2017-09-20T11:41:09+00:00</updated><author><name>Lyndon Estes</name></author><id>tag:None,2017-09-20:/a-large-area-spatially-continuous-assessment-of-land-cover-map-error-and-its-impact-on-downstream-analyses.html</id><summary type="html">&lt;p&gt;&lt;img alt="first page" class="img-responsive align-right" src="{{&amp;quot;assets/images/publications/Estes2018_5262_figure.png&amp;quot; | absolute_url}}" width="50%"&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Estes, R., et al. (2018) “A Large-Area, Spatially Continuous Assessment of Land Cover Map Error and Its Impact on Downstream Analyses”, Global Change Biology, doi:10.1111/gcb.13904.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;:Land cover maps increasingly underlie research into socioeconomic and environmental patterns and processes, including global change. It is known that …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="first page" class="img-responsive align-right" src="{{&amp;quot;assets/images/publications/Estes2018_5262_figure.png&amp;quot; | absolute_url}}" width="50%"&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Estes, R., et al. (2018) “A Large-Area, Spatially Continuous Assessment of Land Cover Map Error and Its Impact on Downstream Analyses”, Global Change Biology, doi:10.1111/gcb.13904.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;:Land cover maps increasingly underlie research into socioeconomic and environmental patterns and processes, including global change. It is known that map errors impact our understanding of these phenomena, but quantifying these impacts is difficult because many areas lack adequate reference data. We used a highly accurate, high-resolution map of South African cropland to assess 1) the magnitude of error in several current generation land cover maps, and 2) how these errors propagate in downstream studies. We first quantified pixel-wise errors in the cropland classes of four widely used land cover maps at resolutions ranging from 1 to 100 km, then calculated errors in several representative “downstream” (map-based) analyses, including assessments of vegetative carbon stocks, evapotranspiration, crop production, and household food security. We also evaluated maps’ spatial accuracy based on how precisely they could be used to locate specific landscape features. We found that cropland maps can have substantial biases and poor accuracy at all resolutions (e.g. at 1 km resolution, up to ∼45% underestimates of cropland (bias) and nearly 50% mean absolute error (MAE, describing accuracy); at 100 km, up to 15% underestimates and nearly 20% MAE). National-scale maps derived from higher resolution imagery were most accurate, followed by multi-map fusion products. Constraining mapped values to match survey statistics may be effective at minimizing bias (provided the statistics are accurate). Errors in downstream analyses could be substantially amplified or muted, depending on the values ascribed to cropland-adjacent covers (e.g. with forest as adjacent cover, carbon map error was 200-500% greater than in input cropland maps, but ∼40% less for sparse cover types). The average locational error was 6 km (600%). These findings provide deeper insight into the causes and potential consequences of land cover map error, and suggest several recommendations for land cover map users.&lt;/p&gt;
+&lt;p&gt;&lt;a class="btn btn--success" href="http://onlinelibrary.wiley.com/doi/10.1111/gcb.13904/full"&gt;Go to the Article&lt;/a&gt;&lt;/p&gt;</content><category term="_publications"></category></entry><entry><title>A platform for crowdsourcing the creation of representative, accurate landcover maps</title><link href="/a-platform-for-crowdsourcing-the-creation-of-representative-accurate-landcover-maps.html" rel="alternate"></link><published>2017-09-11T13:35:27+00:00</published><updated>2017-09-11T13:35:27+00:00</updated><author><name>Lyndon Estes</name></author><id>tag:None,2017-09-11:/a-platform-for-crowdsourcing-the-creation-of-representative-accurate-landcover-maps.html</id><summary type="html">&lt;p&gt;&lt;img alt="first page" class="img-responsive align-right" src="{{&amp;quot;assets/images/publications/Estes2016_2467_figure.png&amp;quot; | absolute_url}}" width="50%"&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Estes, R., et al. (2016) “A platform for crowdsourcing the creation of representative, accurate landcover maps”, Environmental Modelling &amp;amp; Software, doi:10.1016/j.envsoft.2016.01.011.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;:Accurate landcover maps are fundamental to understanding socio-economic and environmental patterns and processes, but existing datasets contain substantial errors. Crowdsourcing map creation …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="first page" class="img-responsive align-right" src="{{&amp;quot;assets/images/publications/Estes2016_2467_figure.png&amp;quot; | absolute_url}}" width="50%"&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Estes, R., et al. (2016) “A platform for crowdsourcing the creation of representative, accurate landcover maps”, Environmental Modelling &amp;amp; Software, doi:10.1016/j.envsoft.2016.01.011.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;:Accurate landcover maps are fundamental to understanding socio-economic and environmental patterns and processes, but existing datasets contain substantial errors. Crowdsourcing map creation may substantially improve accuracy, particularly for discrete cover types, but the quality and representativeness of crowdsourced data is hard to verify. We present an open-sourced platform, DIYlandcover, that serves representative samples of high resolution imagery to an online job market, where workers delineate individual landcover features of interest. Worker mapping skill is frequently assessed, providing estimates of overall map accuracy and a basis for performance-based payments. A trial of DIYlandcover showed that novice workers delineated South African cropland with 91% accuracy, exceeding the accuracy of current generation global landcover products, while capturing important geometric data. A scaling-up assessment suggests the possibility of developing an Africa-wide vector-based dataset of croplands for $2–3 million within 1.2–3.8 years. DIYlandcover can be readily adapted to map other discrete cover types.&lt;/p&gt;
+&lt;p&gt;&lt;a class="btn btn--success" href="https://doi.org/10.1016/j.envsoft.2016.01.011"&gt;Go to the Article&lt;/a&gt;&lt;/p&gt;</content><category term="_publications"></category></entry><entry><title>New paper in ERL</title><link href="/new-paper-in-erl.html" rel="alternate"></link><published>2014-08-07T01:44:03+00:00</published><updated>2014-08-07T01:44:03+00:00</updated><author><name>Lyndon Estes</name></author><id>tag:None,2014-08-07:/new-paper-in-erl.html</id><summary type="html">&lt;ul&gt;
+&lt;li&gt;http://bit.ly/1vd5oC3
+categories:&lt;/li&gt;
+&lt;li&gt;News&lt;/li&gt;
+&lt;li&gt;Publications&lt;/li&gt;
+&lt;li&gt;Research&lt;/li&gt;
+&lt;li&gt;Lyndon Estes&lt;/li&gt;
+&lt;li&gt;Environmental Sensing&lt;br&gt;
+excerpt: "We recently published a paper in &lt;em&gt;Environmental Research Letters&lt;/em&gt; that examines changes in the water available for growing maize in sub-Saharan Africa between 1979 and 2010."&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href="{{ &amp;quot;/assets/images/erl_cover_big-e1407375629268.jpg&amp;quot; | absolute_url }}"&gt;alt text&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We recently published a &lt;a href="http://iopscience.iop.org/1748-9326/9/7/075005/article#"&gt;paper&lt;/a&gt; in &lt;em&gt;Environmental Research Letters …&lt;/em&gt;&lt;/p&gt;</summary><content type="html">&lt;ul&gt;
+&lt;li&gt;http://bit.ly/1vd5oC3
+categories:&lt;/li&gt;
+&lt;li&gt;News&lt;/li&gt;
+&lt;li&gt;Publications&lt;/li&gt;
+&lt;li&gt;Research&lt;/li&gt;
+&lt;li&gt;Lyndon Estes&lt;/li&gt;
+&lt;li&gt;Environmental Sensing&lt;br&gt;
+excerpt: "We recently published a paper in &lt;em&gt;Environmental Research Letters&lt;/em&gt; that examines changes in the water available for growing maize in sub-Saharan Africa between 1979 and 2010."&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href="{{ &amp;quot;/assets/images/erl_cover_big-e1407375629268.jpg&amp;quot; | absolute_url }}"&gt;alt text&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We recently published a &lt;a href="http://iopscience.iop.org/1748-9326/9/7/075005/article#"&gt;paper&lt;/a&gt; in &lt;em&gt;Environmental Research Letters&lt;/em&gt; that examines changes in the water available for growing maize in sub-Saharan Africa between 1979 and 2010. &lt;!--more--&gt;We identified trends in rainfall, potential evapotranspiration (PET, which is the atmospheric demand for water), and the ratio of the two (also known as the aridity index), and also quantified the factors responsible for changing PET. You can follow the links below to several stories that provide a fuller overview of the findings.&lt;/p&gt;
+&lt;p&gt;&lt;a class="btn btn--success" href="http://www.fondriest.com/news/maize-growing-regions-africa-recent-climate-change-increased-water-availability.htm"&gt;Fondriest Article&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="btn btn--success" href="https://blogs.princeton.edu/research/2014/07/21/water-water-not-everywhere-mapping-water-trends-for-african-maize-environmental-research-letters/"&gt;Princeton Research Blog&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="btn btn--success" href="http://environmentalresearchweb.org/cws/article/news/57996"&gt;ERL Article&lt;/a&gt;&lt;/p&gt;</content><category term="_posts"></category></entry><entry><title>Two New Grants Awarded</title><link href="/two-new-grants-awarded.html" rel="alternate"></link><published>2014-06-26T16:09:29+00:00</published><updated>2014-06-26T16:09:29+00:00</updated><author><name>Lyndon Estes</name></author><id>tag:None,2014-06-26:/two-new-grants-awarded.html</id><summary type="html">&lt;ul&gt;
+&lt;li&gt;Funding&lt;/li&gt;
+&lt;li&gt;News&lt;/li&gt;
+&lt;li&gt;Research
+tags:&lt;/li&gt;
+&lt;li&gt;NASA&lt;/li&gt;
+&lt;li&gt;NSF&lt;/li&gt;
+&lt;li&gt;Water Sustainability and Climate&lt;/li&gt;
+&lt;li&gt;Coupled Natural-Human Systems
+excerpt: "We are very happy to have been awarded new grants from both NSF and NASA!"&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href="{{ &amp;quot;/assets/images/NASA_NSF_fig_small.png&amp;quot; | absolute_url }}"&gt;NASA and NSF logos&lt;/a&gt;We are very happy to have been awarded new grants from both NSF and NASA!&lt;!--more--&gt; &lt;/p&gt;
+&lt;p&gt;The NSF …&lt;/p&gt;</summary><content type="html">&lt;ul&gt;
+&lt;li&gt;Funding&lt;/li&gt;
+&lt;li&gt;News&lt;/li&gt;
+&lt;li&gt;Research
+tags:&lt;/li&gt;
+&lt;li&gt;NASA&lt;/li&gt;
+&lt;li&gt;NSF&lt;/li&gt;
+&lt;li&gt;Water Sustainability and Climate&lt;/li&gt;
+&lt;li&gt;Coupled Natural-Human Systems
+excerpt: "We are very happy to have been awarded new grants from both NSF and NASA!"&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href="{{ &amp;quot;/assets/images/NASA_NSF_fig_small.png&amp;quot; | absolute_url }}"&gt;NASA and NSF logos&lt;/a&gt;We are very happy to have been awarded new grants from both NSF and NASA!&lt;!--more--&gt; &lt;/p&gt;
+&lt;p&gt;The NSF grant falls under the &lt;a href="http://www.nsf.gov/pubs/2013/nsf13535/nsf13535.htm"&gt;Water, Sustainability, and Climate&lt;/a&gt; program, which selected our proposal to study the &amp;#8220;Impacts of Agricultural Decision Making and Adaptive Management on Food Security in Africa&amp;#8221;. Focusing on Kenya and Zambia, this project will investigate how near-term hydrological and agro-ecological forecasts can be used to improve intra-seasonal water and farm management decisions, and thereby improve livelihood security. This is a 5 year grant led by &lt;a href="{{ site.baseurl }}{% link _people/caylor.md %}"&gt;Kelly&lt;/a&gt; and &lt;a href="http://hydrology.princeton.edu/~justin/"&gt;Justin Sheffield&lt;/a&gt; at Princeton and &lt;a href="http://mypage.iu.edu/~evans/"&gt;Tom Evans&lt;/a&gt;, &lt;a href="http://www.indiana.edu/~spea/faculty/attari-shahzeen.shtml"&gt;Shahzeen Attari&lt;/a&gt;, and &lt;a href="http://www.cs.indiana.edu/~plale/"&gt;Beth Plale&lt;/a&gt; at Indiana University, in collaboration with Moses Mwale of the &lt;a href="http://www.zari.gov.zm/"&gt;Zambia Agricultural Research Institute&lt;/a&gt;, &lt;a href="http://csdes.uonbi.ac.ke/node/4098"&gt;Professor Jesse Njoka&lt;/a&gt; of the University of Nairobi, and Dr. Luke Olang of the &lt;a href="http://www.icpac.net/"&gt;IGAD Climate Predictions and Applications Centre&lt;/a&gt;. &lt;a href="{{ site.baseurl }}{% link _people/wolf.md %}"&gt;Adam&lt;/a&gt; and &lt;a href="{{ site.baseurl }}{% link _people/estes.md %}"&gt;Lyndon&lt;/a&gt; will also be closely involved with this research: Adam will develop the &lt;a href="http://tronic.princeton.edu/pulselab/"&gt;real-time environmental sensor&lt;/a&gt; network that will form a key part of the methods, while Lyndon will develop the agro-ecological forecasting methods. You can see the details of the award on the &lt;a href="http://www.nsf.gov/news/news_summ.jsp?cntn_id=132501&amp;org=NSF&amp;from=news" target="_blank"&gt;NSF website&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The NASA grant was awarded to &lt;a href="{{ site.baseurl }}{% link _people/estes.md %}"&gt;Lyndon&lt;/a&gt; under the &lt;a href="http://nspires.nasaprs.com/external/solicitations/summary.do?method=init&amp;amp;solId={E757BD20-0401-C62D-3683-3E5199978FB5}&amp;amp;path=open"&gt;New Investigator Program in Earth Science&lt;/a&gt; for his proposal entitled &amp;#8220;Integrating crowdsourcing, in situ sensing, and spaceborne observation to understand the sustainability of smallholder agriculture in African wet savannas&amp;#8221;. This project will use a combination of remote sensing, field observations by &lt;a href="http://tronic.princeton.edu/pulselab/"&gt;PULSE lab&lt;/a&gt; sensors, machine learning (led by &lt;a href="{{ site.baseurl }}{% link _people/debats.md %}"&gt;Stephanie Debats&lt;/a&gt;), and &lt;a href="http://mappingafrica.princeton.edu/"&gt;crowdsourcing&lt;/a&gt; to detect trends in the area and productivity of Zambian maize farms since 2000. The aim is to assess 1) whether yield increases are correlated with cropland expansion or contraction, 2) whether yield increases precede cropland changes, and 3) whether yield gains correspond to increased climate sensitivity. This research will provide insight into the socioeconomic and ecological sustainability of agricultural expansion in a region of increasing climatic variability and rapid growth.&lt;/p&gt;</content><category term="_posts"></category></entry><entry><title>Anticipating the ecological impacts of agricultural adaptation to climate change</title><link href="/anticipating-the-ecological-impacts-of-agricultural-adaptation-to-climate-change.html" rel="alternate"></link><published>2014-01-23T15:36:00+00:00</published><updated>2014-01-23T15:36:00+00:00</updated><author><name>Lyndon Estes</name></author><id>tag:None,2014-01-23:/anticipating-the-ecological-impacts-of-agricultural-adaptation-to-climate-change.html</id><summary type="html">&lt;ul&gt;
+&lt;li&gt;http://bit.ly/1asL1ax
+categories:&lt;/li&gt;
+&lt;li&gt;News&lt;/li&gt;
+&lt;li&gt;Publications&lt;/li&gt;
+&lt;li&gt;Research
+tags:&lt;/li&gt;
+&lt;li&gt;Coupled Natural-Human Systems&lt;/li&gt;
+&lt;li&gt;Smallholder Agriculture&lt;/li&gt;
+&lt;li&gt;Lyndon Estes
+excerpt: "Global change research in the fields of ecology and conservation biology primarily focuses on how changing climatic variables will directly impact species and ecosystems."
+header:
+    image: assets/images/cobi_fig1b-1015x1024.png&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Global change research …&lt;/p&gt;</summary><content type="html">&lt;ul&gt;
+&lt;li&gt;http://bit.ly/1asL1ax
+categories:&lt;/li&gt;
+&lt;li&gt;News&lt;/li&gt;
+&lt;li&gt;Publications&lt;/li&gt;
+&lt;li&gt;Research
+tags:&lt;/li&gt;
+&lt;li&gt;Coupled Natural-Human Systems&lt;/li&gt;
+&lt;li&gt;Smallholder Agriculture&lt;/li&gt;
+&lt;li&gt;Lyndon Estes
+excerpt: "Global change research in the fields of ecology and conservation biology primarily focuses on how changing climatic variables will directly impact species and ecosystems."
+header:
+    image: assets/images/cobi_fig1b-1015x1024.png&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Global change research in the fields of ecology and conservation biology primarily focuses on how changing climatic variables will directly impact species and ecosystems. &lt;!--more--&gt; Less attention is paid to understanding the potential impacts of human adaptation, even though history suggests these might be larger and more rapid than the more gradual effects of changing temperature and precipitation regimes. A recent paper in &lt;em&gt;Conservation Biology&lt;/em&gt; by &lt;a href="{{ site.baseurl }}{% link _people/estes.md %}"&gt;Lyndon Estes&lt;/a&gt; and collaborators at Princeton (Michael Oppenheimer, David Wilcove, and Jonathan Green in the Woodrow Wilson School) and several other institutions provides an initial method for anticipating where agricultural land use shifts due to climate change are most likely to happen.  &lt;!--more--&gt;The approach is based on quantifying the agricultural utility of land, which is strongly correlated with the likelihood that it be converted to farmland, and how this value is altered by climate change. Applying this measure to areas of conservation interest provides a framework for understanding how the pressure to transform these lands to agricultural uses might change under future climates.  This method can be readily incorporated into existing conservation planning frameworks.  The paper is available for download at the journal&amp;#8217;s website, and more detailed summaries are available &lt;/p&gt;
+&lt;p&gt;&lt;a href="http://wws.princeton.edu/news-and-events/news/item/impacts-human-responses"&gt;here&lt;/a&gt; and &lt;a href="http://www.futurity.org/will-climate-turn-nature-reserves-farms/"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a class="btn btn--success" href="http://onlinelibrary.wiley.com/doi/10.1111/cobi.12205/abstract"&gt;Go to the article&lt;/a&gt;&lt;/p&gt;</content><category term="_posts"></category></entry><entry><title>Visit by Dr. Thomas Fuchs, JPL machine learning expert</title><link href="/visit-by-dr-thomas-fuchs-jpl-machine-learning-expert.html" rel="alternate"></link><published>2013-10-12T18:27:37+00:00</published><updated>2013-10-12T18:27:37+00:00</updated><author><name>Lyndon Estes</name></author><id>tag:None,2013-10-12:/visit-by-dr-thomas-fuchs-jpl-machine-learning-expert.html</id><summary type="html">&lt;ul&gt;
+&lt;li&gt;Collaboration&lt;/li&gt;
+&lt;li&gt;Conferences&lt;/li&gt;
+&lt;li&gt;News&lt;/li&gt;
+&lt;li&gt;Research&lt;/li&gt;
+&lt;li&gt;Research Topics
+tags:&lt;/li&gt;
+&lt;li&gt;JPL&lt;/li&gt;
+&lt;li&gt;machine learning&lt;/li&gt;
+&lt;li&gt;Environmental Sensing
+excerpt: "We had the pleasure of hosting Dr. Thomas Fuchs from the Jet Propulsion Lab on October 2nd and 3rd."
+header: 
+    teaser: "http://www.vision.caltech.edu/fuchs/images/tom/ThomasFuchs.png"&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img class="alignleft" alt="" src="http://www.vision.caltech.edu/fuchs/images/tom/ThomasFuchs.png" width="400" height="184" /&gt;&lt;/p&gt;
+&lt;p&gt;We had the pleasure of hosting …&lt;/p&gt;</summary><content type="html">&lt;ul&gt;
+&lt;li&gt;Collaboration&lt;/li&gt;
+&lt;li&gt;Conferences&lt;/li&gt;
+&lt;li&gt;News&lt;/li&gt;
+&lt;li&gt;Research&lt;/li&gt;
+&lt;li&gt;Research Topics
+tags:&lt;/li&gt;
+&lt;li&gt;JPL&lt;/li&gt;
+&lt;li&gt;machine learning&lt;/li&gt;
+&lt;li&gt;Environmental Sensing
+excerpt: "We had the pleasure of hosting Dr. Thomas Fuchs from the Jet Propulsion Lab on October 2nd and 3rd."
+header: 
+    teaser: "http://www.vision.caltech.edu/fuchs/images/tom/ThomasFuchs.png"&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img class="alignleft" alt="" src="http://www.vision.caltech.edu/fuchs/images/tom/ThomasFuchs.png" width="400" height="184" /&gt;&lt;/p&gt;
+&lt;p&gt;We had the pleasure of hosting &lt;a href="http://www.vision.caltech.edu/fuchs/" target="_blank"&gt;Dr. Thomas Fuchs from the Jet Propulsion Lab&lt;/a&gt; on October 2nd and 3rd. &lt;!--more--&gt; Dr. Fuchs is a machine learning expert who develops classification algorithms (using approximate bayesian computation, random forests, and other techniques) that are used to detect cancerous cells, to classify astronomical features, and to help guide JPL&amp;#8217;s Mars Rovers (among other applications).&lt;/p&gt;
+&lt;!--more--&gt;
+
+&lt;p&gt;&lt;a href="http://www.princeton.edu/cee/events/viewevent/?id=471" target="_blank"&gt;His talk&lt;/a&gt; was well attended and drew an audience from CEE, the Department of Computer Science, Ecology and Evolutionary Biology, and elsewhere.&lt;/p&gt;
+&lt;p&gt;&lt;a href="{{ site.baseurl }}{% link _people/debats.md %}"&gt;Stephanie&lt;/a&gt; has been working with Dr. Fuchs since last summer, when she undertook a JPL summer internship with him to develop methods for improving crop field maps. The purpose of Dr. Fuchs&amp;#8217; visit was to explore how he and Stephanie&amp;#8217;s project can be further developed by incorporating additional remote sensing data, leveraging Princeton&amp;#8217;s high performance computing resources, and by ultimately integrating these classification techniques with the human pattern recognition capabilities provided by the &lt;a href="http://mappingafrica.princeton.edu" target="_blank"&gt;Mapping Africa&lt;/a&gt; project, thereby creating a framework for &lt;a href="http://en.wikipedia.org/wiki/Active_learning_%28machine_learning%29" target="_blank"&gt;active learning&lt;/a&gt;.  We are enthusiastic about pursuing this project with Dr. Fuchs, which is one of three exciting opportunities (see &lt;a href="{% post_url 2013-10-12-two-jpl-surp-grants-received %}"&gt;this announcement&lt;/a&gt; for the others) that have arisen out of our collaboration with JPL this past year, thanks to the support and facilitation of Dr. Neil Murphy, the &lt;a href="http://surp.jpl.nasa.gov/"&gt;JPL SURP&lt;/a&gt; program manager.&lt;/p&gt;</content><category term="_posts"></category></entry><entry><title>Two JPL SURP grants received</title><link href="/two-jpl-surp-grants-received.html" rel="alternate"></link><published>2013-10-12T17:55:15+00:00</published><updated>2013-10-12T17:55:15+00:00</updated><author><name>Lyndon Estes</name></author><id>tag:None,2013-10-12:/two-jpl-surp-grants-received.html</id><summary type="html">&lt;ul&gt;
+&lt;li&gt;Collaboration&lt;/li&gt;
+&lt;li&gt;Funding&lt;/li&gt;
+&lt;li&gt;News&lt;/li&gt;
+&lt;li&gt;Research
+tags:&lt;/li&gt;
+&lt;li&gt;Funding&lt;/li&gt;
+&lt;li&gt;JPL&lt;/li&gt;
+&lt;li&gt;Environmental Sensing&lt;/li&gt;
+&lt;li&gt;Lyndon Estes&lt;/li&gt;
+&lt;li&gt;Adam Wolf&lt;/li&gt;
+&lt;li&gt;Kelly Caylor
+excerpt: "We are very proud that we were recently awarded two separate 1-year awards from the Jet Propulsion Lab&amp;#8217;s Strategic University Research Partnership program!"
+image: 
+    teaser: "assets/uploads/JPL_fig.png"&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img alt="JPL image" class="align-center" src="{{ &amp;quot;/assets/uploads/JPL_fig.png&amp;quot; | absolute_url }}"&gt;&lt;/p&gt;
+&lt;p&gt;We are very proud …&lt;/p&gt;</summary><content type="html">&lt;ul&gt;
+&lt;li&gt;Collaboration&lt;/li&gt;
+&lt;li&gt;Funding&lt;/li&gt;
+&lt;li&gt;News&lt;/li&gt;
+&lt;li&gt;Research
+tags:&lt;/li&gt;
+&lt;li&gt;Funding&lt;/li&gt;
+&lt;li&gt;JPL&lt;/li&gt;
+&lt;li&gt;Environmental Sensing&lt;/li&gt;
+&lt;li&gt;Lyndon Estes&lt;/li&gt;
+&lt;li&gt;Adam Wolf&lt;/li&gt;
+&lt;li&gt;Kelly Caylor
+excerpt: "We are very proud that we were recently awarded two separate 1-year awards from the Jet Propulsion Lab&amp;#8217;s Strategic University Research Partnership program!"
+image: 
+    teaser: "assets/uploads/JPL_fig.png"&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img alt="JPL image" class="align-center" src="{{ &amp;quot;/assets/uploads/JPL_fig.png&amp;quot; | absolute_url }}"&gt;&lt;/p&gt;
+&lt;p&gt;We are very proud that we were recently awarded two separate 1-year awards from the Jet Propulsion Lab&amp;#8217;s &lt;a href="http://surp.jpl.nasa.gov/" target="_blank"&gt;Strategic University Research Partnership&lt;/a&gt; program!&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;p&gt;These grants provide up to $100,000 for cutting edge Earth science conducted by JPL scientists and their chosen collaborators at one of JPLs 12 partnering universities.  It is unusual for one lab group to get two grants, so we feel very fortunate, and are excited to begin the research.&lt;/p&gt;
+&lt;p&gt;Both ideas arose from a trip to JPL in January by Kelly, &lt;a href="{{ site.baseurl }}{% link _people/estes.md %}"&gt;Lyndon&lt;/a&gt;, and &lt;a href="{{ site.baseurl }}{% link _people/wolf.md %}"&gt;Adam&lt;/a&gt;
+ in February. The first grant, is a collaboration with JPL&amp;#8217;s division of computer vision for autonomous navigation.  JPL engineers &lt;a href="http://www-robotics.jpl.nasa.gov/people/Roland_Brockers/" target="_blank"&gt;Roland Brockers&lt;/a&gt; and Larry Matthies together with Adam and Kelly propose in this grant for a &amp;#8220;rapid forest triage system&amp;#8221;, making use of sophisticated algorithms for navigating autonomous aerial vehicles within cluttered environments.  The proposed work would extend this research into oak woodlands around JPL&amp;#8217;s campus, and use the collected data to retrieve forest stand population size and density, as well as relate an onboard microclimate sensing package to the forest structure. A master&amp;#8217;s student and an undergrad will get to spend the summer in Pasadena working on the project.&lt;/p&gt;
+&lt;p&gt;The second grant is led by Drs. Darren Drewry and &lt;a href="http://science.jpl.nasa.gov/people/CFrankenberg/" target="_blank"&gt;Christian Frankenberg&lt;/a&gt; of JPL and Lyndon and Kelly, and will seek to develop new and improved methods for remote estimation of crop water and nutrient stress, biochemical function, and yields by simultaneously measuring chlorophyll fluorescence, thermal infrared, and optical reflectance over maize canopies growing under experimental conditions in Davis, California. The &lt;a href="http://tronic.princeton.edu/pulselab/" target="_blank"&gt;environmental sensor pods&lt;/a&gt; being developed by Adam and Kelly will provide sub-daily micro-meteorological and canopy data via cell phone networks. A Princeton undergraduate will take part in the field work for 10 weeks.&lt;/p&gt;
+&lt;p&gt;&amp;#8217;&lt;/p&gt;</content><category term="_posts"></category></entry><entry><title>Nature Comment Published</title><link href="/nature-comment-published.html" rel="alternate"></link><published>2013-08-16T02:14:34+00:00</published><updated>2013-08-16T02:14:34+00:00</updated><author><name>Lyndon Estes</name></author><id>tag:None,2013-08-16:/nature-comment-published.html</id><summary type="html">&lt;ul&gt;
+&lt;li&gt;http://ecohyd.ro/1298UgA
+categories:&lt;/li&gt;
+&lt;li&gt;News&lt;/li&gt;
+&lt;li&gt;Publications&lt;/li&gt;
+&lt;li&gt;Research
+tags:&lt;/li&gt;
+&lt;li&gt;Lyndon Estes&lt;/li&gt;
+&lt;li&gt;Nature&lt;/li&gt;
+&lt;li&gt;Social-Ecological Systems&lt;/li&gt;
+&lt;li&gt;Climate Change&lt;/li&gt;
+&lt;li&gt;Conservation
+excerpt: "&amp;#8220;Climate change must not blow conservation off course&amp;#8221;, by Morgan Tingley, Lyndon, and David Wilcove was published in the comment section of this week&amp;#8217;s &lt;em&gt;Nature&lt;/em&gt;."&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;{% include figure image_path="/assets/images/500271a-i1 …&lt;/p&gt;</summary><content type="html">&lt;ul&gt;
+&lt;li&gt;http://ecohyd.ro/1298UgA
+categories:&lt;/li&gt;
+&lt;li&gt;News&lt;/li&gt;
+&lt;li&gt;Publications&lt;/li&gt;
+&lt;li&gt;Research
+tags:&lt;/li&gt;
+&lt;li&gt;Lyndon Estes&lt;/li&gt;
+&lt;li&gt;Nature&lt;/li&gt;
+&lt;li&gt;Social-Ecological Systems&lt;/li&gt;
+&lt;li&gt;Climate Change&lt;/li&gt;
+&lt;li&gt;Conservation
+excerpt: "&amp;#8220;Climate change must not blow conservation off course&amp;#8221;, by Morgan Tingley, Lyndon, and David Wilcove was published in the comment section of this week&amp;#8217;s &lt;em&gt;Nature&lt;/em&gt;."&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;{% include figure image_path="/assets/images/500271a-i1.0.jpg" alt="forest figure" caption="jack dykinga/naturepl.com" %}&lt;/p&gt;
+&lt;p&gt;&amp;#8220;Climate change must not blow conservation off course&amp;#8221;, by &lt;a href="http://www.morgantingley.com/"&gt;Morgan Tingley&lt;/a&gt;, &lt;a href="{{ site.baseurl }}{% link _people/estes.md %}"&gt;Lyndon&lt;/a&gt;, and &lt;a href="https://www.princeton.edu/step/people/faculty/david-wilcove/"&gt;David Wilcove&lt;/a&gt; was published in the comment section of this week&amp;#8217;s &lt;em&gt;&lt;a href="http://www.nature.com/nature/journal/v500/n7462/index.html"&gt;Nature&lt;/a&gt;.&lt;/em&gt; &lt;!--more--&gt; The article calls for conservationists to not reconfigure their priorities (e.g. protected area design) around climate change, because 1) traditional threats such as habitat destruction are more certain and urgent, 2) it would result in rugged, more mountainous areas being conserved at the expense of flatter, lower-lying habitats (this geographic bias already exists among current protected areas), and 3) species&amp;#8217; and communities&amp;#8217; responses to climate change &lt;a href="http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2012.02784.x/abstract"&gt;are hard to predict, and often counter-intuitive&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a class="btn btn--success" href="http://www.nature.com/nature/journal/v500/n7462/full/500271a.html"&gt;Go to the Article&lt;/a&gt;&lt;/p&gt;</content><category term="_posts"></category></entry><entry><title>Article published in Global Change Biology</title><link href="/article-published-in-global-change-biology.html" rel="alternate"></link><published>2013-08-06T03:00:15+00:00</published><updated>2013-08-06T03:00:15+00:00</updated><author><name>Lyndon Estes</name></author><id>tag:None,2013-08-06:/article-published-in-global-change-biology.html</id><summary type="html">&lt;ul&gt;
+&lt;li&gt;http://ecohyd.ro/1cEROLQ
+categories:&lt;/li&gt;
+&lt;li&gt;News&lt;/li&gt;
+&lt;li&gt;Publications&lt;/li&gt;
+&lt;li&gt;Research
+tags:&lt;/li&gt;
+&lt;li&gt;Lyndon Estes&lt;/li&gt;
+&lt;li&gt;Stephanie Debats&lt;/li&gt;
+&lt;li&gt;Smallholder Agriculture&lt;/li&gt;
+&lt;li&gt;Social-Ecological Systems&lt;/li&gt;
+&lt;li&gt;Global Change Biology
+excerpt: "&amp;#8220;Projected climate impacts to South African maize and wheat production in 2055: A comparison of empirical and mechanistic modeling approaches&amp;#8221;, written by Lyndon and co-authored by Stephanie, has been …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;ul&gt;
+&lt;li&gt;http://ecohyd.ro/1cEROLQ
+categories:&lt;/li&gt;
+&lt;li&gt;News&lt;/li&gt;
+&lt;li&gt;Publications&lt;/li&gt;
+&lt;li&gt;Research
+tags:&lt;/li&gt;
+&lt;li&gt;Lyndon Estes&lt;/li&gt;
+&lt;li&gt;Stephanie Debats&lt;/li&gt;
+&lt;li&gt;Smallholder Agriculture&lt;/li&gt;
+&lt;li&gt;Social-Ecological Systems&lt;/li&gt;
+&lt;li&gt;Global Change Biology
+excerpt: "&amp;#8220;Projected climate impacts to South African maize and wheat production in 2055: A comparison of empirical and mechanistic modeling approaches&amp;#8221;, written by Lyndon and co-authored by Stephanie, has been accepted by Global Change Biology."&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Projected climate impacts to South African maize and wheat production in 2055: A comparison of empirical and mechanistic modeling approaches&amp;#8221;, written by &lt;a href="{{ site.baseurl }}{% link _people/estes.md %}"&gt;Lyndon&lt;/a&gt; and co-authored by &lt;a href="{{ site.baseurl }}{% link _people/debats.md %}"&gt;Stephanie&lt;/a&gt;, has been accepted by Global Change Biology. &lt;!--more--&gt; The paper focuses on understanding how climate change impact projections of crop productivity differ between empirical and mechanistic models. Agricultural researchers use these models separately, but ecologists studying tree range shifts under future climates have shown that empirical models usually show larger negative impacts than mechanistic models. This paper revealed the same tendency in simulated future changes in maize and wheat productivity in South Africa: the mechanistic models projected future yield gains for both crops, while empirical models either showed yield losses or much smaller gains.  Since empirical and mechanistic models have different strengths and weaknesses, climate impacts studies focusing on crop responses may gain a fuller picture of projection uncertainties by comparing results from both kinds of models. A more detailed summary of the paper is available &lt;a href="http://blogs.princeton.edu/research/2013/08/14/how-will-crops-fare-under-climate-change-depends-on-how-you-ask-global-change-biology/"&gt;here&lt;/a&gt; or &lt;a href="http://www.sciencedaily.com/releases/2013/08/130814144811.htm"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a class="btn btn--success" href="http://onlinelibrary.wiley.com/doi/10.1111/gcb.12325/abstract"&gt;Go to the Article&lt;/a&gt;&lt;/p&gt;</content><category term="_posts"></category></entry></feed>

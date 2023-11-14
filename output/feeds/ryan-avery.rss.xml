@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>A Pelican Blog - Ryan Avery</title><link>/</link><description></description><lastBuildDate>Thu, 29 Nov 2018 00:00:00 +0000</lastBuildDate><item><title>Sharing data science skills with the DataUp program and Software Carpentry</title><link>/sharing-data-science-skills-with-the-dataup-program-and-software-carpentry.html</link><description>&lt;ul&gt;
+&lt;li&gt;Teaching&lt;/li&gt;
+&lt;li&gt;News&lt;/li&gt;
+&lt;li&gt;Programming
+tags:&lt;/li&gt;
+&lt;li&gt;R&lt;/li&gt;
+&lt;li&gt;Reproducible Science&lt;/li&gt;
+&lt;li&gt;Software Carpentry&lt;/li&gt;
+&lt;li&gt;South Big Data Hub&lt;/li&gt;
+&lt;li&gt;Ryan Avery
+excerpt: "Ryan visited Old Domion University to teach research computing skills in a two day workshop."&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href="{{ site.baseurl }}{% link _people/avery.md %}"&gt;Ryan Avery&lt;/a&gt; Ryan taught a coding workshop at Old Dominion University in Norfolk, VA October 25-26. It was a …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Ryan Avery</dc:creator><pubDate>Thu, 29 Nov 2018 00:00:00 +0000</pubDate><guid isPermaLink="false">tag:None,2018-11-29:/sharing-data-science-skills-with-the-dataup-program-and-software-carpentry.html</guid><category>_posts</category></item><item><title>Ryan Avery developing ML system for Omidyar Network at Clark Labs</title><link>/ryan-avery-developing-ml-system-for-omidyar-network-at-clark-labs.html</link><description>&lt;ul&gt;
+&lt;li&gt;Funding&lt;/li&gt;
+&lt;li&gt;News&lt;/li&gt;
+&lt;li&gt;Research
+tags:&lt;/li&gt;
+&lt;li&gt;Smallholder Agriculture&lt;/li&gt;
+&lt;li&gt;Ghana&lt;/li&gt;
+&lt;li&gt;Remote Sensing&lt;/li&gt;
+&lt;li&gt;Deep Learning&lt;/li&gt;
+&lt;li&gt;Ryan Avery
+excerpt: "Ryan is working as a Researcher at Clark Labs to develop the scalable machine learning component of an active learning system to detect smallholder agriculture"&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href="{{ site.baseurl }}{% link _people/avery.md %}"&gt;Ryan Avery&lt;/a&gt; will be at Clark Labs developing software for the …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Ryan Avery</dc:creator><pubDate>Fri, 29 Jun 2018 00:00:00 +0000</pubDate><guid isPermaLink="false">tag:None,2018-06-29:/ryan-avery-developing-ml-system-for-omidyar-network-at-clark-labs.html</guid><category>_posts</category></item></channel></rss>
