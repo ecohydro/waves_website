@@ -1,0 +1,118 @@
+
+data_config: 
+  authors: true
+
+collections_config:
+  people:
+    icon: people
+    
+    _inputs:
+      avatar:
+        type: image
+        uploads: assets/[collection]/{title|slugify}
+        comment: Person headshot that appears in author sidebars and on lab members page
+        options:
+          width: 226
+          height: 225
+          resize_style: cover
+      excerpt:
+        type: textarea
+        comment: Short description of affiliation and activity
+      portfolio-item-category:
+        options:
+          values:
+            - people
+      header:
+        image: 
+          type: image
+          uploads: assets/[collection]/{title|slugify}_header
+          comment: Person large landscape hero shot (field work, etc...) appears on main person page
+          options:
+            width: 2400
+            resize_style: cover
+          caption:
+            label: Degrees Earned
+            type: textarea
+            comment: List degrees (e.g. BA, Environmental Science, University of Virginia), one per line
+      portfolio-item-tag:
+        label: Status and Affiliation
+        comment: Only use existing tags (e.g. "current member", "UCSB", "graduate student")
+        options:
+          values:
+            - former member
+            - current member
+            - Mpala
+            - Princeton
+            - UCSB
+            - graduate student
+            - undergraduate student
+            - research intern
+            - thesis advisee
+            - high school student
+            - postdoc
+            - lab visitor
+            - research staff
+  publications:
+    _inputs:
+      title: 
+        type: text
+        comment: Manuscript title
+      date:
+        comment: Publication Date (approximate is fine)
+      year:
+        type: select
+        options:
+          values:
+            - '2022'
+            - '2023'
+            - '2024'
+            - '2025'
+            - '2026'
+      author:
+        type: select
+        comment: Lead group author
+        options:
+          values: data.authors
+      excerpt:
+        type: textarea
+        comment: Full citation to article, including all authors.
+      header:
+        teaser:
+          type: image
+          uploads: assets/[collection]/{author|slugify}_{id}
+          comment: First page of the publication.
+          options:
+            width: 480
+            resize_style: cover
+      portfolio-item-category:
+        options:
+          values:
+            - publications
+      author-tags:
+        type: multichoice
+        comment: Select all group authors. If one is missing, let Kelly know.
+        options:
+          values: data.authors
+
+_inputs:
+  author:
+    type: select
+    options:
+      values: data.authors
+  portfolio-item-category:
+    hidden: true
+    allow_empty: false
+    type: select
+  date:
+    type: date
+    instance_value: NOW
+  id: 
+    instance_value: UUID
+    hidden: true
+  portfolio-item-tag:
+    type: multiselect
+    allow_empty: false
+    
+    
+  
+

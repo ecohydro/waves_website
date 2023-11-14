@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>A Pelican Blog - "Molly O'Connor"</title><link>/</link><description></description><lastBuildDate>Wed, 01 May 2013 12:55:37 +0000</lastBuildDate><item><title>Open Source Hardware Documentation Jam</title><link>/open-source-hardware-documentation-jam.html</link><description>&lt;ul&gt;
+&lt;li&gt;News
+tags:&lt;/li&gt;
+&lt;li&gt;Open Source&lt;/li&gt;
+&lt;li&gt;"Molly O'Connor"
+excerpt: "Molly attended the Open Source Hardware Documentation Jam this past weekend at NYU."&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href="{{ site.baseurl }}{% link _people/oconnor.md %}"&gt;Molly&lt;/a&gt; attended the Open Source Hardware Documentation Jam this past weekend at NYU. The meeting brought together a diverse group of engineers, developers and designers who focused on improving documentation …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">"Molly O'Connor"</dc:creator><pubDate>Wed, 01 May 2013 12:55:37 +0000</pubDate><guid isPermaLink="false">tag:None,2013-05-01:/open-source-hardware-documentation-jam.html</guid><category>_posts</category></item></channel></rss>
