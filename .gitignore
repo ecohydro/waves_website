@@ -7,3 +7,5 @@ __pycache__/*
 .*.icloud
 .old.Gemfile.lock
 .jekyll-cache
+.env
+example_request.txt

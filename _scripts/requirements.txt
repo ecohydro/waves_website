@@ -1,3 +1,6 @@
 numbers-parser
 python-frontmatter
 pyyaml
+requests>=2.31.0
+python-dotenv>=1.0.0
+responses>=0.24.0

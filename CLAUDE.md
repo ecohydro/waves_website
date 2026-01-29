@@ -3,6 +3,8 @@
 Auto-generated from all feature plans. Last updated: 2026-01-29
 
 ## Active Technologies
+- Python 3.9+ (compatible with existing feature 001) + `requests` or `httpx` (HTTP client for Scholar API), `python-frontmatter` (markdown file parsing), `numbers-parser` (CV.numbers read/write), `PyYAML` (YAML handling), `python-dotenv` (environment variable loading from .env) (002-scholar-abstract-fill)
+- Filesystem — reads/writes `.md` files in `_publications/`, reads/writes CV.numbers file, loads `.env` for API credentials (002-scholar-abstract-fill)
 
 - Python 3.9+ (compatible with numbers-parser 4.16.3) + `numbers-parser` (Numbers file reading), `python-frontmatter` (YAML frontmatter parsing), `PyYAML` (authors.yml reading) (001-pub-ingestion)
 
@@ -22,6 +24,7 @@ cd src [ONLY COMMANDS FOR ACTIVE TECHNOLOGIES][ONLY COMMANDS FOR ACTIVE TECHNOLO
 Python 3.9+ (compatible with numbers-parser 4.16.3): Follow standard conventions
 
 ## Recent Changes
+- 002-scholar-abstract-fill: Added Python 3.9+ (compatible with existing feature 001) + `requests` or `httpx` (HTTP client for Scholar API), `python-frontmatter` (markdown file parsing), `numbers-parser` (CV.numbers read/write), `PyYAML` (YAML handling), `python-dotenv` (environment variable loading from .env)
 
 - 001-pub-ingestion: Added Python 3.9+ (compatible with numbers-parser 4.16.3) + `numbers-parser` (Numbers file reading), `python-frontmatter` (YAML frontmatter parsing), `PyYAML` (authors.yml reading)
 
