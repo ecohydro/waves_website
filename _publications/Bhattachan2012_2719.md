@@ -23,7 +23,7 @@ author-tags:
     - Kelly Caylor
     - Frances O'Donnell
 ---
-| ![first page]( "assets/images/publications/Bhattachan2012_2719.png" | absolute_url ){:class="img-responsive" width="50%" .align-right} |
+| ![first page]( {{ "assets/images/publications/Bhattachan2012_2719.png" | absolute_url }} ){:class="img-responsive" width="50%" .align-right} |
 
 > ∗Bhattachan, A., Dintwe, K., Tathlego, M., ∗O’Donnell, F.C., **Caylor, K.K.**, D’Odorico, P., Okin, G.A. (2012) “Evaluating ecohydrological theories of woody root distribution in the Kalahari”, PLoS One, 7(3): e33996. doi:10.1371/journal.pone.0033996
 

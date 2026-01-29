@@ -1,7 +1,7 @@
 ---
 author: Frances O'Donnell
 avatar: assets/images/people/FODonnell.jpg
-date: 2013-02-30 12:32:01
+date: 2013-02-20 12:32:01
 excerpt: Frances is currently an Assistant Professor in the Department of Civil and Environmental Engineering at Auburn University.
 portfolio-item-category:
 - people
