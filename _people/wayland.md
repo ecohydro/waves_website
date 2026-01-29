@@ -7,6 +7,7 @@ portfolio-item-category:
 - people
 portfolio-item-tag:
 - former member
+- MSE graduate
 - graduate student
 - Princeton
 title: Hilary Wayland, MSE (2015)

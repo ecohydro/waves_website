@@ -11,6 +11,7 @@ portfolio-item-category:
 portfolio-item-tag:
   - former member
   - graduate student
+  - MS Graduate
   - Indiana
 header:
    image: "assets/images/people/abi.jpg"

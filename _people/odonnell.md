@@ -1,7 +1,7 @@
 ---
 author: James O'Donnell
 avatar: assets/images/people/ODonnell.jpg
-date: 2014-07-30 12:32:01
+date: 2014-07-15 12:32:01
 excerpt: Jimmy joined our lab through the Hutchins Scholars program at the Lawrenceville
   School. He worked on new techniques for organics removal in plant water samples.
 portfolio-item-category:
