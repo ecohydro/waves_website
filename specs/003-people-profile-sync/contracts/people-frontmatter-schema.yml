@@ -1,0 +1,324 @@
+# People Frontmatter Schema Contract
+#
+# Purpose: Defines required and optional frontmatter fields for _people/*.md files.
+# This contract ensures compatibility with Jekyll theme and constitutional requirements.
+#
+# Feature: 003-people-profile-sync
+# Created: 2026-01-29
+
+schema_version: "1.0.0"
+
+description: |
+  Jekyll frontmatter schema for person profile files in _people/ collection.
+  Combines constitution-required fields with feature-specific additions.
+
+required_fields:
+  # Constitutional requirements (from constitution.md Content Workflow section)
+  - name: "author"
+    type: "string"
+    description: "Person name (used for author attribution in publications)"
+    example: "Kelly O'Donnell"
+    cv_sourced: true
+
+  - name: "avatar"
+    type: "string"
+    description: "Path to profile photo in assets/images/people/"
+    example: "assets/images/people/odonnell.jpg"
+    cv_sourced: false
+    validation:
+      - "File must exist at specified path"
+      - "Supported formats: .jpg, .jpeg, .png"
+
+  - name: "excerpt"
+    type: "string"
+    description: "Short bio for listing pages (1-2 sentences)"
+    example: "PhD student studying dryland ecohydrology in East Africa."
+    cv_sourced: false
+    max_length: 200
+
+  - name: "title"
+    type: "string"
+    description: "Full name or title for page header"
+    example: "Kelly K. O'Donnell"
+    cv_sourced: true
+
+  - name: "portfolio-item-category"
+    type: "array"
+    description: "Category tags (theme-specific)"
+    example: ["people"]
+    cv_sourced: false
+    default: ["people"]
+
+  - name: "portfolio-item-tag"
+    type: "array"
+    description: "Item tags for filtering"
+    example: ["phd-student", "alumni"]
+    cv_sourced: false
+
+  - name: "date"
+    type: "string"
+    format: "YYYY-MM-DD"
+    description: "Profile creation date (for sorting)"
+    example: "2015-09-01"
+    cv_sourced: true
+
+optional_fields:
+  # Feature 003 additions
+  - name: "roles"
+    type: "array"
+    description: "List of affiliations with the research group (Feature 003)"
+    cv_sourced: true
+    schema:
+      type: "object"
+      properties:
+        - name: "type"
+          type: "string"
+          required: true
+          allowed_values: ["Graduate PhD", "Graduate MA/MS", "Postdoc", "Undergrad", "Visitor"]
+
+        - name: "start_year"
+          type: "integer"
+          required: false
+          validation: ["Must be >= 1990", "Must be <= current year + 1"]
+
+        - name: "end_year"
+          type: "integer"
+          required: false
+          validation: ["Must be >= start_year", "Must be <= current year + 5"]
+
+        - name: "degree"
+          type: "string"
+          required: false
+          examples: ["PhD", "MS", "MA", "BS", "BA"]
+
+        - name: "institution"
+          type: "string"
+          required: false
+          default: "University of California, Santa Barbara"
+
+        - name: "research_focus"
+          type: "string"
+          required: false
+
+    example:
+      - type: "Graduate PhD"
+        start_year: 2015
+        end_year: 2020
+        degree: "PhD"
+        institution: "University of California, Santa Barbara"
+        research_focus: "Dryland ecohydrology and remote sensing"
+      - type: "Postdoc"
+        start_year: 2020
+        end_year: 2022
+        institution: "Stanford University"
+
+  - name: "current_position"
+    type: "string"
+    description: "Current job title (manually added or enriched)"
+    cv_sourced: false
+    example: "Associate Professor"
+
+  - name: "current_institution"
+    type: "string"
+    description: "Current employer/affiliation (manually added or enriched)"
+    cv_sourced: false
+    example: "Massachusetts Institute of Technology"
+
+  - name: "linkedin_url"
+    type: "string"
+    format: "url"
+    description: "LinkedIn profile URL (manually added or enriched)"
+    cv_sourced: false
+    validation: ["Must match pattern: https://www.linkedin.com/in/*"]
+    example: "https://www.linkedin.com/in/kellykodonnell"
+
+  - name: "research_interests"
+    type: "array"
+    description: "Keywords describing research areas"
+    cv_sourced: true
+    example: ["ecohydrology", "remote sensing", "drylands", "East Africa"]
+
+  - name: "email"
+    type: "string"
+    format: "email"
+    description: "Contact email address"
+    cv_sourced: false
+    example: "kodonnell@ucsb.edu"
+
+  - name: "publications"
+    type: "array"
+    description: "List of publication IDs (links to _publications/ files)"
+    cv_sourced: false
+    example: ["Caylor2020_6539", "Gower2019_6239"]
+
+  - name: "alumni_status"
+    type: "boolean"
+    description: "True if person is no longer active in the lab"
+    cv_sourced: true
+    default: false
+
+  # Feature 003 metadata field
+  - name: "_cv_metadata"
+    type: "object"
+    description: "Tracks which fields are CV-sourced vs manually added (Feature 003)"
+    cv_sourced: false
+    schema:
+      description: "Map of field names to source metadata"
+      key_format: "field name from this schema"
+      value_schema:
+        type: "object"
+        properties:
+          - name: "sourced"
+            type: "boolean"
+            description: "True if field is sourced from CV.numbers"
+
+          - name: "last_synced"
+            type: "string"
+            format: "ISO 8601 timestamp"
+            description: "When field was last synced from CV"
+            example: "2026-01-29T10:30:00Z"
+
+          - name: "conflict_logged"
+            type: "boolean"
+            description: "True if manual edit conflict was detected and logged"
+            default: false
+
+    example:
+      title:
+        sourced: true
+        last_synced: "2026-01-29T10:30:00Z"
+        conflict_logged: false
+      roles:
+        sourced: true
+        last_synced: "2026-01-29T10:30:00Z"
+        conflict_logged: false
+      current_position:
+        sourced: false
+        last_synced: null
+        conflict_logged: false
+
+file_naming:
+  convention: "{lastname}.md or {firstname}-{lastname}.md"
+  examples:
+    - "odonnell.md"
+    - "bhattachan.md"
+    - "van-der-berg.md"
+  rules:
+    - "Lowercase only"
+    - "Hyphens for multi-word lastnames"
+    - "No apostrophes or special characters"
+
+markdown_body:
+  description: "Optional Markdown content below frontmatter for custom bio"
+  cv_sourced: false
+  example: |
+    Kelly is a PhD graduate who studied dryland ecohydrology in East Africa.
+    She is now an Associate Professor at MIT.
+
+validation_rules:
+  - rule: "All required_fields must be present"
+    severity: "error"
+
+  - rule: "Fields marked cv_sourced: true should be present in _cv_metadata when synced by tool"
+    severity: "warning"
+
+  - rule: "avatar path must point to existing file in assets/images/people/"
+    severity: "error"
+
+  - rule: "linkedin_url must match pattern https://www.linkedin.com/in/* if specified"
+    severity: "error"
+
+  - rule: "If alumni_status is false, at least one role should have end_year >= current_year - 1"
+    severity: "warning"
+
+  - rule: "roles list should be sorted chronologically by start_year"
+    severity: "info"
+
+  - rule: "email must be valid email format if specified"
+    severity: "error"
+
+  - rule: "date must be valid YYYY-MM-DD format"
+    severity: "error"
+
+example_file:
+  filename: "_people/odonnell.md"
+  content: |
+    ---
+    author: Kelly O'Donnell
+    avatar: assets/images/people/odonnell.jpg
+    excerpt: PhD student studying dryland ecohydrology in East Africa using remote sensing.
+    title: Kelly K. O'Donnell
+    portfolio-item-category:
+      - people
+    portfolio-item-tag:
+      - phd-student
+      - alumni
+    date: 2015-09-01
+    roles:
+      - type: Graduate PhD
+        start_year: 2015
+        end_year: 2020
+        degree: PhD
+        institution: University of California, Santa Barbara
+        research_focus: Dryland ecohydrology and remote sensing in Kenya
+    current_position: Associate Professor
+    current_institution: Massachusetts Institute of Technology
+    linkedin_url: https://www.linkedin.com/in/kellykodonnell
+    research_interests:
+      - ecohydrology
+      - remote sensing
+      - drylands
+      - East Africa
+    alumni_status: true
+    _cv_metadata:
+      title:
+        sourced: true
+        last_synced: "2026-01-29T10:30:00Z"
+        conflict_logged: false
+      roles:
+        sourced: true
+        last_synced: "2026-01-29T10:30:00Z"
+        conflict_logged: false
+      research_interests:
+        sourced: true
+        last_synced: "2026-01-29T10:30:00Z"
+        conflict_logged: false
+      current_position:
+        sourced: false
+        last_synced: null
+        conflict_logged: false
+      current_institution:
+        sourced: false
+        last_synced: null
+        conflict_logged: false
+    ---
+
+    Kelly completed her PhD in 2020 studying water availability in East African
+    drylands. Her research combined field measurements with satellite remote sensing
+    to understand how vegetation responds to rainfall variability.
+
+    She is currently an Associate Professor at MIT's Department of Earth,
+    Atmospheric and Planetary Sciences.
+
+testing:
+  contract_tests:
+    - test: "test_people_frontmatter_required_fields"
+      description: "Verify all required fields are present in profile files"
+
+    - test: "test_people_frontmatter_avatar_exists"
+      description: "Verify avatar paths point to existing image files"
+
+    - test: "test_people_frontmatter_roles_schema"
+      description: "Verify roles array follows schema with valid types and years"
+
+    - test: "test_people_frontmatter_cv_metadata_consistency"
+      description: "Verify _cv_metadata keys match actual frontmatter fields"
+
+    - test: "test_people_frontmatter_linkedin_url_format"
+      description: "Verify LinkedIn URLs match expected pattern"
+
+    - test: "test_people_frontmatter_date_format"
+      description: "Verify date field is valid YYYY-MM-DD format"
+
+    - test: "test_people_frontmatter_alumni_status_consistency"
+      description: "Verify alumni_status aligns with role end_year"

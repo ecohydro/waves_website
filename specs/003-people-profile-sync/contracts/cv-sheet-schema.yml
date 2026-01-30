@@ -1,0 +1,243 @@
+# CV.numbers Sheet Schema Contract
+#
+# Purpose: Documents expected column structure for each of the 5 CV.numbers sheets.
+# This contract is used for validation and testing, not strict enforcement (fuzzy matching is used).
+#
+# Feature: 003-people-profile-sync
+# Created: 2026-01-29
+
+sheets:
+  - name: "Graduate PhD"
+    description: "PhD students who have been affiliated with the research group"
+    expected_columns:
+      required:
+        - name: "Name"
+          type: "string"
+          description: "Full name of student"
+          fuzzy_patterns: ["name", "full name", "student name", "person"]
+
+      optional:
+        - name: "Years"
+          type: "string"
+          description: "Years active (e.g., '2015-2020', '2018-present')"
+          fuzzy_patterns: ["years", "year", "dates", "period"]
+          examples: ["2015-2020", "2018-present", "2019-"]
+
+        - name: "Degree"
+          type: "string"
+          description: "Degree type (should be 'PhD' for this sheet)"
+          fuzzy_patterns: ["degree", "degree type", "program"]
+          expected_values: ["PhD", "Ph.D."]
+
+        - name: "Institution"
+          type: "string"
+          description: "Institution where degree was earned"
+          fuzzy_patterns: ["institution", "university", "affiliation", "school"]
+          default: "University of California, Santa Barbara"
+
+        - name: "Research"
+          type: "string"
+          description: "Research focus or dissertation topic"
+          fuzzy_patterns: ["research", "focus", "area", "topic", "dissertation"]
+
+  - name: "Postdoc"
+    description: "Postdoctoral researchers affiliated with the group"
+    expected_columns:
+      required:
+        - name: "Name"
+          type: "string"
+          description: "Full name of postdoc"
+          fuzzy_patterns: ["name", "full name", "postdoc name", "person"]
+
+      optional:
+        - name: "Years"
+          type: "string"
+          description: "Years active as postdoc"
+          fuzzy_patterns: ["years", "year", "dates", "period"]
+          examples: ["2020-2022", "2021-present"]
+
+        - name: "Institution"
+          type: "string"
+          description: "Institution of postdoctoral affiliation"
+          fuzzy_patterns: ["institution", "university", "affiliation"]
+
+        - name: "Research"
+          type: "string"
+          description: "Research focus during postdoc"
+          fuzzy_patterns: ["research", "focus", "area", "topic", "project"]
+
+  - name: "Graduate MA_MS"
+    description: "Master's students affiliated with the group"
+    expected_columns:
+      required:
+        - name: "Name"
+          type: "string"
+          description: "Full name of student"
+          fuzzy_patterns: ["name", "full name", "student name", "person"]
+
+      optional:
+        - name: "Years"
+          type: "string"
+          description: "Years active"
+          fuzzy_patterns: ["years", "year", "dates", "period"]
+
+        - name: "Degree"
+          type: "string"
+          description: "Degree type (MA or MS)"
+          fuzzy_patterns: ["degree", "degree type", "program"]
+          expected_values: ["MS", "M.S.", "MA", "M.A."]
+
+        - name: "Institution"
+          type: "string"
+          description: "Institution where degree was earned"
+          fuzzy_patterns: ["institution", "university", "affiliation", "school"]
+
+        - name: "Research"
+          type: "string"
+          description: "Research focus or thesis topic"
+          fuzzy_patterns: ["research", "focus", "area", "topic", "thesis"]
+
+  - name: "Undergrad"
+    description: "Undergraduate researchers affiliated with the group"
+    expected_columns:
+      required:
+        - name: "Name"
+          type: "string"
+          description: "Full name of student"
+          fuzzy_patterns: ["name", "full name", "student name", "person"]
+
+      optional:
+        - name: "Years"
+          type: "string"
+          description: "Years active in lab"
+          fuzzy_patterns: ["years", "year", "dates", "period"]
+
+        - name: "Degree"
+          type: "string"
+          description: "Degree type (usually BS or BA)"
+          fuzzy_patterns: ["degree", "degree type", "major", "program"]
+          expected_values: ["BS", "B.S.", "BA", "B.A."]
+
+        - name: "Institution"
+          type: "string"
+          description: "Institution where student is enrolled"
+          fuzzy_patterns: ["institution", "university", "school"]
+
+        - name: "Research"
+          type: "string"
+          description: "Research project or focus area"
+          fuzzy_patterns: ["research", "focus", "area", "topic", "project"]
+
+  - name: "Visitors"
+    description: "Visiting scholars and researchers"
+    expected_columns:
+      required:
+        - name: "Name"
+          type: "string"
+          description: "Full name of visitor"
+          fuzzy_patterns: ["name", "full name", "visitor name", "person"]
+
+      optional:
+        - name: "Years"
+          type: "string"
+          description: "Years of visit"
+          fuzzy_patterns: ["years", "year", "dates", "period", "visit dates"]
+
+        - name: "Institution"
+          type: "string"
+          description: "Home institution of visitor"
+          fuzzy_patterns: ["institution", "university", "affiliation", "home institution"]
+
+        - name: "Research"
+          type: "string"
+          description: "Research conducted during visit"
+          fuzzy_patterns: ["research", "focus", "area", "topic", "project", "purpose"]
+
+        - name: "Visitor Type"
+          type: "string"
+          description: "Type of visitor (e.g., Sabbatical, Short-term)"
+          fuzzy_patterns: ["type", "visitor type", "category"]
+          expected_values: ["Sabbatical", "Short-term", "Graduate Student", "Faculty"]
+
+validation_rules:
+  - rule: "Name column must be present in all sheets"
+    severity: "error"
+
+  - rule: "Empty rows (all cells empty) should be skipped"
+    severity: "warning"
+
+  - rule: "Rows with empty Name field should be skipped with warning"
+    severity: "warning"
+
+  - rule: "Years field in invalid format should set to None with warning"
+    severity: "warning"
+    examples:
+      valid: ["2015-2020", "2018-present", "2019-", "2020"]
+      invalid: ["TBD", "N/A", "Summer 2020"]
+
+  - rule: "Degree field for PhD sheet should be 'PhD' variant, log warning if different"
+    severity: "warning"
+
+  - rule: "Unexpected columns should be logged but not cause failure"
+    severity: "info"
+
+fuzzy_matching:
+  description: "Column headers are matched using case-insensitive substring matching"
+  algorithm: "If any fuzzy_pattern substring appears in header (case-insensitive), column is matched"
+  examples:
+    - header: "Full Name of Student"
+      pattern: "name"
+      match: true
+
+    - header: "Years in Lab"
+      pattern: "years"
+      match: true
+
+    - header: "PhD or MS"
+      pattern: "degree"
+      match: true
+
+    - header: "Comments"
+      pattern: null
+      match: false
+
+testing:
+  fixtures:
+    - file: "tests/fixtures/sample_cv.numbers"
+      description: "Mock CV.numbers file with all 5 sheets"
+      contents:
+        - sheet: "Graduate PhD"
+          rows: 5
+          columns: ["Name", "Years", "Degree", "Institution", "Research"]
+
+        - sheet: "Postdoc"
+          rows: 3
+          columns: ["Name", "Years", "Research"]
+
+        - sheet: "Graduate MA_MS"
+          rows: 2
+          columns: ["Name", "Years", "Degree"]
+
+        - sheet: "Undergrad"
+          rows: 4
+          columns: ["Name", "Years"]
+
+        - sheet: "Visitors"
+          rows: 2
+          columns: ["Name", "Years", "Institution", "Visitor Type"]
+
+  contract_tests:
+    - test: "test_cv_sheet_parsing_graduate_phd"
+      description: "Verify parsing of Graduate PhD sheet with all expected columns"
+
+    - test: "test_cv_sheet_parsing_missing_optional_columns"
+      description: "Verify graceful handling when optional columns are missing"
+
+    - test: "test_cv_sheet_fuzzy_column_matching"
+      description: "Verify fuzzy matching works for variations like 'Full Name' vs 'Name'"
+
+    - test: "test_cv_sheet_invalid_years_format"
+      description: "Verify warning logged and None set for invalid years"
+
+    - test: "test_cv_sheet_empty_rows_skipped"
+      description: "Verify empty rows are skipped without error"
