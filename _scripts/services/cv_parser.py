@@ -14,6 +14,7 @@ from rapidfuzz import fuzz
 from models.cv_sheet import CVEntry, CVSheet
 from models.person import Person, Role
 from services.logger import logger
+from models.publication import Publication
 
 
 class CVParserService:
@@ -278,3 +279,115 @@ class CVParserService:
         logger.debug(f"Created Person: {person.name} with {len(person.roles)} role(s)")
 
         return person
+
+    def parse_publications_sheet(self) -> list[Publication]:
+        """
+        Parse Publications sheet from CV.numbers file.
+
+        Returns:
+            List of Publication objects with canonical_id, title, authors, year, doi, kind
+
+        Raises:
+            ValueError: If Publications sheet not found or required columns missing
+        """
+        if not self.document:
+            raise ValueError("Document not loaded. Call load_cv_file() first.")
+
+        # Find Publications sheet
+        pub_sheet = None
+        for sheet in self.document.sheets:
+            if sheet.name == 'Publications':
+                pub_sheet = sheet
+                break
+
+        if not pub_sheet:
+            raise ValueError("Publications sheet not found in CV.numbers file")
+
+        logger.info("Parsing Publications sheet")
+
+        # Get table and headers
+        table = pub_sheet.tables[0]
+        headers = []
+        for i in range(table.num_cols):
+            cell = table.cell(0, i)
+            headers.append(cell.value if cell.value else '')
+
+        # Find required column indices (using existing column names)
+        try:
+            title_col = headers.index('TITLE')
+            year_col = headers.index('YEAR')
+            author_col = headers.index('AUTHOR')  # First author for canonical_id
+        except ValueError as e:
+            raise ValueError(f"Required column not found in Publications sheet: {e}")
+
+        # Find optional columns
+        doi_col = headers.index('DOI') if 'DOI' in headers else None
+        kind_col = headers.index('KIND') if 'KIND' in headers else None
+
+        # Parse all rows
+        publications = []
+        for row_idx in range(1, table.num_rows):  # Skip header row
+            try:
+                # Extract required fields
+                title_cell = table.cell(row_idx, title_col)
+                year_cell = table.cell(row_idx, year_col)
+                author_cell = table.cell(row_idx, author_col)
+
+                title = title_cell.value if title_cell.value else ''
+                year_val = year_cell.value if year_cell.value else None
+                author = author_cell.value if author_cell.value else ''
+
+                # Skip rows with missing required fields
+                if not title or not year_val or not author:
+                    continue
+
+                # Convert year to int
+                try:
+                    year = int(year_val)
+                except (ValueError, TypeError):
+                    logger.warning(f"Invalid year at row {row_idx}: {year_val}")
+                    continue
+
+                # Extract optional fields
+                doi = None
+                if doi_col is not None:
+                    doi_cell = table.cell(row_idx, doi_col)
+                    doi_val = doi_cell.value if doi_cell.value else None
+                    if doi_val and doi_val != '-':
+                        # Normalize DOI
+                        doi = doi_val.lower().replace('https://doi.org/', '').strip()
+
+                kind = None
+                if kind_col is not None:
+                    kind_cell = table.cell(row_idx, kind_col)
+                    kind = kind_cell.value if kind_cell.value else None
+
+                # Generate canonical_id from author last name + year + row number
+                # Extract last name from author (assume "Last, First" or "Last" format)
+                if ',' in author:
+                    last_name = author.split(',')[0].strip()
+                else:
+                    last_name = author.split()[0] if author else 'Unknown'
+
+                # Format canonical_id: AuthorYear_XXXX
+                # Use row index as the 4-digit number for uniqueness
+                canonical_id = f"{last_name}{year}_{row_idx:04d}"
+
+                # Create Publication object
+                publication = Publication(
+                    canonical_id=canonical_id,
+                    title=title.strip(),
+                    authors=[author.strip()],  # For now, just first author
+                    year=year,
+                    doi=doi,
+                    kind=kind
+                )
+
+                publications.append(publication)
+
+            except Exception as e:
+                logger.warning(f"Failed to parse publication at row {row_idx}: {e}")
+                continue
+
+        logger.info(f"Parsed {len(publications)} publications from CV.numbers")
+        return publications
