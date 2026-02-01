@@ -167,6 +167,7 @@ def load_publications(args, logger):
                 title = post.get('title', '')
                 year = post.get('year', None)
                 doi = post.get('doi', None)
+                kind = post.get('kind', None)
 
                 # Convert year to int if it's a string
                 if year:
@@ -193,7 +194,7 @@ def load_publications(args, logger):
                     authors=[author_name],  # Extracted from canonical_id
                     year=year,
                     doi=doi,
-                    kind=None  # Can add if needed
+                    kind=kind
                 )
 
                 publications.append(publication)

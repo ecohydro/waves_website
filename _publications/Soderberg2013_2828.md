@@ -25,7 +25,7 @@ title: Using atmospheric trajectories to model the isotopic composition of rainf
 year: '2013'
 ---
 
-![first page]( {{"assets/images/publications/Soderberg2013_2828.png" | absolute_url}} ){:class="img-responsive" width="50%" .align-right}
+{% include publication-feature-image.html canonical_id="Soderberg2013_2828" %}
 
 > \*Soderberg, Keir, \*Stephen P. Good, \*Molly O’Connor, \*Lixin Wang, *Kathleen Ryan, and **Kelly K. Caylor**. 2013. Using atmospheric trajectories to model the isotopic composition of rainfall in central Kenya. Ecosphere 4:art33. doi:10.1890/ES12-00160.1
 

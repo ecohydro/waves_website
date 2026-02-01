@@ -20,7 +20,7 @@ title: The influence of memory, sample size effects, and filter paper material o
 year: '2017'
 ---
 
-![first page]( {{"assets/images/publications/Gerlein-Safdi2017_5203.png" | absolute_url}} ){:class="img-responsive" width="50%" .align-right}
+{% include publication-feature-image.html canonical_id="Gerlein-Safdi2017_5203" %}
 
 
 > Gerlein-Safdi, C., et al. (2017) “The influence of memory, sample size effects, and filter paper material on online laser-based plant and soil water isotope measurements”, Rapid Communications in Mass Spectroscopy, doi:10.1002/rcm.7824.

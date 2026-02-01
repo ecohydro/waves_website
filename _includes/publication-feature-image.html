@@ -1,0 +1,44 @@
+{% comment %}
+Publication Feature Image with Three-Level Fallback
+Implements fallback strategy: feature → preview → placeholder
+
+Usage: {% include publication-feature-image.html canonical_id=page.canonical_id %}
+{% endcomment %}
+
+{% assign canonical_id = include.canonical_id %}
+{% assign feature_path = "/assets/images/publications/" | append: canonical_id | append: "_figure.png" %}
+{% assign preview_path = "/assets/images/publications/" | append: canonical_id | append: ".png" %}
+{% assign placeholder_path = "/assets/images/publications/placeholder.png" %}
+
+{% comment %}Check if feature image exists in static_files{% endcomment %}
+{% assign feature_exists = false %}
+{% for static_file in site.static_files %}
+  {% if static_file.path == feature_path %}
+    {% assign feature_exists = true %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% if feature_exists %}
+  {% assign image_to_use = feature_path %}
+  {% assign image_type = "feature" %}
+{% else %}
+  {% comment %}Check if preview image exists{% endcomment %}
+  {% assign preview_exists = false %}
+  {% for static_file in site.static_files %}
+    {% if static_file.path == preview_path %}
+      {% assign preview_exists = true %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+
+  {% if preview_exists %}
+    {% assign image_to_use = preview_path %}
+    {% assign image_type = "preview" %}
+  {% else %}
+    {% assign image_to_use = placeholder_path %}
+    {% assign image_type = "placeholder" %}
+  {% endif %}
+{% endif %}
+
+<img src="{{ image_to_use | relative_url }}" alt="{{ page.title }}" class="img-responsive publication-image" width="50%" style="float: right; margin-left: 1em; margin-bottom: 1em;" data-image-type="{{ image_type }}">

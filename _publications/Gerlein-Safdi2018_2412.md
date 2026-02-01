@@ -1,25 +1,25 @@
 ---
 author: Cynthia Gerlein-Safdi
-date: 2018-08-01 18:11:13
-id: 2412
-year: '2018'
-title: "Dew deposition suppresses transpiration and carbon uptake in leaves"
-doi: 10.1016/j.agrformet.2018.05.015
-excerpt: "Gerlein-Safdi, R., et al. (2018) Dew deposition suppresses transpiration and carbon uptake in leaves, Agricultural and Forest Meteorology, doi:10.1016/j.agrformet.2018.05.015"
-header:
-    teaser: assets/images/publications/Gerlein-Safdi2018_2412.png
-portfolio-item-category:
-    - publications
-portfolio-item-tag:
-    - '2018'
-    - Agricultural and Forest Meteorology
 author-tags:
-    - Cynthia Gerlein-Safdi
-    - Kelly Caylor
-
+- Cynthia Gerlein-Safdi
+- Kelly Caylor
+date: 2018-08-01 18:11:13
+doi: 10.1016/j.agrformet.2018.05.015
+excerpt: Gerlein-Safdi, R., et al. (2018) Dew deposition suppresses transpiration
+  and carbon uptake in leaves, Agricultural and Forest Meteorology, doi:10.1016/j.agrformet.2018.05.015
+header:
+  teaser: assets/images/publications/Gerlein-Safdi2018_2412.png
+id: 2412
+portfolio-item-category:
+- publications
+portfolio-item-tag:
+- '2018'
+- Agricultural and Forest Meteorology
+title: Dew deposition suppresses transpiration and carbon uptake in leaves
+year: '2018'
 ---
 
-![first page]( {{"assets/images/publications/Gerlein-Safdi2018_2412_figure.png" | absolute_url}} ){:class="img-responsive" width="50%" .align-right}
+{% include publication-feature-image.html canonical_id="Gerlein-Safdi2018_2412" %}
 
 
 > Gerlein-Safdi, R., et al. (2018) “Dew deposition suppresses transpiration and carbon uptake in leaves”, Agricultural and Forest Meteorology, doi:10.1016/j.agrformet.2018.05.015.

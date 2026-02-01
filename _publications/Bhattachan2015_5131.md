@@ -21,7 +21,7 @@ title: 'Soil organic C and total N pools in the Kalahari: potential impacts of c
 year: '2015'
 ---
 
-![ first page ]({{ "assets/images/publications/Bhattachan2015_5131_figure.png" | absolute_url }}){:class="img-responsive" width="50%" .align-right}
+{% include publication-feature-image.html canonical_id="Bhattachan2015_5131" %}
 
 > Dintwe, K., Okin, GS., D’Odorico, P., Hrast, T., Mladenov,N., Handorean, A., Bhattachan, A., & Caylor, K.K. (2015). Soil organic C and total N pools in the Kalahari: potential impacts of climate change on C sequestration in savannas. _Plant & Soil_, 27-44, doi:10.1007/s11104-014-2292-5.
 
