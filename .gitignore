@@ -10,3 +10,6 @@ __pycache__/*
 .env
 example_request.txt
 .cache/
+
+# Publication PDFs (copyrighted, not for distribution)
+assets/pdfs/publications/*.pdf
