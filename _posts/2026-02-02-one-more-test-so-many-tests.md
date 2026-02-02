@@ -6,7 +6,7 @@ categories:
 date: '2026-02-02T00:00:00-08:00'
 excerpt: Another short description
 header:
-  image: assets/images/news-default.jpg
+  image: assets/images/news/2026-02-02-one-more-test-so-many-tests.png
 layout: single
 tags:
 - news
