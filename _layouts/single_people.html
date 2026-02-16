@@ -59,8 +59,12 @@ The following part removes dulpicated years and invalid years like blank year.
 
       <section class="page__content" itemprop="text">
         {{ content }}
-        
+
         {% capture authorTag %}{{ page.author }}{% endcapture %}
+
+        {% comment %}Recent Publications Section{% endcomment %}
+        {% include recent-publications.html author=authorTag %}
+
         {% assign numPosts = site.tags[authorTag] | size %}
         {% if numPosts > 0 %}
           <div class="row related-posts">
@@ -78,7 +82,7 @@ The following part removes dulpicated years and invalid years like blank year.
         {% endif %}
         {% assign numPubs = site.publications.author-tags[authorTag] | size %}
         {% if numPubs > 0 %}
-          <h2 class="text-center">WAVES Lab Publications by {{page.author}}</h2>
+          <h2 id="publications-section" class="text-center" style="scroll-margin-top: 80px;">WAVES Lab Publications by {{page.author}}</h2>
           <div class="grid__wrapper">
             {% for year in sorted_years %}
               {% for publication in site.publications %}

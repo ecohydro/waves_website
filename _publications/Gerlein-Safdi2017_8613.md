@@ -1,25 +1,27 @@
 ---
 author: Cynthia Gerlein-Safdi
-date: 2017-09-12 16:43:21
-id: 8613
-doi: 10.1111/pce.13002
-year: '2017'
-title: Leaf water 18O and 2H maps show directional enrichment discrepancy in Colocasia esculenta
-doi: 10.1111/pce.13002
-excerpt: "Gerlein-Safdi, R., Gauthier, P.P.G., Sinkler, C.J., and Caylor, K.K. (2017) Leaf water 18O and 2H maps show directional enrichment discrepancy in Colocasia esculenta, Plant, Cell, and Environment, doi:10.1111/pce.13002"
-header:
-    teaser: assets/images/publications/Gerlein-Safdi2017_8613.png
-portfolio-item-category:
-    - publications
-portfolio-item-tag:
-    - '2017'
-    - Plant, Cell, and Environment
 author-tags:
-    - Cynthia Gerlein-Safdi
-    - Kelly Caylor
+- Cynthia Gerlein-Safdi
+- Kelly Caylor
+date: 2017-09-12 16:43:21
+doi: 10.1111/pce.13002
+excerpt: Gerlein-Safdi, R., Gauthier, P.P.G., Sinkler, C.J., and Caylor, K.K. (2017)
+  Leaf water 18O and 2H maps show directional enrichment discrepancy in Colocasia
+  esculenta, Plant, Cell, and Environment, doi:10.1111/pce.13002
+header:
+  teaser: assets/images/publications/Gerlein-Safdi2017_8613.png
+id: 8613
+portfolio-item-category:
+- publications
+portfolio-item-tag:
+- '2017'
+- Plant, Cell, and Environment
+title: Leaf water 18O and 2H maps show directional enrichment discrepancy in Colocasia
+  esculenta
+year: '2017'
 ---
 
-![first page]( {{"assets/images/publications/Gerlein-Safdi2017_8613_figure.png" | absolute_url}} ){:class="img-responsive" width="50%" .align-right}
+{% include publication-feature-image.html canonical_id="Gerlein-Safdi2017_8613" %}
 
 
 > Gerlein-Safdi, R., et al. (2017) “Leaf water 18O and 2H maps show directional enrichment discrepancy in Colocasia esculenta”, Plant, Cell, and Environment, doi:10.1111/pce.13002.

@@ -10,6 +10,7 @@ portfolio-item-category:
    - people
 portfolio-item-tag:
    - former member
+   - MS graduate
    - graduate student
    - UCSB
 title: Ryan Avery, MS (2020), Data Scientist

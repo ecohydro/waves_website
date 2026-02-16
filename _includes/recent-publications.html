@@ -1,0 +1,49 @@
+{% comment %}
+Recent Publications Section for Person Pages
+Shows the 6 most recent publications by a person with altmetric and citation badges
+{% endcomment %}
+
+{% assign authorTag = include.author %}
+
+{% comment %}Get publications by this author sorted by year{% endcomment %}
+{% assign author_pubs = site.publications | where_exp: "pub", "pub.author-tags contains authorTag" | sort: "year" | reverse %}
+
+{% if author_pubs.size > 0 %}
+  <div class="recent-publications">
+    <h2 class="text-center">{{ authorTag }}'s Recent Publications</h2>
+    <div class="publications-list">
+      {% for publication in author_pubs limit:6 %}
+        <div class="publication-item" style="margin-bottom: 1.5em; padding-bottom: 1em; border-bottom: 1px solid #eee;">
+          <h3 style="margin-bottom: 0.5em; font-size: 1.1em;">
+            <a href="{{ publication.url | relative_url }}">
+              {{ publication.title }}
+            </a>
+          </h3>
+
+          {% if publication.excerpt %}
+            <p style="font-size: 0.9em; color: #666; margin-bottom: 0.5em;">
+              {{ publication.excerpt | markdownify | strip_html | truncatewords: 30 }}
+            </p>
+          {% endif %}
+
+          {% if publication.doi %}
+            <div class="publication-badges" style="margin-top: 0.5em;">
+              <div style="display: inline-block; margin-right: 10px;">
+                {% altmetric publication.doi %}
+              </div>
+              <div style="display: inline-block;">
+                {% dimensions publication.doi %}
+              </div>
+            </div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+
+    {% if author_pubs.size > 6 %}
+      <p style="text-align: center; margin-top: 1em;">
+        <a href="#publications-section" class="btn btn--primary">View All {{ author_pubs.size }} Publications</a>
+      </p>
+    {% endif %}
+  </div>
+{% endif %}

@@ -1,7 +1,35 @@
-{% if post.header.teaser %}
-  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% comment %}
+  Three-level image fallback for publications:
+  1. Feature image (publication_id_figure.png) if available
+  2. Preview image (header.teaser) if feature missing
+  3. Global placeholder (site.teaser) if both missing
+{% endcomment %}
+
+{% if post.collection == 'publications' %}
+  {% comment %} Extract publication ID from post.id (e.g., "/publications/Caylor2002_1378" -> "Caylor2002_1378") {% endcomment %}
+  {% assign pub_id = post.id | split: '/' | last %}
+
+  {% comment %} Check for feature image first {% endcomment %}
+  {% assign feature_img_path = 'assets/images/publications/' | append: pub_id | append: '_figure.png' %}
+  {% assign feature_img_exists = false %}
+  {% comment %} Liquid doesn't have file existence check, so we rely on header.feature_image if set {% endcomment %}
+
+  {% if post.header.feature_image %}
+    {% capture teaser %}{{ post.header.feature_image }}{% endcapture %}
+  {% elsif post.header.teaser %}
+    {% comment %} Fall back to preview image {% endcomment %}
+    {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+  {% else %}
+    {% comment %} Fall back to global placeholder {% endcomment %}
+    {% assign teaser = site.teaser %}
+  {% endif %}
 {% else %}
-  {% assign teaser = site.teaser %}
+  {% comment %} Non-publication posts: use existing two-level fallback {% endcomment %}
+  {% if post.header.teaser %}
+    {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+  {% else %}
+    {% assign teaser = site.teaser %}
+  {% endif %}
 {% endif %}
 
 {% if post.id %}
