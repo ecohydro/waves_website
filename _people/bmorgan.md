@@ -7,9 +7,9 @@ portfolio-item-category:
 - people
 portfolio-item-tag:
 - current member
-- graduate student
+- postdoc
 - UCSB
-title: Bryn Morgan, PhD Student
+title: Bryn Morgan, Postdoc
 header:
    image: "assets/images/people/BMorgan_header.jpg"
    caption: "AB, Chemistry and Geography, Dartmouth College"
