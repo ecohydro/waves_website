@@ -3,7 +3,7 @@ id: 4761
 title: NASA Jet Propulsion Lab SURP grant received
 date: 2016-09-23T12:37:52+00:00
 author: Cynthia Gerlein-Safdi
-guid: https://caylor.eri.ucsb.edu/?p=4761
+guid: https://waveslab.org/?p=4761
 permalink: /2016/09/23/nasa-jet-propulsion-lab-surp-grant-received/
 categories:
   - Collaboration

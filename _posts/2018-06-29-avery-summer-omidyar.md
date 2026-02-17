@@ -3,7 +3,7 @@ id: 4883
 title: Ryan Avery developing ML system for Omidyar Network at Clark Labs
 date: 2018-06-29T00:00:00+00:00
 author: Ryan Avery
-guid: https://caylor.eri.ucsb.edu/?p=4883
+guid: https://waveslab.org/?p=4883
 permalink: /2018/06/29/summer-omidyar-project/
 categories:
   - Funding

@@ -3,7 +3,7 @@ id: 4882
 title: Natasha Krell wins Fulbright award to Kenya
 date: 2017-04-17T00:00:00+00:00
 author: Natasha Krell
-guid: https://caylor.eri.ucsb.edu/?p=4882
+guid: https://waveslab.org/?p=4882
 permalink: /2017/04/17/krell-fulbright-fellowship/
 categories:
   - Funding

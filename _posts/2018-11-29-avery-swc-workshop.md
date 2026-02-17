@@ -3,7 +3,7 @@ id: 4885
 title: Sharing data science skills with the DataUp program and Software Carpentry
 date: 2018-11-29T00:00:00+00:00
 author: Ryan Avery
-guid: https://caylor.eri.ucsb.edu/?p=4885
+guid: https://waveslab.org/?p=4885
 permalink: /2018/11/29/avery-swc-workshop/
 categories:
   - Teaching
