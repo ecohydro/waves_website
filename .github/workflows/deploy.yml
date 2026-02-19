@@ -24,13 +24,13 @@ jobs:
           bundler-cache: false
 
       - name: Install Bundler
-        run: gem install bundler
+        run: gem install bundler -v 2.6.9
 
       - name: Install dependencies
-        run: bundle install --jobs 4 --retry 3
+        run: bundle _2.6.9_ install --jobs 4 --retry 3
 
       - name: Build site
-        run: JEKYLL_ENV=production bundle exec jekyll build
+        run: JEKYLL_ENV=production bundle _2.6.9_ exec jekyll build
 
       - name: Verify build output
         run: |
