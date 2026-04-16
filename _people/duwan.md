@@ -17,4 +17,4 @@ title: Connor Duwan, Laboratory Learning Intern &#038; Hutchins Scholar (2015)
 
  
 
-Connor is a senior at <a href="http://www.lawrenceville.org/" target="_blank">The Lawrenceville School</a> and worked in our lab in the summer 2015 through the Hutchins Scholars program. He worked with <a href="http://caylor.eri.ucsb.edu/portfolio-item/cynthia-gerlein-phd-student-2/" target="_blank">Cynthia</a> on the relative influence of foliar uptake and foliar shielding on leaf water isotopes. He also designed a new protocol for the fast assessment of leaf contact angle.
+Connor is a senior at <a href="http://www.lawrenceville.org/" target="_blank">The Lawrenceville School</a> and worked in our lab in the summer 2015 through the Hutchins Scholars program. He worked with <a href="{{ site.baseurl }}{% link _people/gerlein-safdi.md %}" target="_blank">Cynthia</a> on the relative influence of foliar uptake and foliar shielding on leaf water isotopes. He also designed a new protocol for the fast assessment of leaf contact angle.

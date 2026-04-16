@@ -3,7 +3,7 @@ id: 9723
 title: Cynthia Gerlein-Safdi named to Michigan Society of Fellows
 date: 2017-05-15T16:01:00+00:00
 author: Kelly Caylor
-guid: https://caylor.eri.ucsb.edu/?p=9723
+guid: https://waveslab.org/?p=9723
 permalink: /2017/05/15/cynthia-michigan/
 categories:
   - Funding

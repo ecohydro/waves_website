@@ -3,7 +3,7 @@ id: 4775
 title: Article published in Environmental Research Letters
 date: 2016-11-11T17:09:41+00:00
 author: Cynthia Gerlein-Safdi
-guid: https://caylor.eri.ucsb.edu/?p=4775
+guid: https://waveslab.org/?p=4775
 permalink: /2016/11/11/article-published-in-environmental-research-letters/
 categories:
   - News

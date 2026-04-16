@@ -3,7 +3,7 @@ id: 3777
 title: IFPRI Researcher, Dr. Kwaw Andam, Visits WAVES Lab 
 date: 2018-04-07T16:01:00+00:00
 author: Cascade Tuholske 
-guid: https://caylor.eri.ucsb.edu/?p=3777
+guid: https://waveslab.org/?p=3777
 permalink: /2018/04/07/ifpri-waves/
 categories:
   - News

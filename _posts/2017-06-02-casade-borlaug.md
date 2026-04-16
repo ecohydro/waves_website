@@ -3,7 +3,7 @@ id: 4883
 title: Cascade Tuholske awarded Borlaug Fellowship to research urban food security in Ghana & Zambia
 date: 2017-06-04T16:01:00+00:00
 author: Natasha Krell
-guid: https://caylor.eri.ucsb.edu/?p=4883
+guid: https://waveslab.org/?p=4883
 permalink: /2017/06/02/cascade-borlaug/
 categories:
   - Funding

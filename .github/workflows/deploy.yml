@@ -1,0 +1,59 @@
+name: Deploy Waveslab Site
+
+on:
+  push:
+    branches:
+      - deploy
+
+concurrency:
+  group: waveslab-deploy-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: .ruby-version
+          bundler-cache: false
+
+      - name: Install Bundler
+        run: gem install bundler -v 2.6.9
+
+      - name: Install dependencies
+        run: bundle _2.6.9_ install --jobs 4 --retry 3
+
+      - name: Build site
+        run: JEKYLL_ENV=production bundle _2.6.9_ exec jekyll build
+
+      - name: Verify build output
+        run: |
+          test -d _site
+          test -f _site/index.html
+
+      - name: Configure SSH key
+        env:
+          DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+        run: |
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+          printf '%s\n' "$DEPLOY_SSH_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan -H "$DEPLOY_HOST" >> ~/.ssh/known_hosts
+
+      - name: Deploy with rsync
+        env:
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+          DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
+        run: |
+          rsync -az --delete \
+            -e "ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=yes" \
+            _site/ "${DEPLOY_USER}@${DEPLOY_HOST}:${DEPLOY_PATH}"

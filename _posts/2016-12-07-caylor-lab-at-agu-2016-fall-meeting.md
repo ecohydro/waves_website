@@ -3,7 +3,7 @@ id: 4881
 title: Caylor Lab at AGU 2016 Fall Meeting
 date: 2016-12-07T20:12:57+00:00
 author: Natasha Krell
-guid: https://caylor.eri.ucsb.edu/?p=4874
+guid: https://waveslab.org/?p=4874
 permalink: /2016/12/07/caylor-lab-at-agu-2016-fall-meeting/
 categories:
   - Conferences

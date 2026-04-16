@@ -3,7 +3,7 @@ id: 3334
 title: WAVES Lab Contributes to 2017 FAO State of Food & Agriculture Report
 date: 2017-10-10T16:01:00+00:00
 author: Cascade Tuholske 
-guid: https://caylor.eri.ucsb.edu/?p=3334
+guid: https://waveslab.org/?p=3334
 permalink: /2017/06/02/cascade-fao/
 categories:
   - Policy

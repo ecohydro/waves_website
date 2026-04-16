@@ -3,7 +3,7 @@ id: 4884
 title: Monitoring crop production and farmer decision-making in central Kenya
 date: 2018-10-03T00:00:00+00:00
 author: Natasha Krell
-guid: https://caylor.eri.ucsb.edu/?p=4884
+guid: https://waveslab.org/?p=4884
 permalink: /2018/10/03/Kenya-wsc-2018-activities/
 categories:
   - News

@@ -3,7 +3,7 @@ id: 4886
 title: Scholarships, fellowships, and grants awarded to WAVES lab students
 date: 2019-05-14T00:00:00+00:00
 author: Natasha Krell
-guid: https://caylor.eri.ucsb.edu/?p=4886
+guid: https://waveslab.org/?p=4886
 permalink: /2019/05/14/summer-funding-update/
 categories:
   - Research

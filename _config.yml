@@ -12,8 +12,8 @@ title                    : "Water, Vegetation, & Society"
 title_separator          : "-"
 name                     : "Kelly Caylor"
 description              : "Understanding the coupled dynamics of water, vegetation and ecosystem services in drylands."
-url                      : http://caylor.eri.ucsb.edu # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+url                      : https://waveslab.org # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : ""
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : /assets/images/publications/placeholder.png # Global fallback for missing publication images
 # breadcrumbs            : false # true, false (default)
